@@ -2,7 +2,7 @@ name: Scrape new ELW pages
 run-name: Scraping new Electionline pages
 on:
   schedule:
-    - cron: '0 2 * * *' # at 2am each morning
+    - cron: '5 6 * * *' # at 6:05 UTC
 jobs:
   Scrape-ELW:
     runs-on: ubuntu-latest
