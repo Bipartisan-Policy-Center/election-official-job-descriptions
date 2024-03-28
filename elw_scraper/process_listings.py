@@ -1,11 +1,9 @@
+import os, sys, re, openai, timeout_decorator, datetime, gspread
 from bs4 import BeautifulSoup
 import pandas as pd
-import os, sys, re, openai, timeout_decorator
 from urllib.parse import urlparse
 from tqdm import tqdm
 from scrapeghost import SchemaScraper
-import datetime
-import gspread
 
 TQDM_WIDTH = 140
 COL_ORDER = ['year',
@@ -31,7 +29,7 @@ def disable_console_printing():
 def reenable_console_printing():
     sys.stdout = sys.__stdout__
 
-def job_descriptions(html_file):
+def job_descriptions(html_file, date, year):
     # return df of jobs from an electionline weekly html file
 
     df = pd.DataFrame()
@@ -67,6 +65,10 @@ def job_descriptions(html_file):
                 new_row = pd.DataFrame({'link': job_link,
                                         'description': description}, index=[0])
                 df = pd.concat([df, new_row], ignore_index=True)
+    
+    df['date'] = date
+    df['year'] = year
+
     return df
 
 def build_from_html():
@@ -77,15 +79,11 @@ def build_from_html():
 
     for year in tqdm(YEARS, ncols=TQDM_WIDTH, desc='building from html'):
         dir = f"electionline-weekly/{year}"
-        weeks = reversed(os.listdir(dir))
+        dates = reversed(os.listdir(dir))
 
-        for week in weeks:
-            date = week[:5]
-            
-            file_location = os.path.join(dir, week)
-            week_jobs = job_descriptions(file_location)
-            week_jobs['date'] = date
-            week_jobs['year'] = year
+        for date in dates:
+            file_location = os.path.join(dir, date)
+            week_jobs = job_descriptions(file_location, date[:5], year)
 
             job_df = pd.concat([job_df, week_jobs], ignore_index=True)
 
@@ -94,26 +92,26 @@ def build_from_html():
 # to save work, exclude listings from some of the top URLs for
 # non-public employers, which we are not interested in
 EXCLUDED_DOMAINS = ['dominionvoting.com',
-                   'clearballot.com',
-                   'electioninnovation.org',
-                   'runbeck.net',
-                   'rockthevote.com',
-                   'hartintercivic.com',
-                   'fordfoundation.org',
-                   'techandciviclife.org',
-                   'bipartisanpolicy.org',
-                   'cdt.org',
-                   'ericstates.org',
-                   'centerfortechandciviclife.recruitee.com',
-                   'democracy.works',
-                   'electionreformers.org',
-                   'verifiedvoting.org']
+                    'clearballot.com',
+                    'electioninnovation.org',
+                    'runbeck.net',
+                    'rockthevote.com',
+                    'hartintercivic.com',
+                    'fordfoundation.org',
+                    'techandciviclife.org',
+                    'bipartisanpolicy.org',
+                    'cdt.org',
+                    'ericstates.org',
+                    'centerfortechandciviclife.recruitee.com',
+                    'democracy.works',
+                    'electionreformers.org',
+                    'verifiedvoting.org']
 
 def is_not_excluded_domain(url):
     netloc = urlparse(url).netloc.replace('www.', '')
     return netloc not in EXCLUDED_DOMAINS
 
-def post_process(job_df):
+def postprocess(job_df):
     job_df = job_df.drop_duplicates(subset=['description', 'link'], keep='last') 
     job_df = job_df[job_df['link'].apply(is_not_excluded_domain)]
 
@@ -251,13 +249,17 @@ def clean_and_upload(df):
 def main():
     # to rebuild the entire database
     job_df = build_from_html()
-    job_df = post_process(job_df)
+    job_df = postprocess(job_df)
     job_df = add_gpt_fields(job_df)
     job_df = handle_pay_basis(job_df)
     job_df = classify_job(job_df)
-    job_df[COL_ORDER].to_csv('export.csv', index=False)
+
+    job_df = job_df.sort_values(['year', 'date', 'description'],
+                                ascending=[False, False, True])
+    job_df = job_df[COL_ORDER]
+    job_df.to_csv('dataset.csv', index=False)
     
-    # clean_and_upload(job_df)
+    clean_and_upload(job_df)
 
 if __name__ == "__main__":
     main()
