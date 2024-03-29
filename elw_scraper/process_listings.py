@@ -136,7 +136,7 @@ def add_gpt_fields(job_df, starting_row=0):
     # job_df[list(schema.keys())] = None
 
     extra_rows = []
-    for row in tqdm(job_df.loc[starting_row:100].index, ncols=TQDM_WIDTH, desc='parsing job descriptions with GPT-3.5 and scrapeghost'):
+    for row in tqdm(job_df.loc[starting_row:].index, ncols=TQDM_WIDTH, desc='parsing job descriptions with GPT-3.5 and scrapeghost'):
         description = job_df.loc[row]['description']
         response = scrape_job_description(description)
         
@@ -221,7 +221,7 @@ def classify_job(job_df, starting_row=0):
     """
 
     # for i, row in tqdm(job_df.loc[starting_row:].iterrows(), total=job_df.loc[starting_row:].shape[0]):
-    for row in tqdm(job_df.loc[starting_row:100].index, ncols=TQDM_WIDTH, desc='classifying job descriptions with GPT-3.5'):
+    for row in tqdm(job_df.loc[starting_row:].index, ncols=TQDM_WIDTH, desc='classifying job descriptions with GPT-3.5'):
         attempts = 0
         while attempts < 100:
             try:
@@ -242,8 +242,54 @@ def clean_and_upload(df):
     gc = gspread.service_account(filename='gspread_credentials.json')
     sht1 = gc.open_by_key('1t-oMIQVFW1uPRjjQ0Ffnf7w65C-uF1HKFQNp0hFgyzg')
     worksheet = sht1.get_worksheet(0)
-    worksheet.format('1:1', {'textFormat': {'bold': True}}) # bold header row
-    worksheet.update([df.fillna("").columns.values.tolist()] + df.fillna("").values.tolist())
+
+    n_rows = len(worksheet.get_all_values()) - 1
+
+    if len(df) > n_rows: # check to make sure the new data is longer than the old data
+        # clear old data
+        worksheet.clear()
+
+        # upload new data
+        worksheet.update([df.fillna("").columns.values.tolist()] + df.fillna("").values.tolist())
+
+        # set column widths
+        widths = [50,   # year
+                50,   # date
+                150,  # description
+                50,   # link
+                150,  # job_title
+                150,  # employer
+                150,  # state_full_name
+                120,  # salary_low_end
+                120,  # salary_high_end
+                120,  # salary_mean
+                100,  # pay_basis
+                200]  # classification
+
+        width_requests = [{
+                        "updateDimensionProperties": {
+                            "range": {
+                                "sheetId": 0,
+                                "dimension": "COLUMNS",
+                                "startIndex": i,
+                                "endIndex": i+1
+                            },
+                            "properties": {
+                                "pixelSize": width
+                            },
+                            "fields": "pixelSize"
+                        }
+                    } for i, width in enumerate(widths)]
+
+        body = {
+            "requests": width_requests
+        }
+
+        sht1.batch_update(body)
+
+        # format the sheet
+        worksheet.format('1:1', {'textFormat': {'bold': True}}) # bold header row
+        worksheet.format('H:J', {'numberFormat': {'type': "NUMBER", 'pattern': "$#,##0.00"}}) # format salary columns as currency
 
 
 def main():

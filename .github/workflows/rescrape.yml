@@ -1,8 +1,6 @@
 name: Scrape new ELW pages
 run-name: Scraping new Electionline pages
-on:
-  schedule:
-    - cron: '0 10 * * 5' # at 6am ET on Fridays
+on: [push]
 jobs:
   Scrape-ELW:
     runs-on: ubuntu-latest
