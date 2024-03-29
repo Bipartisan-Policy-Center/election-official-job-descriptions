@@ -1,8 +1,11 @@
-import os, requests, datetime
-import elw_scraper.process_listings as process_listings
+import os, requests, datetime, sys
 from bs4 import BeautifulSoup
 import pandas as pd
 
+print(os.listdir())
+sys.path.append('elw_scraper')
+print(sys.path)
+import process_listings
 
 ## Part 1: Download new pages
 

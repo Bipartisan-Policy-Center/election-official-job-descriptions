@@ -15,8 +15,6 @@ jobs:
           python-version: '3.11.7' # install the python version needed
       - name: Install required packages
         run: |
-          echo "{path}" >> $GITHUB_PATH
-          python -c "import os; print(os.listdir())"
           python -m pip install --upgrade pip
           pip install -r elw_scraper/requirements.txt
       - name: Write secret to file
