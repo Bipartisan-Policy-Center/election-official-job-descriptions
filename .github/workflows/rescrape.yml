@@ -23,7 +23,7 @@ jobs:
           ${{ secrets.GSPREAD_SERVICE_ACCOUNT }}
           EOF
       - name: Download new pages
-        run: python elw_scraper/download_new_pages.py
+        run: python elw_scraper/add_new_pages.py
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       - name: Commit and push changes
