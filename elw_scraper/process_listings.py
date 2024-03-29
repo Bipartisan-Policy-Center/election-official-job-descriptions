@@ -246,6 +246,7 @@ def clean_and_upload(df):
     n_rows = len(worksheet.get_all_values()) - 1
 
     if len(df) > n_rows: # check to make sure the new data is longer than the old data
+        print(f"old data: {n_rows} rows\nnew data: {len(df)} rows\nupdating google sheet...")
         # clear old data
         worksheet.clear()
 
@@ -290,6 +291,8 @@ def clean_and_upload(df):
         # format the sheet
         worksheet.format('1:1', {'textFormat': {'bold': True}}) # bold header row
         worksheet.format('H:J', {'numberFormat': {'type': "NUMBER", 'pattern': "$#,##0.00"}}) # format salary columns as currency
+    else:
+        print("new data is not longer than old data, not updating google sheet")
 
 
 def main():

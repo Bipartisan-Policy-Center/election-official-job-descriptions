@@ -2,9 +2,7 @@ import os, requests, datetime, sys
 from bs4 import BeautifulSoup
 import pandas as pd
 
-print(os.listdir())
 sys.path.append('elw_scraper')
-print(sys.path)
 import process_listings
 
 ## Part 1: Download new pages
@@ -51,6 +49,7 @@ for year in YEARS:
 
     # download weekly files
     for url in week_urls:
+        print(f"Downloading {week_url[url]}")
         response = requests.get(url, headers=headers)
         with open(week_urls[url], 'w') as f:
             f.write(response.text)
