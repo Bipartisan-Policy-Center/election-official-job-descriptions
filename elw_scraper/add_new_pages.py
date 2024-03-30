@@ -57,6 +57,12 @@ for year in YEARS:
         downloaded_files.append(week_urls[url])
 
 
+if len(downloaded_files) == 0:
+    print("No new pages found to download.")
+    sys.exit(0)
+else:
+    print(f"Found {len(downloaded_files)} new pages to download.")
+
 ## Part 2: Determine which jobs are new
 
 old_df = pd.read_csv('dataset.csv')
@@ -76,16 +82,6 @@ def letters_only(x):
     return ''.join(filter(str.isalpha, x)).lower()
 
 
-# most recent year and week in the current version of the dataset
-# most_recent_year = old_df['year'].max()
-# most_recent_week = old_df[old_df['year']==most_recent_year]['week'].max()
-
-# most_recent_year = 2023
-# most_recent_week = '02-08'
-
-# newer_rows = x[(x['year'] > most_recent_year) | ((x['year'] == most_recent_year) & (x['date'] > most_recent_week))]
-
-
 # Apply the letters_only() function to fingerprint the 'description' column in both DataFrames
 old_fingerprint = old_df['description'].apply(letters_only)
 new_fingerprint = new_df['description'].apply(letters_only)
@@ -93,11 +89,8 @@ new_fingerprint = new_df['description'].apply(letters_only)
 # Find rows in new_df where the fingerprinted description is not present in old_df
 new_df = new_df[~new_fingerprint.isin(old_fingerprint)]
 
-print(new_df)
-print(len(new_df))
-
 if len(new_df) == 0:
-    print("No new jobs found.")
+    print("No new jobs found in the downloaded files.")
     sys.exit(0)
 
 ## Part 3: Process new jobs, add to dataset
