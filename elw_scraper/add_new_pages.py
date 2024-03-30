@@ -93,6 +93,10 @@ new_fingerprint = new_df['description'].apply(letters_only)
 # Find rows in new_df where the fingerprinted description is not present in old_df
 new_df = new_df[~new_fingerprint.isin(old_fingerprint)]
 
+if len(new_df) == 0:
+    print("No new jobs found.")
+    sys.exit(0)
+
 ## Part 3: Process new jobs, add to dataset
 
 new_df = process_listings.postprocess(new_df)
