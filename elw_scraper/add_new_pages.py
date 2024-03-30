@@ -49,7 +49,7 @@ for year in YEARS:
 
     # download weekly files
     for url in week_urls:
-        print(f"Downloading {week_url[url]}")
+        print(f"Downloading {week_urls[url]}")
         response = requests.get(url, headers=headers)
         with open(week_urls[url], 'w') as f:
             f.write(response.text)
