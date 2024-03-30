@@ -114,8 +114,7 @@ new_df = process_listings.classify_job(new_df)
 
 job_df = pd.concat([old_df, new_df], ignore_index=True)
 
-job_df = job_df.sort_values(['year', 'date', 'description'],
-                             ascending=[False, False, True])
-job_df = job_df[process_listings.COL_ORDER]
+job_df = process_listings.process_columns(job_df)
+
 job_df.to_csv('dataset.csv', index=False)
-process_listings.clean_and_upload(job_df)
+process_listings.upload(job_df)
