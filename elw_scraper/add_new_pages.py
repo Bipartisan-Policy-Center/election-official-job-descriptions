@@ -1,8 +1,9 @@
-import os, requests, datetime
-import elw_scraper.process_listings as process_listings
+import os, requests, datetime, sys
 from bs4 import BeautifulSoup
 import pandas as pd
 
+sys.path.append('elw_scraper')
+import process_listings
 
 ## Part 1: Download new pages
 
@@ -48,12 +49,19 @@ for year in YEARS:
 
     # download weekly files
     for url in week_urls:
+        print(f"Downloading {week_urls[url]}")
         response = requests.get(url, headers=headers)
         with open(week_urls[url], 'w') as f:
             f.write(response.text)
 
         downloaded_files.append(week_urls[url])
 
+
+if len(downloaded_files) == 0:
+    print("No new pages found to download.")
+    sys.exit(0)
+else:
+    print(f"Found {len(downloaded_files)} new pages to download.")
 
 ## Part 2: Determine which jobs are new
 
@@ -74,16 +82,6 @@ def letters_only(x):
     return ''.join(filter(str.isalpha, x)).lower()
 
 
-# most recent year and week in the current version of the dataset
-# most_recent_year = old_df['year'].max()
-# most_recent_week = old_df[old_df['year']==most_recent_year]['week'].max()
-
-# most_recent_year = 2023
-# most_recent_week = '02-08'
-
-# newer_rows = x[(x['year'] > most_recent_year) | ((x['year'] == most_recent_year) & (x['date'] > most_recent_week))]
-
-
 # Apply the letters_only() function to fingerprint the 'description' column in both DataFrames
 old_fingerprint = old_df['description'].apply(letters_only)
 new_fingerprint = new_df['description'].apply(letters_only)
@@ -91,17 +89,25 @@ new_fingerprint = new_df['description'].apply(letters_only)
 # Find rows in new_df where the fingerprinted description is not present in old_df
 new_df = new_df[~new_fingerprint.isin(old_fingerprint)]
 
+if len(new_df) == 0:
+    print("No new jobs found in the downloaded files.")
+    sys.exit(0)
+
 ## Part 3: Process new jobs, add to dataset
 
 new_df = process_listings.postprocess(new_df)
+
+if len(new_df) == 0:
+    print("No new jobs found after postprocessing.")
+    sys.exit(0)
+
 new_df = process_listings.add_gpt_fields(new_df)
 new_df = process_listings.handle_pay_basis(new_df)
 new_df = process_listings.classify_job(new_df)
 
 job_df = pd.concat([old_df, new_df], ignore_index=True)
 
-job_df = job_df.sort_values(['year', 'date', 'description'],
-                             ascending=[False, False, True])
-job_df = job_df[process_listings.COL_ORDER]
+job_df = process_listings.process_columns(job_df)
+
 job_df.to_csv('dataset.csv', index=False)
-process_listings.clean_and_upload(job_df)
+process_listings.upload(job_df)

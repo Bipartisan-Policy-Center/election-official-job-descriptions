@@ -6,18 +6,7 @@ from tqdm import tqdm
 from scrapeghost import SchemaScraper
 
 TQDM_WIDTH = 140
-COL_ORDER = ['year',
-             'date',
-             'description',
-             'link',
-             'job_title',
-             'employer',
-             'state_full_name',
-             'salary_low_end',
-             'salary_high_end',
-             'salary_mean',
-             'pay_basis',
-             'classification']
+
 
 # this line is not necessary, but for the code to run you will need
 # to set the OPENAI_API_KEY environment variable to your OpenAI API key
@@ -136,7 +125,7 @@ def add_gpt_fields(job_df, starting_row=0):
     # job_df[list(schema.keys())] = None
 
     extra_rows = []
-    for row in tqdm(job_df.loc[starting_row:100].index, ncols=TQDM_WIDTH, desc='parsing job descriptions with GPT-3.5 and scrapeghost'):
+    for row in tqdm(job_df.loc[starting_row:].index, ncols=TQDM_WIDTH, desc='parsing job descriptions with GPT-3.5 and scrapeghost'):
         description = job_df.loc[row]['description']
         response = scrape_job_description(description)
         
@@ -221,7 +210,7 @@ def classify_job(job_df, starting_row=0):
     """
 
     # for i, row in tqdm(job_df.loc[starting_row:].iterrows(), total=job_df.loc[starting_row:].shape[0]):
-    for row in tqdm(job_df.loc[starting_row:100].index, ncols=TQDM_WIDTH, desc='classifying job descriptions with GPT-3.5'):
+    for row in tqdm(job_df.loc[starting_row:].index, ncols=TQDM_WIDTH, desc='classifying job descriptions with GPT-3.5'):
         attempts = 0
         while attempts < 100:
             try:
@@ -237,13 +226,85 @@ def classify_job(job_df, starting_row=0):
 
     return job_df
 
-def clean_and_upload(df):
+def process_columns(job_df):
+    job_df = job_df.sort_values(['year', 'date', 'description'],
+                                ascending=[False, False, True])
+    col_order = ['year',
+                'date',
+                'description',
+                'link',
+                'job_title',
+                'employer',
+                'state_full_name',
+                'salary_low_end',
+                'salary_high_end',
+                'salary_mean',
+                'pay_basis',
+                'classification']
+    
+    job_df = job_df[col_order]
+
+    job_df = job_df.rename(columns={'state_full_name': 'state',
+                                    'classification': 'classification_experimental'})
+
+    return job_df
+
+def upload(df):
     # upload to google sheets
     gc = gspread.service_account(filename='gspread_credentials.json')
     sht1 = gc.open_by_key('1t-oMIQVFW1uPRjjQ0Ffnf7w65C-uF1HKFQNp0hFgyzg')
     worksheet = sht1.get_worksheet(0)
-    worksheet.format('1:1', {'textFormat': {'bold': True}}) # bold header row
-    worksheet.update([df.fillna("").columns.values.tolist()] + df.fillna("").values.tolist())
+
+    n_rows = len(worksheet.get_all_values()) - 1
+
+    if len(df) > n_rows: # check to make sure the new data is longer than the old data
+        print(f"old data: {n_rows} rows\nnew data: {len(df)} rows\nupdating google sheet...")
+        # clear old data
+        worksheet.clear()
+
+        # upload new data
+        worksheet.update([df.fillna("").columns.values.tolist()] + df.fillna("").values.tolist())
+
+        # set column widths
+        widths = [50,   # year
+                50,   # date
+                150,  # description
+                50,   # link
+                150,  # job_title
+                150,  # employer
+                150,  # state_full_name
+                120,  # salary_low_end
+                120,  # salary_high_end
+                120,  # salary_mean
+                100,  # pay_basis
+                200]  # classification
+
+        width_requests = [{
+                        "updateDimensionProperties": {
+                            "range": {
+                                "sheetId": 0,
+                                "dimension": "COLUMNS",
+                                "startIndex": i,
+                                "endIndex": i+1
+                            },
+                            "properties": {
+                                "pixelSize": width
+                            },
+                            "fields": "pixelSize"
+                        }
+                    } for i, width in enumerate(widths)]
+
+        body = {
+            "requests": width_requests
+        }
+
+        sht1.batch_update(body)
+
+        # format the sheet
+        worksheet.format('1:1', {'textFormat': {'bold': True}}) # bold header row
+        worksheet.format('H:J', {'numberFormat': {'type': "NUMBER", 'pattern': "$#,##0.00"}}) # format salary columns as currency
+    else:
+        print("new data is not longer than old data, not updating google sheet")
 
 
 def main():
@@ -253,13 +314,11 @@ def main():
     job_df = add_gpt_fields(job_df)
     job_df = handle_pay_basis(job_df)
     job_df = classify_job(job_df)
+    job_df = process_columns(job_df)
 
-    job_df = job_df.sort_values(['year', 'date', 'description'],
-                                ascending=[False, False, True])
-    job_df = job_df[COL_ORDER]
     job_df.to_csv('dataset.csv', index=False)
     
-    clean_and_upload(job_df)
+    upload(job_df)
 
 if __name__ == "__main__":
     main()
