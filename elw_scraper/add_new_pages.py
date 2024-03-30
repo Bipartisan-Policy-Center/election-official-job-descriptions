@@ -103,6 +103,11 @@ if len(new_df) == 0:
 ## Part 3: Process new jobs, add to dataset
 
 new_df = process_listings.postprocess(new_df)
+
+if len(new_df) == 0:
+    print("No new jobs found after postprocessing.")
+    sys.exit(0)
+
 new_df = process_listings.add_gpt_fields(new_df)
 new_df = process_listings.handle_pay_basis(new_df)
 new_df = process_listings.classify_job(new_df)
