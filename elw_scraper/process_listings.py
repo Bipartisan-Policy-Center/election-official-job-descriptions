@@ -241,8 +241,9 @@ def process_columns(job_df):
                 'classification_experimental']
     
     job_df = job_df[col_order]
-
     job_df = job_df.rename(columns={'state_full_name': 'state'})
+    job_df = job_df.astype({'year': 'int', 'salary_low_end': 'float', 'salary_high_end': 'float', 'salary_mean': 'float'})
+    job_df = job_df.reset_index(drop=True)
 
     return job_df
 
