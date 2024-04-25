@@ -214,10 +214,8 @@ def classify_job(job_df, starting_row=0):
         attempts = 0
         while attempts < 100:
             try:
-                # is_top = job_description_analysis(system_prompt, row['description'])
                 is_top = job_description_analysis(system_prompt, job_df.loc[row]['description'])
-                # job_df.loc[i, 'classification'] = is_top
-                job_df.loc[row, 'classification'] = is_top
+                job_df.loc[row, 'classification_experimental'] = is_top
                 break
 
             except timeout_decorator.TimeoutError:
@@ -240,12 +238,11 @@ def process_columns(job_df):
                 'salary_high_end',
                 'salary_mean',
                 'pay_basis',
-                'classification']
+                'classification_experimental']
     
     job_df = job_df[col_order]
 
-    job_df = job_df.rename(columns={'state_full_name': 'state',
-                                    'classification': 'classification_experimental'})
+    job_df = job_df.rename(columns={'state_full_name': 'state'})
 
     return job_df
 
