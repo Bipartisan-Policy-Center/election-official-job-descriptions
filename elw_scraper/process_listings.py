@@ -140,6 +140,8 @@ def add_gpt_fields(job_df, starting_row=0):
         extra_df.columns = list(schema.keys())
         job_df = pd.concat([job_df, extra_df])
 
+    job_df = job_df.rename(columns={'state_full_name': 'state'})
+
     reenable_console_printing()
     return job_df
 
@@ -233,7 +235,7 @@ def process_columns(job_df):
                 'link',
                 'job_title',
                 'employer',
-                'state_full_name',
+                'state',
                 'salary_low_end',
                 'salary_high_end',
                 'salary_mean',
@@ -241,7 +243,6 @@ def process_columns(job_df):
                 'classification_experimental']
     
     job_df = job_df[col_order]
-    job_df = job_df.rename(columns={'state_full_name': 'state'})
     job_df = job_df.astype({'year': 'int', 'salary_low_end': 'float', 'salary_high_end': 'float', 'salary_mean': 'float'})
     job_df = job_df.reset_index(drop=True)
 
@@ -270,7 +271,7 @@ def upload(df):
                 50,   # link
                 150,  # job_title
                 150,  # employer
-                150,  # state_full_name
+                150,  # state
                 120,  # salary_low_end
                 120,  # salary_high_end
                 120,  # salary_mean

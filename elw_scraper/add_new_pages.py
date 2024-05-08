@@ -40,16 +40,14 @@ for year in YEARS:
     weeks = soup.find('ul', class_='weeks').find_all('li')
     week_urls = {}
 
-    print(os.listdir())
-
     for week in weeks:
         url = f"{base_url}{week.find('a')['href']}"
         local_path = f"{url.split('electionline.org/')[-1]}.html"
 
         path_exists = os.path.exists(local_path)
-        print(f'checking for {local_path}. path_exists: {path_exists}')
+        
         if not path_exists:
-            print('Adding to download queue.')
+            print(f"Checking for {local_path}, it wasn't there. Adding to download queue.")
             week_urls[url] = local_path
 
     # download weekly files
