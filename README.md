@@ -1,5 +1,5 @@
 # Election Official Historical Job Posting Dataset
-**The code in this repository runs every week, updating a record of all election official job descriptions posted to [Electionline Weekly](https://electionline.org/electionline-weekly/) since 2011. You can access the dataset directly via this [Google Sheet](https://docs.google.com/spreadsheets/d/1t-oMIQVFW1uPRjjQ0Ffnf7w65C-uF1HKFQNp0hFgyzg/edit?usp=sharing) or download it as a [CSV file](dataset.csv).**
+**The code in this repository runs every week, updating a record of all election official job descriptions posted to [electionline Weekly](https://electionline.org/electionline-weekly/) since 2011. You can access the dataset directly via this [Google Sheet](https://docs.google.com/spreadsheets/d/1t-oMIQVFW1uPRjjQ0Ffnf7w65C-uF1HKFQNp0hFgyzg/edit?usp=sharing) or download it as a [CSV file](dataset.csv).**
 
 This repository contains the dataset (and associated code) described in the upcoming Bipartisan Policy Center blog post, "Understanding the Election Official Job Market."
 
