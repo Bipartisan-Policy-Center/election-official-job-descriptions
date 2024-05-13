@@ -18,6 +18,5 @@ The code used to create this dataset includes both traditional web scraping tech
 - **Feature extraction:** Use the [scrapeghost](https://jamesturk.github.io/scrapeghost/) package (which in turn uses GPT-3.5) to extract features from the job descriptions, including *job title*, *employing office*, *state name*, *salary range*, and *pay basis* (e.g., yearly, monthly, hourly). (This appears to work much more reliably than regular expressions, due to inconsistencies in the job description formatting.)
 - **Salary normalization:** Use pay basis information to adjust pay fields for comparison to a standard yearly salary (e.g., by multiplying monthly salaries by 12).
 - **Job classification (experimental):** Use GPT-3.5 via the [OpenAI Python API](https://github.com/openai/openai-python) to determine whether a job description is for a position as a chief election official, a non-chief election official, or for a non-election-official position. This classification appears to be only moderately accurate, so should be considered experimental.
-- **Upload dataset to GitHub and Google Sheets.**
 - **Append new jobs to the previous version of the dataset.**
 - **Upload dataset to GitHub and Google Sheets.**
