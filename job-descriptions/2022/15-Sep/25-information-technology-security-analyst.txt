@@ -1,0 +1,85 @@
+=== JOB DETAILS ===
+
+Title: Information Technology Security Analyst
+Salary: $6,264.00 - $8,917.00 MONTH
+Location: Sangamon County, IL, IL, 62706
+Employer: State of Illinois
+Employment Type: FULL_TIME
+Date Posted: 2022-03-20
+Job Type: Full-Time
+Remote Employment: Flexible/Hybrid
+Job Number: SBE032122
+Department: Elections Board *
+Opening Date: 03/21/2022
+
+=== JOB DESCRIPTION ===
+
+Summary of Benefits: This position is eligible for participation in our Telework program (up to 2 remote days per week) and tuition reimbursement program (100% of tuition costs covered). You will also be able to enroll into the State of Illinois Group Insurance Program, which includes various highly competitive and low cost coverage options for health, dental, vision, and life insurance. The compensation package includes your salary, annual cost of living adjustments (COLAs), and performance based bonuses. Lastly, this position offers a competitive time off package, including: 12 paid sick days per calendar year (accrual basis); a minimum of 10 paid vacation days per calendar year (accrual basis); 3 personal days per calendar year; and 12 paid state holidays per calendar year.
+
+
+The SBE welcomes all and promotes workplace diversity. It is our individual traits, character, and experiences that make each of us special and unique. Utilizing those unique backgrounds in a collaborative nature allows for our diverse team to thrive. There is no place for discrimination based on race, religion, culture, sexual identity or orientation, age, or disability at the State Board of Elections.
+
+
+ 
+
+The IT Security Analyst reports directly to the Manager of Cyber Operations and Infrastructure. Supports the administration, implementation, review, and improvement of endpoint, network, hardware, application, and data security practices.
+ 
+Implements, supports and monitors the agency’s information security applications, including email security, web security, endpoint security software, firewalls, intrusion prevention applications, data loss prevention, etc.  Monitors system dashboards and logs for threat indicators. Analyzes data and performs necessary incident response procedures. Conducts network, system and application vulnerability assessments.
+ 
+Analyzes agency threat surface and makes recommendations to management to harden agency systems. Evaluates agency processes and implements and/or makes recommendations to enhance security.  Reviews information received concerning threat events from end users, supervisory personnel, other federal, state, county and local agencies and governmental entities involved in the exchange of data with the State Board of Elections (SBE), external entities such as the Multi-State Information Sharing and Analysis Center (MS-ISAC), Elections Infrastructure Information Sharing and Analysis Center (EI-ISAC), trusted cybersecurity vendors, law enforcement agencies, and public information sources.
+ 
+Consults with SBE staff on security issues.  Provides a high level of customer service to agency staff, state, county, and local election officials. Ensures service desk queues and incidents are handled in an appropriate and timely manner.
+ 
+Develops, maintains, monitors and supports internal agency and intra-agency security awareness campaigns including training modules, assessments, phishing and remedial training targeting elections staff. Continuously reviews and updates campaign information with recent or emerging awareness information received from federal, state, county, local agencies or governmental entities, and trusted cybersecurity vendors.
+ 
+Continues education by attending training sessions, seminars, and conferences to increase familiarity with and maintain current knowledge of security products, vendors, techniques, and procedures. Research security enhancements and make recommendations to management. Participates in cybersecurity-focused organizations.  Monitors on-line information security related websites, blogs, articles, reports as well as other security intelligence sources to keep up-to-date on the latest threats, IOCs and trends.  Implements and documents compliance to NIST CSF and the Center for Internet Security (CIS) top 20.
+ 
+Performs other duties as required or assigned which are reasonably within the scope of the duties enumerated above. Provides off-hours support as required.
+
+
+
+
+
+
+
+
+
+Bachelor’s degree in a related field and a minimum of 2 years of professional experience in information technology security. A combination of education, certifications and experience may be substituted for degree. Working knowledge of information security technologies, including: endpoint, network, email, web ,data loss prevention, encryption, SIEM, vulnerability and risk management, and multi-factor authentication. Possesses the ability to write and communicate effectively with both technical and non-technical audiences. Familiarity with government-approved cybersecurity frameworks. The following certifications are highly desirable:
+ 
+CISSP: Certified Information Systems Security Professional
+SSCP: Systems Security Certified Practitioner
+Security+
+CEH: Certified Ethical Hacker
+CISM: Certified Information Security Manager
+GSEC: SANS GIAC Security Essentials
+
+Hours: 8:00 a.m. - 4:30 p.m.
+Illinois State Board of Elections
+2329 S. MacArthur Blvd.
+Springfield, IL 62702
+
+Danielle Martinez
+Human Resource Manager
+(217) 782-1527
+DMartinez@elections.il.gov
+
+The SBE is a non-code agency and DOES NOT accept CMS-100 applications.
+
+Click: Download a State Board of Elections Employment Application (Download PDF reader).
+
+Please complete the application and mail it to:
+
+Illinois State Board of Elections
+Attn:Danielle Martinez
+2329 South MacArthur Blvd.
+Springfield, IL 62704
+
+Email:
+DMartinez@elections.il.gov
+
+Fax:
+(217) 558-5401
+
+This position is open until filled.
+
+BENEFITS FOR STATE EMPLOYEESState of Illinois employees may be eligible for a variety of benefits associated with their employment. From a comprehensive health and dental insurance program, to vacation and sick leave days and a generous retirement plan, the State of Illinois offers a competitive benefits program for state employees. To learn more about the benefits of state employment, please explore the links below:Healthcare Benefits:The State offers its employees a comprehensive health and dental program along with a wide array of supplemental insurance programs. Illinois has long been committed to providing employees with the best possible insurance benefits at the greatest possible value.Retirement Benefits:In addition to health and dental insurance programs, state employees are offered a generous pension program with options that can be tailored to meet employees' needs.Workplace Benefits:State employees may also be eligible for other benefits such as holidays, annual leave and sick leave.Visit our Illinois Benefits website to see a more detailed summary of other benefits which are available to state employees.Note: The above benefits are available to most state employees with the exception of those in temporary positions. Employees in temporary, part-time and student worker positions may be eligible for all, some or none of these benefits.

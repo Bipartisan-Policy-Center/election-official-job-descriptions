@@ -1,0 +1,91 @@
+=== JOB DETAILS ===
+
+SALARY: $74,987.00 - $121,857.00 Annually
+LOCATION: Wake County, NC
+JOB TYPE: Time-Limited Full-Time
+JOB NUMBER: 65031281-12012020
+DEPARTMENT: State Board of Elections
+DIVISION: State Board of Elections
+OPENING DATE: 12/01/2020
+CLOSING DATE: 12/15/2020 5:00 PM Eastern
+POSITION NUMBER: 65031281
+SECTION: Infrastructure
+SALARY GRADE: IT08
+
+=== JOB DESCRIPTION ===
+
+Max Salary: $111,227
+***Position is time-limited UP TO 3 years; length of service is at management discretion and funding availability***
+
+Description of Agency:
+
+The State Board of Elections oversees the enforcement of federal and state laws, rules, and procedures governing the conduct of elections, voter registration, and campaign finance activities in North Carolina.
+
+Primary Purpose of the Division: 
+
+Information Technology operates as a Division of the State Board of Elections (SBE).
+The mission of Information Technology (IT) is to support and strengthen the Election’s business divisions by providing central services and infrastructure for state-wide access to information resources and technologies for all election officials.
+The U.S. Department of Homeland Security (DHS) has designated elections as critical infrastructure with priority cybersecurity support under the National Infrastructure Protection Plan. The State Board of Elections (SBE) administers and maintains secure administration of elections in North Carolina. To this end, NCSBE requires a sophistical and nimble IT practice.
+The purpose of IT is to research, advise, procure, implement and support State Board of Election business functions through the use of technology.
+ Primary Purpose of the Position: 
+Serves as a key technical resource for employees and senior management in regard to network design, configuration, monitoring and debugging.  He or she must be capable of handling the most complex engineering problems and projects.
+Employees receive agency requests for assistance, evaluate needs, design and prepare technical specifications, and project cost estimates for myriad network environments, equipment and systems.
+Description of Work:The analyst should execute the following tasks and responsibilities:
+
+Supports Information Technology Network 
+Executing complex engineering work in supporting Information Technology Infrastructure to include Database, Server, Networking, Equipment, Architecture and Design, in order to meet the voice, data and video communications needs of the agency.
+Ensures all data is properly collected, stored, and secured, using tools that analyze performance metrics, service levels, server status, and system outages. 
+Implement and maintains network architecture, switch programming, agency firewalls, and Disaster Recovery (DR) testing and documentation that includes scheduling, performing and verifying system backup processes for all systems.
+Works with outside vendors as needed to purchase necessary equipment, modify systems and/or complete programming updates
+Monitors network performance (availability, utilization, throughput and latency) and test for weaknesses.
+Follows operational standards and policies for the department, and recommends updates when appropriate.
+Follows the Disaster Recovery and Business Continuity Plan, including an Incident Response Plan and a Continuity of Operations Plan (COOP), when emergencies occur
+Analyzing systems errors or anomalies, as well as specific network performance issues and/or error messages, in order to ensure maximum uptime and service quality and assess trends that may ultimately result in degradation of service
+Troubleshooting API and other system issues at a per-packet level via packet trace and sniffer analysis
+
+Provides Strategic Input for Agency IT Strategy
+Provides input for current and long-range system requirements and evaluate alternative business solutions and strategies, taking into account current capacities and functional limitations with regard to hardware/software and upcoming advancements in technology.
+Works with outside vendors as needed to purchase necessary equipment, modify systems and/or procure new equipment and new methods of telecommunications.
+Regularly researches past, current, and emerging technologies, evaluating their impact on agency operations, and make informed recommendations based on what is learned.
+Formulating and implementing monitoring, policies, procedures and standards relating to network management
+
+Document and maintain a current repository of the network topology of the agency’s information technology systems 
+The employee must develop and maintain a single source of truth for the network topology and implementation of the network in a documentation that is easily digestible by audiences of a variety of technical skillsets.
+The employee must provide documented approaches that other employees and management can implement for locating and correcting network issues.
+The employee must provide training on these documented approaches.
+
+ 
+
+A comprehensive understanding of network architecture, computer systems, and related technologies, functions, capabilities, and software including a strong knowledge of networks, routing and switching, network operating systems, systems programming, database and system administration, operating systems, security systems, communication systems, and application architecture
+Thorough knowledge of the principles and practices of electronics engineering, and network and electronic devices and systems, and a proven ability to determine communications needs and specify equipment and systems to meet these needs.
+The ability to plan and implement solutions with various technologies, systems, and software, while effectively comprehending their interrelationships, functionality, communications, and connectivity
+A thorough knowledge of computer systems and have proven experience in (1) troubleshooting defects, failures, and errors, and in (2) recommending and implementing remedial action
+A comprehensive understanding of implementing, supporting, and troubleshooting a secure network architecture via the configuration of VMware, Azure, AWS, Cisco, and Dell products.
+3 to 5 years of AWS/Azure experience supporting VPN connectivity and SaaS applications within a Cisco environment.
+Proficient in wireless networking concepts, TCPDump, Wireshark, and Linux for the capturing and monitoring of network traffic.
+Experience supporting VoIP, IP Telephony and Unified Messaging (UM) including Quality of Service (QoS) management
+Knowledge of wireshark, tcpdump, ngrep and other debug tools and applications for capturing data and monitoring network
+In depth understanding of Wifi networks experience with multiple switches and routers preferred
+CCNA, MSCE certifications recommended but CCNP, CISSP certifications are a plus.
+An ability to utilize Microsoft Server roles such as Active Directory, DNS, DHCP, Group Policies, Snapshots, backups and restores of operating software and user data
+Knowledge and proficiency with server operating system versions including Microsoft SQL Server, including end-of-life through the latest releases (e.g. SQL Server 2008 R2, 2012, 2014, 2016, 2017), as well as infrastructure virtualization technologies
+The ability to identify potential hardware failures, implement new hardware, resolve hardware failures, and document failure recoveries
+The ability to work an irregular schedule occasionally to accommodate periodic system updates/upgrades, maintenance and/or emergency needs
+Experience in Cloud Architecture and design [Azure and AWS preferred]
+Experience with participating in application and infrastructure support processes for high profile, mission critical applications
+Ability to identify and analyze reoccurring problems and serve as an expert in designing system infrastructure.
+Ability to develop and/or implement highly complex information technology solutions to enhance enterprise success.
+Excellent technical documentation and consultative skills to support complex projects.
+Skill and knowledge in a highly specialized area of systems analysis and development.
+Ability to provide expertise and consultation on technical issues to management
+Knowledge of new or existing technologies to develop solutions and ability to consult with other specialists, analysts, technicians, and vendors.
+Design and implement security policies to work in conjunction with the agency security plans and processes.
+Knowledge of network security best practices and CIS controls. 
+The ability to work an irregular schedule occasionally to accommodate periodic system updates/upgrades, maintenance and/or emergency needs. 
+
+Bachelor s degree in electrical engineering, telecommunications engineering or a closely related field from an appropriately accredited institution and three years of experience in electronics engineering including experience in telecommunications engineering; or Bachelor's degree from an appropriately accredited institution and four years of networking related experience such as network design, analysis or network management; or Associate's degree in Electronics or Networking Technology from an appropriately accredited institution and four years of networking related experience; or an equivalent combination of education and experience.
+
+I understand the max salary of this position is $112,227 is based on qualifications and experience.
+ Yes
+
+ No

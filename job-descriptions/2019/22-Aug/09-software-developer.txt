@@ -1,0 +1,105 @@
+=== JOB DETAILS ===
+
+SALARY: $46,561.00 - $76,065.00 Annually
+LOCATION: Wake County, NC
+JOB TYPE: Permanent Full-Time
+JOB NUMBER: 080819-60088224
+DEPARTMENT: State Board of Elections
+DIVISION: State Board of Elections
+OPENING DATE: 08/08/2019
+CLOSING DATE: 8/23/2019 5:00 PM Eastern
+POSITION NUMBER: 60088224
+SECTION: Election Operations
+SALARY GRADE: IT03
+
+=== JOB DESCRIPTION ===
+
+***Recruitment Range: $46,562 - $60,000***
+ 
+
+
+The N.C. State Board of Elections is the statewide agency that supervises elections administration, enforces campaign finance requirements, and conducts associated investigations.  The State Board ensures uniform implementation of state and federal election laws and appoints local officials serving on county boards of elections. The Board is composed of five individuals appointed by the Governor from lists of nominees submitted by the chairs of the two political parties having the highest number of registered affiliates.  Agency staff are civil servants subject to the State Personnel Act 
+
+The North Carolina State Board of Elections is seeking applicants for a "Software Developer" position.  The purpose of this position is to design, develop, and test the business requirements to be executed in supporting IT projects for the NC State Board of Elections, primarily by working on the Statewide Elections Information Management Systems (SEIMS) and Campaign Finance (CF) suites of applications. The employee will serve as one of the software developers performing development, maintenance, documentation, and testing, as well as providing user support as needed.
+
+ 
+
+The candidate must have SDLC (Software Development Life Cycle) experience.  They must have the following knowledge:
+ 
+
+.Net (either VB or C#) Programming
+SQL query language
+MS SQL Server 2008+ Databases
+Experience in the following is also preferred:
+ 
+Javascript
+MVC
+Ajax/Bootstrap
+Web Services/Web API
+Crystal Reports
+MS SQL Reporting Services
+ 
+Development knowledge using reusability and object-oriented methodologies is a must.  There is a need to understand software development processes including, but not limited to, waterfall and agile development.  Ability to use MS Word, Excel, and Access is a must.
+The position requires the candidate to possess the following skills:
+ 
+Planning and Organization: Ability to work independently, manage work with minimal supervision, and adapt work to unanticipated changes to meet deadlines in a fast-paced environment.
+Communication: Ability to clearly convey ideas while soliciting and selecting appropriate information and the best method/format for delivering or receiving the information either in writing or verbally.
+Teamwork: Ability to work with others on joint projects in a positive manner to achieve agreed upon outcomes.
+Organization Awareness:  Understands their role within the department as well as the role of the department within and without the organization.  Actively supports the goals and objectives of the functional unit and the department.
+
+Bachelor's degree with some computer related coursework from an appropriately accredited university; or Associate's Degree in Computer Programming from an appropriately accredited university; or an equivalent combination of education and experience.
+
+Please select the programming languages with which you have SDLC experience
+ VB6
+
+ .NET (VB or C#)
+
+ Javascript
+
+ Python
+
+ C++
+
+
+Please select the software applications that you have experience with.
+ Crystal Reports
+
+ MS SQL Reports
+
+ TFS
+
+ DevOps
+
+ MS Word
+
+ MS Excel
+
+ MS Access
+
+ None of the Above
+
+
+What factor do you rate the highest in the development of a software application?
+ Usability (ease of navigation and understanding),
+
+ Functionality
+
+ Performance
+
+ Security
+
+
+Which area of software development interests you the most?
+ User interface (windows)
+
+ User interface (web)
+
+ Database
+
+ Cloud
+
+ Security
+
+ Network
+
+ None of the Above

@@ -61,6 +61,12 @@ def main():
     else:
         print("Starting fresh backfill")
 
+        # If starting fresh (no checkpoint), clear any existing full_text columns
+        print("Clearing any existing full_text data from CSV...")
+        for col in ['full_text_preview', 'full_text_length', 'full_text_scraped_date', 'full_text_file']:
+            if col in df.columns:
+                df[col] = None
+
     # Initialize new columns if they don't exist
     if 'full_text_preview' not in df.columns:
         df['full_text_preview'] = None
@@ -165,6 +171,9 @@ def main():
     if os.path.exists(CHECKPOINT_FILE):
         os.remove(CHECKPOINT_FILE)
         print("Checkpoint file removed")
+
+    # Clean up browser if it was used
+    scrape_full_descriptions.close_browser()
 
 
 if __name__ == "__main__":

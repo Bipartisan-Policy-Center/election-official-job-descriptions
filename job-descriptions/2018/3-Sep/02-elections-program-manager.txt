@@ -1,0 +1,18 @@
+__Secure-ROLLOUT_TOKENPendingMaximum Storage Duration: 180 daysType: HTTP Cookie
+__Secure-YECStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: SessionType: HTTP Cookie
+__Secure-YNIDPendingMaximum Storage Duration: 180 daysType: HTTP Cookie
+LAST_RESULT_ENTRY_KEYUsed to track user’s interaction with embedded content.Maximum Storage Duration: SessionType: HTTP Cookie
+LogsDatabaseV2:V#||LogsRequestsStoreUsed to track user’s interaction with embedded content.Maximum Storage Duration: PersistentType: IndexedDB
+remote_sidNecessary for the implementation and functionality of YouTube video-content on the website. Maximum Storage Duration: SessionType: HTTP Cookie
+TESTCOOKIESENABLEDUsed to track user’s interaction with embedded content.Maximum Storage Duration: 1 dayType: HTTP Cookie
+VISITOR_INFO1_LIVETries to estimate the users' bandwidth on pages with integrated YouTube videos.Maximum Storage Duration: 180 daysType: HTTP Cookie
+YSCRegisters a unique ID to keep statistics of what videos from YouTube the user has seen.Maximum Storage Duration: SessionType: HTTP Cookie
+ytidb::LAST_RESULT_ENTRY_KEYStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: PersistentType: HTML Local Storage
+YtIdbMeta#databasesUsed to track user’s interaction with embedded content.Maximum Storage Duration: PersistentType: IndexedDB
+yt-remote-cast-availableStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: SessionType: HTML Local Storage
+yt-remote-cast-installedStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: SessionType: HTML Local Storage
+yt-remote-connected-devicesStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: PersistentType: HTML Local Storage
+yt-remote-device-idStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: PersistentType: HTML Local Storage
+yt-remote-fast-check-periodStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: SessionType: HTML Local Storage
+yt-remote-session-appStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: SessionType: HTML Local Storage
+yt-remote-session-nameStores the user's video player preferences using embedded YouTube videoMaximum Storage Duration: SessionType: HTML Local Storage

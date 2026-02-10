@@ -1,0 +1,69 @@
+=== JOB DETAILS ===
+
+SALARY: $56,339.00 - $91,817.00 Annually
+LOCATION: Wake County, NC
+JOB TYPE: Time-Limited Full-Time
+JOB NUMBER: 03272020-65029827
+DEPARTMENT: State Board of Elections
+DIVISION: State Board of Elections
+OPENING DATE: 03/27/2020
+CLOSING DATE: 7/6/2020 5:00 PM Eastern
+POSITION NUMBER: 65029827
+SECTION: Information and Technology
+SALARY GRADE: IT05
+
+=== JOB DESCRIPTION ===
+
+***This position is funded by federal grant funding and is subject to fund availability***
+
+DESCRIPTION OF WORK:
+The N.C. State Board of Elections is the statewide agency that supervises elections administration, enforces campaign finance requirements, and conducts associated investigations. The State Board ensures uniform implementation of state and federal election laws and appoints local officials serving on county boards of elections. The Board is composed of five individuals appointed by the Governor from lists of nominees submitted by the chairs of the two political parties having the highest number of registered affiliates. Agency staff are civil servants subject to the State Personnel Act.
+
+The North Carolina State Board of Elections is seeking applicants for a Senior Quality Assurance (QA) Engineer position. The Senior QA Engineer will perform software testing in supporting QA needs of IT projects for the NC State Board of Elections, primarily by working on the Statewide Elections Information Management Systems (SEIMS) and Campaign Finance (CF) suites of applications.
+
+Responsibilities:
+
+Design, Plan and Implement test automation standards and strategies
+Research new testing technologies, develop cutting-edge automation and provide product enhancements and/or recommendations
+Write, execute, and maintain automated tests
+Write, execute, and maintain test cases that will be used for manual tests
+Understand feature requirements and turn them into automated/manual test cases
+Define and communicate the accurate automation test plan/test scripts and provide qualitative and quantitative status/defect reports
+Track and analyze test results and work closely with the developers to isolate and reproduce defects
+Troubleshooting bugs not exposed through the normal development process, identifying their cause and improve the process to avoid the same issue in the future
+Log, monitor, document, and close issues in defect-tracking system
+
+Knowledge, Skills, and Competencies (Required):
+
+Proven experience as a Quality Assurance Tester with good understanding on QA methodology and processes and SDLC
+Hands-on experience creating and running automated tests using QA Automation Tools (such as QTP, Selenium, or Ranorex)
+Previous experience serving as a mentor to coworkers of various skill levels
+Plan and direct the creation of best practices, policies and procedures
+Create and update test plans used for application acceptance testing and assist in the writing of new functionality testing
+Ensure testing standards are being followed
+Basic understanding of SQL for troubleshooting
+Functional and performance testing experience with a wide range of technical platforms and applications including, but not limited to, different web browsers
+Knowledge, Skills, and Competencies (Preferred):
+Experience creating and designing tests for APIs (REST, SOAP, etc.)
+Experience in automation test framework technologies such as Selenium Webdriver, Appium, SoapUI, JMeter/Tsung, TestNG and related development tools
+Familiar with scripting languages (Javascript, Groovy, Shell Script, Python, etc.)
+SQL experience, specifically joining tables and writing basic queries
+ 
+The position requires the candidate to possess the following skills:
+Planning and Organization: Ability to organize and follow complex and/or detailed technical procedures. Ability to manage priorities and time as it relates to assigned tasks and work deadlines.
+Communication: Ability to communicate clearly and succinctly, both verbally and written, to a variety of audiences, including peers, upper management, software users, technical resources, and clients. Excellent oral and written communication skills.
+Teamwork: Ability to work with others on joint projects in a positive manner to achieve agreed upon outcomes.  Ability to mentor and train peers and others.
+Organization Awareness:  Understands their role within the department as well as the role of the department within and without the organization.  Actively supports the goals and objectives of the functional unit and the department
+
+Bachelor's degree in Computer Science, Computer Information Systems, Computer Engineering, math, or Engineering or related technical degree from an appropriately accredited institution and one year of experience in business application consulting or development; or Bachelor's degree and some computer coursework from an appropriately accredited institution and two years of experience in business application consulting or development; or Associate's degree in Computer Programming from an appropriately accredited institution and two years of experience in application consulting or development; or an equivalent combination of education and experience.
+
+Are you currently or have ever worked directly with the North Carolina Board of Elections or a County Board of Elections within the state of North Carolina?
+ Yes
+
+ No
+
+
+Do you have a minimum of 5 years of experience in information systems application support with a demonstrated concentration of experience in SQA methods, techniques, and tools?
+ Yes
+
+ No

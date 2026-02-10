@@ -1,0 +1,147 @@
+=== JOB DETAILS ===
+
+Title: Election Technology Specialist
+Salary: $55,952.00 - $85,176.00 YEAR
+Location: Des Moines - 50319 - Polk County, IA, IA, 50319
+Employer: State of Iowa
+Employment Type: FULL_TIME
+Date Posted: 2023-04-09
+Job Type: Full-time
+Job Number: 23-03404
+Agency: 635 Iowa Secretary of State
+Opening Date: 04/10/2023
+Closing Date: 4/25/2023 11:59 PM Central
+LinkedIn Tag: #LI-DNP
+Point of Contact: Eric.Gookin@sos.iowa.gov
+
+=== JOB DESCRIPTION ===
+
+The Iowa Secretary of State is hiring an Election Technology Specialist for our Election Division.
+ 
+Office of Secretary of State
+The Office of Secretary of State (SOS) has three primary areas of responsibility: 1) Elections & Voter Registration, 2) Business Services, and 3) Safe at Home. The Elections Division provides oversight on election administration and voter registration duties conducted by county elections officials. The Business Services Division accepts filings related to business entities, notaries, and other related filings. Safe at Home is an address confidentiality program for survivors of domestic and sexual violence, assault, trafficking, and stalking. In addition to these three functional areas, the SOS has financial, IT, and communications teams that provide support officewide.
+ 
+Elections and Voter Registration
+The Elections Division supervises the administration of elections and voter registration in Iowa. Elections in Iowa are conducted at the county level by the commissioners of elections. The Elections Division provides oversight, training, and helpdesk services to the commissioners. The team also responds to questions from the public about all aspects of the election process. Additionally, the Elections Division leads our election initiatives to ensure integrity and security in the voting process.
+ 
+Election Technology Specialist (ITS3)
+The Elections Division of the Office of Secretary of State is hiring an Election Technology Specialist (ETS). This position reports to the Director of Elections. The Elections Technology Specialist will be focused on providing technical support related to elections technology to the Elections Division and County Election Officials. The role will answer calls and emails for issues facing county auditors and their staff with the statewide voter registration and election management system (I-Voters), including set-up of elections, registrations, moving voters, merging voter files, running election registers and e-pollbooks, setting up precincts, and running related reports. Additionally, this position answers questions from county auditors about elections administration over telephone and email. This includes assisting with the new I-Voters and new website implementations and document known-user problems for issue isolation and escalation. They will troubleshoot problems with I-Voters and e-pollbook applications to ensure procedures are being appropriately followed and assist with testing application functionality to determine whether issues are program related or user problems.
+ 
+Furthermore, the person will provide insight to election software updates based on user feedback; format data coming out of applications to aid with meaningful analysis of information; maintain relationships with county auditors and election staff to ensure open line of communication between system users and administrators. The role provides documentation to timely topics for upcoming elections or processes required to be completed in I-Voters and reports issues that pertain to enhancements of I-Voters. Finally, the position will be working with data and shape files for redistricting and re-precincting, including data interchange and ingress/egress issues. Create forms or instructions, possibly including videos for counties to be able to better use I-Voters.
+
+This is a non-merit position with the Office of Secretary of State.  Positions in this class are exempt from the screening and referral requirements of the Iowa Department of Administrative Services - Human Resources Enterprise.
+
+
+
+
+
+Applicants must meet at least one of the following minimum requirements to qualify for positions in this job classification:
+
+1) Graduation from an accredited four-year college or university with a degree in any field, and experience equal to one year of full-time work in: operating a multi-job computer; installing, operating, and coordinating computer-based networks; installing/maintaining database management systems; developing business application processes; developing/operating system programs; installing/maintaining personal computers, Local Area Networks, and/or servers; managing operating systems; developing/delivering information management training; providing Information Technology (IT) customer service; or designing/administering websites.
+2) Graduation from an accredited four-year college or university with a degree in computer science, computer applications, software engineering, computer engineering, management information systems, business analytics, or cyber security.
+3) All of the following (a and b): a. One year of full-time work experience in: operating a multi-job computer; installing, operating, and coordinating computer-based networks; installing/maintaining database management systems; developing business application processes; developing/operating system programs; installing/maintaining personal computers, Local Area Networks, and/or servers; managing operating systems; developing/delivering information management training; providing Information Technology (IT) customer service; or designing/administering websites; and b. A total of four years of education and/or full-time experience (as described in part a), where thirty semester hours of accredited college or university coursework in any field equals one year of full-time experience.
+4) All of the following (a and b): a. One year of full-time work experience in: operating a multi-job computer; installing, operating, and coordinating computer-based networks; installing/maintaining database management systems; developing business application processes; developing/operating system programs; installing/maintaining personal computers, Local Area Networks, and/or servers; managing operating systems; developing/delivering information management training; providing Information Technology (IT) customer service; designing/administering websites; or executing technology projects (e.g., systems analysis, requirements, design, development, and testing); and b. Either of the following: i. Certification by an authorized educational institution/major computer or software producer in an area directly related to one of the computer specialty fields described in part a; or ii. Eighteen semester hours of accredited post-high-school coursework in one of the specialty fields described in part a.
+5) Current, continuous experience in the state executive branch that includes six months of fulltime work as an Information Technology Specialist 2.
+
+For additional information, please click on this link to view the job description. (Download PDF reader)
+
+Join Us!Whether it's caring for those in need, making highways safer, or improving agriculture production, the work that we do matters to the people of Iowa.We take our responsibilities and the public trust very seriously. We are committed to delivering the services that matter most to the people of Iowa. If you have the skills, the commitment and the desire to make a difference, then we invite you to explore the career opportunities available with the State of Iowa.Career ChoicesState government is one of the largest employers in Iowa, and also one of the most diverse. From state trooper to nurse to engineer, the state offers a wide variety of career opportunities.BenefitsThe state offers paid vacation, sick time and holidays, a defined benefit retirement plan,  health, dental, vision, and long-term disability insurance along with flexible spending accounts. For more information, please visit the executive branch employee benefits website.The State of Iowa is committed to providing an outstanding employment experience. Check out this Benefits Beyond the Paycheck brochure (Download PDF reader). 
+
+
+                            
+    
+        
+
+01
+
+    
+
+    
+        Do you understand that the answers to all of the following questions must be truthful, honest, and accurate to the best of your ability? 
+Please read all questions and answers thoroughly and make sure you understand them completely. Ensure the answers to your questions match the information filled out on your application and the attachments you have uploaded. If the answers to your questions are inconsistent with your application information or uploaded attachments, you will be given zero points for the question. 
+
+Knowingly misrepresenting the facts when submitting any information related to an application, examination, certification, appeal, or any other facet of the selection process will result in your disqualification from this application and future employment with the state of Iowa.
+        
+        
+                Yes - I understand and agree.
+                No
+        
+    
+
+
+    
+        
+
+02
+
+    
+
+    
+        PLEASE READ CAREFULLY Have you filed a registration statement pursuant to the federal Foreign Agents Registration Act of 1938, as amended, 22 U.S.C. §611 et seq?
+        
+        
+                No - I have NOT filed a registration statement pursuant to the federal Foreign Agents Registration Act of 1938, as amended, 22 U.S.C. §611 et seq
+                Yes - I HAVE filed a registration statement pursuant to the federal Foreign Agents Registration Act of 1938, as amended, 22 U.S.C. §611 et seq
+        
+    
+
+
+    
+        
+
+03
+
+    
+
+    
+        Does your application demonstrate that you have experience working with Voter Registration Databases and/or Election Management Systems?
+        
+        
+                Experienced (More than 5 years)
+                Intermediate (2-5 years)
+                Novice (Less than 2 years)
+                Not applicable (I do not have any of this experience)
+        
+    
+
+
+    
+        
+
+04
+
+    
+
+    
+        Does your application demonstrate that you have experience working in Election Administration?
+        
+        
+                Experienced (More than 5 years)
+                Intermediate (2-5 years)
+                Novice (Less than 2 years)
+        
+    
+
+
+    
+        
+
+05
+
+    
+
+    
+        Does your application demonstrate that you have experience with implementing new IT projects?
+        
+        
+                Experienced (More than 5 years)
+                Intermediate (2-5 years)
+                Novice (Less than 2 years)
+        
+    
+
+
+                                
+                                     Required Question
+                                
+                        

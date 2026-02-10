@@ -1,0 +1,22 @@
+We are looking for data and reporting fellows to join one of America’s most innovative (and fun) investigative newsrooms to work on covering the 2018 election. You won’t be covering the horse race — you’ll be covering voting itself: voting rights, election integrity, cyber security of election systems, etc. And you’ll be helping journalists across the country cover it, too.
+Electionland started in the run-up to the 2016 election. It was the largest collaborative journalism project ever to cover a single event. More than 1,100 journalists took part. This is your chance to be at the very center of its next chapter. You’ll report your own stories — like this one — and help support dozens of hand-picked journalists do local reporting — like this — on voting rights and election integrity.
+Reporting fellows at ProPublica have gone on to work at The New York Times, Bloomberg, Politico, NPR, Center for Public Integrity and the Chicago Tribune — as well as ProPublica itself.
+The fellowship is full time, runs from early June through the election, and is paid. It will be based at our newsroom in New York.
+There are two kinds of fellowships available: Reporting and Data/Interactive Graphics.
+For the reporting fellowship, we’re looking for someone who:
+- Has terrific research chops, with experience generating data sets for reporting.
+- Is committed to aggressively reporting stories about election integrity and voting rights.
+- Is truly excited about helping local reporters do excellent journalism on Election Day, and is willing to think creatively about the best ways to collaborate across newsrooms.
+For the data/interactive graphics fellowship, we’re looking for someone who:
+- Has experience building interactive graphics using JavaScript and HTML/CSS and/or web projects using a framework like Django or Ruby on Rails.
+- Wants to build tools to help readers, researchers and reporters find important insights in large data sets.
+- Has experience (volunteer or paid) working in journalism, open data, civic hacking, etc.
+We know there are great candidates who won’t fit everything we’ve described above, or who have important skills we haven’t thought of. If that’s you, don’t hesitate to apply. There’s a place on the application for you to tell us more.
+We are dedicated to improving our newsroom, in part by better reflecting the people we cover. (Here is a breakdown of our own staff.) We are committed to diversity and building an inclusive environment for people of all backgrounds and ages, and we’re taking active steps to meet this commitment. We especially encourage members of historically underrepresented communities to apply, including women, people of color, LGBTQ people and people with disabilities.
+What you should send us
+The most important part by far is your past work. In the application, you’ll be asked to send us your best clips or URLs to your best interactive projects. If you played an uncredited role, that’s ok too. You’ll have a chance to tell us what you did for the project.
+We’ll also ask you to submit a memo that describes what you think you’d add to a project like Electionland. Do you have experience doing collaborative work? Tell us about it! Do you have experience doing in-depth research? Tell us about that, too.
+We also want you to do amazing reporting during your time here. Tell us what kind of stories you’d most like to cover as part of Electionland. What specific voting issues do you want to cover? How would those stories be told? How would you imagine achieving impact? Show us how you think.
+If all of this sounds exciting to you, apply using one of these forms:
+The deadline for applications is April 1.
+Have questions? Email [email protected].

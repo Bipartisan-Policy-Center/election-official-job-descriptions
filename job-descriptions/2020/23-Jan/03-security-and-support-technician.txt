@@ -1,0 +1,95 @@
+=== JOB DETAILS ===
+
+SALARY: $46,203.00 - $78,218.00 Annually
+LOCATION: Wake County, NC
+JOB TYPE: Time-Limited Full-Time
+JOB NUMBER: 65030756-01212020
+DEPARTMENT: State Board of Elections
+DIVISION: State Board of Elections
+OPENING DATE: 01/21/2020
+CLOSING DATE: 2/4/2020 5:00 PM Eastern
+POSITION NUMBER: 65031077
+SALARY GRADE: GN12
+
+=== JOB DESCRIPTION ===
+
+***This position is 100% travel and can potentially work from one of the following counties: Brunswick, Carteret, Craven, Duplin, Greene, Jones, Lenoir, New Hanover, Onslow, Pamlico, Pender, Pitt, Wayne, Wake ***
+
+**This position is grant funded and is time-limited based on the availability of funds.   Position currently funded UP TO 3 years.**
+
+Max Salary: Up To $70,000 (based on qualifications and elections experience)
+
+Primary Purpose of the Organizational Unit:
+
+The Voting Systems Team is a section of the State Board's Election Administration Division and works directly with the IT Division of the agency. This professional team is tasked with coordinating, managing, and preparing the voting systems certified for use in North Carolina.  This team manages the initial certification of voting systems including  hardware, software, and firmware evaluation and testing, procurement, and installation for each of the 100 counties; the ongoing use and support of the voting systems including maintenance, programming of contest and election definitions, ballot coding, logic and accuracy testing procedures, and collaborative work with other IT sections for development and management of election night results reporting, post-election audits, and tools such as the test script generator; and coordination of any subsequent upgrades, modifications, or enhancements. Also works with other IT sections and agency divisions to establish or make modifications to precinct boundaries or district lines through mapping and redistricting software and analysis.
+
+Job Responsibilities:
+
+Voting Systems and Security Technical Support
+o Install software upgrades for computer and/or voting equipment
+o Conduct annual physical inventories of voting equipment and additional inventories as needed
+o Acceptance test all new voting equipment
+o Provide on-site assistance with IT/SEIMS equipment
+o Work with County Boards of Elections (CBEs) to implement or adhere to cyber and physical security practices as directed by the State Board of Elections
+o Review and/or develop voting system procedures, including logic & accuracy testing, mock election, user manuals, and post-election audits
+ 
+Election Contest Preparation and Support
+o Review and guide County Board of Election (CBE) officials regarding district relation reports or other jurisdictional reports used to code ballot styles
+o Review/proof election setup/candidate filing entries
+o Review/proof ballot content and layout
+o Assist counties with media burning for election definition files
+o Assist counties in writing ballot test scripts
+o Assist counties in conducting Logic & Accuracy tests
+o Review status of CBE election testing in election results reporting module
+o Assist counties in election reconciliation
+o On-site or on-call support for early voting and election day for all primaries, general elections, municipal elections and special elections
+o Check status of CBE election milestone progress in Project Management Tool
+o Respond as needed to CBE issues via Helpdesk/Support Tool
+  
+Training
+o Train CBEs at annual State Board of Elections Training Seminars
+o Assist counties conducting Poll Worker training
+o Assist counties conducting Election Day Rover/Technician training
+o Provide webinar training for CBEs
+o Provide voting equipment and support systems training to new directors and/or staff
+o Provide training for voting systems-related pilot programs or special projects related to voting systems or security
+  
+Compliance and Assessments
+o Examine and assess county compliance with HAVA standards
+o Inspect preventative maintenance process to ensure HAVA compliance
+o Conduct voting equipment security and storage assessments
+o Conduct cyber security assessment
+o Assist counties with ADA compliance surveys
+o Assist with grant applications and administration related to voting systems and security 
+o Prepare counties for Wellness Checks
+o Assist SBE Staff in conducting Wellness Checks
+o Provide follow-up assistance for Wellness Checks
+ 
+County Board of Election Activities
+o Assist CBEs with website development and support
+o Assist counties with review of precinct boundaries and other map projects
+o Conduct yearly planning meetings with each county to determine goals, needs, and special issues
+o On-site assistance to county boards during emergency leave by director and/or director vacancies
+o Attend and present at county election board meetings as needed to address topics such as voting equipment storage, voting facilities, reporting and tabulation procedures
+
+Management Requirement: At least 2 years experience working directly in Elections Administration or Voting Systems Administration.
+
+ 
+
+Thorough knowledge of the election program, processes and procedures.
+Considerable knowledge of research and standards applicable to the area of assignment. 
+Ability to plan, organize and supervise the work of others. 
+Ability to analyze and interpret organizational and procedural problems and to make changes in existing systems, and set work priorities. 
+Ability to interpret, apply, and communicate statutory regulations of the assigned area. 
+Ability to analyze, interpret, revise, and implement policy and procedural guidelines. 
+Ability to instruct and explain standards and procedures.
+Ability to establish effective working relationships, including seeking compliance with regulations. 
+Ability to express oneself clearly and concisely in oral and written form.
+Ability to work independently and use sound judgment in making decisions
+
+Bachelor s degree, preferably with a degree in public policy, political science, business, criminal justice or closely related area from an appropriately accredited institution, and six years of administrative or professional experience in a public program or work related to the area of assignment; or an equivalent combination of education and experience.
+
+Do you have at least 2 years of documented experience working in a full-time position related to Elections Administration or Voting Systems?
+ Yes
+
+ No

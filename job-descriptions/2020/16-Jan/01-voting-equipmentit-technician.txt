@@ -1,0 +1,118 @@
+=== JOB DETAILS ===
+
+Salary: $17.54 - $28.07 Hourly
+Location: Alamance County, NC
+Job Type: Full-time
+Job Number: 201900087
+Department: Board of Elections
+Opening Date: 12/05/2019
+Closing Date: 3/31/2020 11:59 PM Eastern
+Max Number of Applicants: 300
+
+=== JOB DESCRIPTION ===
+
+**EXTENDED POSTING** Posting will remain open until filled. 
+
+
+An employee in this class performs election duties as it pertains to the certified voting equipment, including but not limited to coding, programming, testing and performing required maintenance on all equipment, requiring application and compliance with the Election Laws of North Carolina and Federal/State/Local voting regulations.  This position performs technical and complex support activities associated with the preparation for and conduct of elections to include calibration of equipment, developing test scripts, collecting and auditing tabulation data. Employee will perform yearly ADA site evaluations and assist in assembly and distribution of precinct supplies. Employee within this position will need to possess proficiency in organizational skills, a strong aptitude in math, and knowledge of, or the ability to learn adn adhere to State and local statutes/regulations affecting elections and elections process. Public speaking will be required for training classes for election workers.
+
+Work is performed in accordance with North Carolina General Statutes, North Carolina Administrative Code and State and Local Board of Elections departmental policies.
+This position covers a variety of hardware and software support for our volunteers, and the BOE employees and their devices (PCs, laptops, smartphones, tablets.)
+
+Work is performed in accordance with BOE departmental policies, but it requires the making of independent decisions and the use of judgment in applying procedures within the limits of established work procedures. Work is performed under the supervision of the Director of the Board of Elections.
+
+Typically initial placement for new employees is customarily at the minimum point of the range posted.  This position is posted through December 11, 2019 but may be extended longer based on qualified applicant pool received.
+ 
+
+This position covers a variety of hardware and software support for Board of Election and their devices (PCs, laptops, smartphones, tablets, Photo ID Camera).  Work is performed in accordance with Alamance County and Board of Election policies and procedures that are compliant with HIPAA, CJIS, and PCI.  Responsibilities include but are not limited to supporting hardware and software applications, resolving technical issues through diligent research. Employee may consult with precinct officials, vendors and others to resolve technical issues.  The Employees IT work will be coordinated through the Alamance County IT Network Team and compliant with the safety and security protocols set forth by the County's IT Department.
+
+Program, logic and accuracy testing, vote tabulation and auditing of election results.
+Support data, equipment and building security
+Assists Election Director and staff as needed in election processing duties and studies on election matters.
+Setup and management of online registration program for precinct officials.
+Attend meetings and/or seminars as related to election functions.
+Assures election procedures are strictly followed and facility, equipment and ballot security is maintained at all times.
+Assist with updating and maintaining the Board of Elections website.
+Assist with management and content of Board of Election social media accounts and news releases.
+Convert data into readable format for dissemination to the public.
+Filing public records requests.
+Identifies state requirements and schedules adequate time to prepare necessary documents and supplies and meet deadlines according to state election codes and the department election calendar.
+Implements and follows procedures to increase efficiency and accuracy of election processes.
+Answers questions regarding voting equipment.
+Helps design and present training programs to election precinct employees, volunteer workers and members of the staff. Helps train sufficient poll workers to conduct each election.
+Performs all primary maintenance on and keeps proper maintenance and inventory records of all election equipment, associated software and coordinates calls for service and/or repairs to ensure proper operation of voting equipment.
+Become proficient with state elections software in order to design (but not limited to) reports, forms, instruction sheets and ballot layouts for use at the polls and in various elections-related activities and coordinate ballot production.
+Assists with any additional needs assigned as part of an election team that must absolutely prepare and conduct proper elections according to strict state and federal guidelines on time.
+Provides IT hardware and software technical support over the telephone or in person to our BOE employees solving technical problems incurred in the installation or operation of county systems.
+Travel to customer sites to troubleshoot the County's BOE systems, as requested, at times on short notice.
+Performs related work as required.
+
+COMPETENCY STATEMENTS:
+
+Accountability - Ability to accept responsibility and account for his/her actions.
+Accuracy - Ability to perform work accurately and thoroughly. 
+Autonomy – Ability to work independently with minimal supervision.
+Communication, Oral - Ability to communicate effectively with others using the spoken word. 
+Communication, Written - Ability to communicate in writing clearly and concisely. 
+Confidentiality - The ability to ensure information is kept secret and private and only shared with those that are authorized to have.
+Customer Oriented - Ability to take care of the customers' needs while following company procedures. 
+Detail-oriented – Ability to manipulate small pieces of data with accuracy and focus.
+Ethical - Ability to demonstrate conduct conforming to a set of values and accepted standards. 
+Honesty / Integrity - Ability to be truthful, maintain high level of confidentiality and be seen as credible in the workplace.
+Judgment – Ability to use good judgment and discretion as it relates to interpreting policies and procedures.
+Multitasking – Ability to multi-task in a fast-paced environment.
+Problem Solving - Ability to find a solution for or to deal proactively with work-related problems. 
+Relationship Building - Ability to effectively build relationships with customers and co-workers.
+Safety-Minded – Creating a safe work environment; managing risks; reducing exposure liabilities.   
+Time Management - Ability to utilize the available time to organize and complete work within given deadlines.
+
+SKILLS & ABILITIES:
+Education & Experience:  Bachelor's degree in Business Administration, Computer Science or any related field from an appropriately accredited institution and two years of experience in business consultation, process improvement or requirement gathering in an information technology environment; or an equivalent combination of education and experience.
+
+Computer Skills:  Considerable knowledge of computers and related technology devices. Robust computer hardware, software, and systems related experience including the Microsoft suite of tools, with some networking and database knowledge.
+
+License/Credentials: Possession of a valid N.C. driver's license is required for this position and maintaining a driving record in accordance with Alamance County policy.   
+
+Special Position Requirements: Position requires additional work hours (including Saturdays and Sundays) for eight to ten weeks per election. Additional hours can range 10-15 hour days, multiple days in a row for 8 to 10 weeks.  Additional hours are compensated through compensatory time off.  Otherwise the position is a Monday - Friday position (hours 8:00 am - 5:00 pm).
+
+PHYSICAL DEMANDS:
+
+N (Not Applicable) Activity is not applicable to this position.
+O (Occasionally) Position requires this activity up to 33% of the time (0 - 2.5+ hrs./day)
+F (Frequently) Position requires this activity from 33% - 66% of the time (2.5 - 5.5+ hrs./day)
+C (Constantly) Position requires this activity more than 66% of the time (5.5+ hrs./day)
+
+Physical Demands
+
+Stand            F
+Walk             F
+Sit                 F
+Manually Manipulate          O
+Reach Outward                  O
+Reach Above Shoulder      O
+Climb            O
+Crawl            O
+Squat or Kneel        O
+Bend             O
+Talk/Hear      C
+See               C
+Taste/Smell         N
+
+LIFT/CARRY
+10 lbs. or less   F
+11-20 lbs.          O
+21-50 lbs.          O
+51-100 lbs.        O
+Over 100 lbs.    O
+
+Push/Pull
+12 lbs. or less    F
+13-25 lbs.           O
+26-40 lbs.           O
+41-100 lbs.         O
+ 
+Other Physical Requirements: Vision (Near, Distance, Peripheral)
+ 
+WORK ENVIRONMENT: Standard Office environment the majority of the time, during election season polling sites vary in location and environments.
+
+Health Insurance - Full-time employees are eligible for medical/health benefits upon the 1st of the month following the 30-day waiting period. Changes to elections can then be made during the annual open enrollment period, usually in the fall, or within 30 days of a qualified life event (marriage, divorce, birth or adoption of a child, change in child's dependent status, death of a spouse or other dependent and other change in employment status).Alamance County Government currently offers three plans of medical/pharmacy benefit options including a COPAY Plan 70, COPAY Plan 80 and a QHDHP with HSA. Dental Benefit - Alamance County offers one dental insurance plan for FT employees. The plan, if elected, would be effective the first of the month following 30 days of FT employment. Coverage must be elected within your first 30 days of FT employment or upon a qualifying event.Dental Insurance - A dental insurance program is available to FT employees. The current program allows employees access to dental providers for a variety of dental services. The plan, if elected, would be effective the first of the month following 30 days of FT employment. Coverage must be elected within your first 30 days of FT employment or upon a qualifying event. Vision Insurance - A voluntary vision program is available to FT employees. The current PPO style plan allows employees to seek treatment and hardware from any vision care provider of their choice. The plan, if elected, would be effective the first of the month following 30 days of FT employment. Coverage must be elected within your first 30 days of FT employment or upon a qualifying event.Voluntary Benefits: Alamance County Government provides a variety of voluntary health related benefits to allow employees to purchase protection from what life may bring. A sampling of voluntary benefits includes Flexible Spending Accounts with dependent care opportunities, Health Saving Account with an employer contribution, Short Term Disability, Long Term Disability, Cancer Protection Plan, Group Critical Care Insurance and more. Death Benefit - Alamance County Government has elected to contribute towards a Death Benefit associated with the Retirement System for all employees that are contributing Retirement System members. Once an employee has met at least one (1) year as a contributing member to the retirement system, the employee will have a benefit payable to their beneficiary of no less than $25,000 and no more than $50,000 based on the employee's salary. Benefit is payable if the employee is actively working and has not reached 70 years of age. Life Insurance – Basic term life insurance is the amount of one times the annual salary (no greater than $70,000) is provided for all FT employees.  Additional coverage is available for purchase through payroll deductions for employee and eligible dependents. Retirement Benefits - Membership in the NC Local Government Employees Retirement System (NCLGERS) is a requirement for all full-time and regular part-time employees (working more than 1,000 hours annually). Employees contribute six percent (6%) of their annual compensation before it is taxed. If you leave the County service before retirement, you may withdraw your retirement contributions or elect to freeze your contributions in anticipation of future local government employment. If you have at least five (5) years of service, you are considered 100% vested in NCLGERS.  Alamance County will be contributing a percentage as required by NCLEGRS on your behalf as well. Time Off Accruals:  Vacation Time – All Alamance County full time employees immediately earn a bank of vacation hours that can be used after 6 months of employment (exhausting their probationary period). Vacation time accrues based on the full-time hire date (most recent hire date is used in the case of rehires). Employees with a hire date before the 15th of the month will receive vacation credit for that month; otherwise, time will not be earned. Time will be contributed to the employee's time off bank on the 15th of the month based on a monthly proration of the schedule below. Years of Service - Days of Vacation Annually 0-4 years of service 10 days equivalent to 80 hours5-9 years of service 13 days equivalent to 104 hours10-14 years of service 16 days equivalent to 128 hours15-19 years of service 21 days equivalent to 168 hours20 years or more 25 days equivalent to 200 hours Sick Time – All Alamance County full-time employees will earn a bank of sick hours to be used when they are away from work for instances related to their own illness or the illness of an immediate family member, death of an immediate family member or when they (or an immediate family member) need to attend a health-related appointment. All County employees earn 12 days of sick leave per year with an earnings of 8 hours per month if employed on or before the 15th of the month. County Observed Holidays – Alamance County will observe the State of North Carolina Holiday Schedule. Holidays will include the following and will be paid at 8 hours holiday pay. Exceptions have been made for certain departments given the nature of the services provided. Please check with your department head for supplemental information. Wellness Benefits & Programming: Employee Assistance Counseling Program: There are times when everyone needs a little help or advice. The confidential Employee Assistance Counseling Program (EACP) through a local provider can help you with things like stress, anxiety, depression, chemical dependency, relationship issues, legal issues, parenting questions, financial counseling and dependent care resources. Best of all it's free for County employees and available for your household to utilize. Utilization of the EACP is completely confidential and participation isn't recorded.Help is available 24/7/365 by telephone.Please see brochure available on the SharePoint for additional information about the EACP program. Alamance County Employee Health Clinic: Available to employees and spouses who are covered under the Alamance County Insurance Plan and their covered dependents, 18 years of age and older. Retired employees under age 65 are also eligible to use the clinic. Depending on insurance coverage elected, care at the clinic ranges from free to a fair market value cost. Services Available: Treatment of injuries or illnesses such as Flu, Sinus Infection, pink eye, sprains, strains or fever.Monitor chronic conditions (Diabetes, Hypertension, Hyperlipidemia, Health Disease, Asthma, etc...)Assistance with finding a Primary Care ProviderHealth Education and CounselingTriage and referrals to specialists when appropriate. Employee Fitness Center: Alamance County encourages all employees to maintain a healthy lifestyle both at home and at work. In support of this philosophy an Employee Fitness Center is available for all County employees to use at their convenience during non-work hours and is open 24/7/365.  This center includes weight training equipment, cardio equipment, a small aerobics room along with restrooms, changing room and lockers. 

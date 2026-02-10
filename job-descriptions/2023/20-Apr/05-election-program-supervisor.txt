@@ -1,0 +1,11 @@
+Username or Email Address
+Want an easier way to log in?
+Log in faster without a password.
+Email Magic Link
+Use Your Passkey
+Passkeys require JavaScript. If you cannot enable JavaScript, log in with a Magic Link or Password instead.
+Log in with your password
+Log in without a password
+Remember Me
+Lost your password?
+← Go to electionline

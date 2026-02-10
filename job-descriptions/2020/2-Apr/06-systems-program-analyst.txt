@@ -1,0 +1,97 @@
+=== JOB DETAILS ===
+
+SALARY: $68,170.00 - $110,876.00 Annually
+LOCATION: Wake County, NC
+JOB TYPE: Permanent Full-Time
+JOB NUMBER: 03302020-65021731
+DEPARTMENT: State Board of Elections
+DIVISION: State Board of Elections
+OPENING DATE: 03/30/2020
+CLOSING DATE: 4/13/2020 5:00 PM Eastern
+POSITION NUMBER: 65021731
+SECTION: Information Technology
+SALARY GRADE: IT07
+
+=== JOB DESCRIPTION ===
+
+***This position is subject to re-classification pending OSHR approval.  Applicants must also meet the minimum education and experience of an Operating Systems Software Programmer II***
+
+The N.C. State Board of Elections is the statewide agency that supervises elections administration, enforces campaign finance requirements, and conducts associated investigations.  The State Board ensures uniform implementation of state and federal election laws and appoints local officials serving on county boards of elections. The Board is composed of five individuals appointed by the Governor from lists of nominees submitted by the chairs of the two political parties having the highest number of registered affiliates.  Agency staff are civil servants subject to the State Personnel Act.
+
+Primary Purpose of the Division:
+
+Information Technology operates as a Division of the State Board of Elections (SBE).
+The mission of Information Technology (IT) is to support and strengthen the Election's business divisions by providing central services and infrastructure for state-wide access to information resources and technologies for all election officials.
+The U.S. Department of Homeland Security (DHS) has designated elections as critical infrastructure with priority cybersecurity support under the National Infrastructure Protection Plan. The State Board of Elections (SBE) administers and maintains secure administration of elections in North Carolina. To this end, NCSBE requires a sophistical and nimble IT practice.
+The purpose of IT is to research, advise, procure, implement and support State Board of Election business functions through the use of technology.
+ 
+Primary Purpose of the Position:
+Implement and maintain the agency's large and complex network
+Maintains solid technical competence for communication systems while grasping the integration and interaction of all supported systems.
+Architect Cloud Infrastructure in Microsoft Azure, Amazon Web Services (AWS), or other cloud provider.
+Evaluate, recommend, design, implement, maintain and secure Infrastructure elements in support of the agency mission.
+The analyst should execute the following tasks and responsibilities:
+Supports Information Technology Infrastructure 
+Supports Information Technology Infrastructure to include Database, Server, Networking, Equipment, Architecture and Design.
+Ensures all data is properly collected, stored, and secured, using tools that analyze performance metrics, service levels, server status, and system outages.
+Implement and maintains network architecture, switch programming, agency firewalls, and Disaster Recovery (DR) testing and documentation that includes scheduling, performing and verifying system backup processes for all systems.
+Manages Microsoft Server installation and administration including adding and removing roles such as Active Directory, Domain Name Service (DNS), Dynamic Host Configuration Protocol (DHCP), Group policies, Folder redirection, and version control to protect data, add and remove users and setup of permissions and distribution groups.
+Works with outside vendors as needed to purchase necessary equipment, modify systems and/or complete programming updates
+Monitors network performance (availability, utilization, throughput and latency) and test for weaknesses.
+Follows operational standards and policies for the department, and recommends updates when appropriate.
+Serve as an escalation point for lower tier technical staff
+Liaison for inter-agency and county-agency IT needs.
+Work with designated development staff to facilitate regular release cycles.
+ 
+ 
+Provides Strategic Input for Agency IT Strategy 
+Provides input for current and long-range system requirements and evaluate alternative business solutions and strategies, taking into account current capacities and functional limitations with regard to hardware/software and upcoming advancements in technology.
+Advises regarding proper design for major implementations and modifications to organizational systems and IT processes, specifically as it relates to hardware and software capability.
+Reviews automated procedures to ensure they are delivering information as expected and tunes those procedures as necessary
+Regularly researches past, current, and emerging technologies, evaluating their impact on agency operations, and make informed recommendations based on what is learned.
+ 
+Works with security personnel to Implement Security Best Practice 
+Identifies and follows through on perceived security threats.
+Ensure agency systems and data are secure, yet available for approved entities.
+Follows the Disaster Recovery and Business Continuity Plan, including an Incident Response Plan and a Continuity of Operations Plan (COOP), when emergencies occur
+Maintain backup of data and a portable Infrastructure necessary in disaster recovery scenarios.
+
+The analyst must possess the following proven skill sets, knowledge, and/or abilities:
+ 
+
+A comprehensive understanding of network architecture, computer systems, and related technologies, functions, capabilities, and software including a strong knowledge of networks, routing and switching, network operating systems, systems programming, database and system administration, operating systems, security systems, communication systems, and application architecture
+The ability to plan and implement solutions with various technologies, systems, and software, while effectively comprehending their interrelationships, functionality, communications, and connectivity
+A thorough knowledge of computer programming languages and have proven experience in (1) troubleshooting defects, failures, and errors, and in (2) recommending and implementing remedial action.
+An extensive familiarity with network architecture planning and implementation with various technologies, such as Microsoft products, Cisco products, VMware, area networks, WAN acceleration, virtualization, firewalls, routers and other networking hardware.  This would include switch programming including programming for VoIP, QoS, & VLAN's
+An ability to utilize Microsoft Server roles such as Active Directory, DNS, DHCP, Group Policies, Snapshots, backups and restores of operating software and user data
+Knowledge and proficiency with server operating system versions including Microsoft SQL Server, including end-of-life through the latest releases (e.g. SQL Server 2008 R2, 2012, 2014, 2016, 2017)
+Demonstrated experience with Microsoft's Active Directory, Windows Server, Office365, Sharepoint, and Microsoft Teams.
+Knowledge of Microsoft server technologies as well as infrastructure virtualization technologies
+Knowledge and proficiency in desktop operating systems in a Windows environment including end-of-life through the latest releases (e.g. Windows XP, Windows 7, 8, 8.1, and 10)
+The ability to identify potential hardware failures, implement new hardware, resolve hardware failures, and document failure recoveries
+The ability to work an irregular schedule occasionally to accommodate periodic system updates/upgrades, maintenance and/or emergency needs
+Experience in Cloud Architecture and design [Azure and AWS preferred]
+Experience with participating in application and infrastructure support processes for high profile, mission critical applications
+Ability to identify and analyze reoccurring problems and serve as an expert in designing system infrastructure.
+Ability to develop and/or implement highly complex information technology solutions to enhance enterprise success.
+Skill in the technical consultation related to complex projects.
+Skill and knowledge in a highly specialized area of systems analysis and development.
+Ability to provide expertise and consultation on technical issues to management
+Knowledge of new or existing technologies to develop solutions and ability to consult with other specialists, analysts, technicians, and vendors.
+Design and implement security policies to work in conjunction with third-party security.
+***Reclassification Education and Experience Requirement***
+
+Bachelor's degree in computer science, computer engineering, or a closely related field from an appropriately accredited institution and four years of progressive experience in systems software programming; or an equivalent combination of education and experience.
+
+Bachelor s degree in computer science, computer engineering, or a closely related field from an appropriately accredited institution and three years of progressive experience in systems software programming; or an equivalent combination of education and experience.
+
+Are you a current or previous employee of the North Carolina Board of Elections (State or County)?
+ Yes
+
+ No
+
+
+If offered this position, will you accept a salary within the provided recruitment range ($68,170 - $90,000)?
+ Yes
+
+ No

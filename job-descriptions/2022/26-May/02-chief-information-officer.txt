@@ -1,0 +1,105 @@
+=== JOB DETAILS ===
+
+SALARY: $83,127.00 - $145,472.00 Annually
+LOCATION: Wake County, NC
+JOB TYPE: Time-Limited Full-Time
+REMOTE EMPLOYMENT: Flexible/Hybrid
+JOB NUMBER: 65027808-05172022
+DEPARTMENT: State Board of Elections
+DIVISION: State Board of Elections
+OPENING DATE: 05/20/2022
+CLOSING DATE: 5/27/2022 5:00 PM Eastern
+POSITION NUMBER: 65027808
+SECTION: Information Technology
+SALARY GRADE: IT11
+
+=== JOB DESCRIPTION ===
+
+Internal Agency Post Only
+Recruitment Range: $101,622 - $122,502
+***This position is currently funded through federal grant funding.  Thus requires this position to be classified as "Time-Limited" and subject to the availability of funds.***
+
+Primary Purpose of the State Board of Elections
+The N.C. State Board of Elections is the statewide agency that supervises elections administration, enforces campaign finance requirements, and conducts associated investigations. The State Board ensures uniform implementation of state and federal election laws and appoints local officials serving on county boards of elections. The Board is composed of five individuals appointed by the Governor from lists of nominees submitted by the chairs of the two political parties having the highest number of registered affiliates. Agency staff are civil servants subject to the State Personnel Act.
+
+
+
+Description of the IT Division
+
+Information Technology operates as a Division of the State Board of Elections (SBE).
+The mission of Information Technology (IT) is to support and strengthen the Election's business divisions by providing central services and infrastructure for state-wide access to information resources and technologies for all election officials.
+The purpose of IT is to research, advise, procure, implement and support State Board of Election business functions through the use of technology.
+Primary Purpose of the Position:
+This position will manage the strategic employment of a cross-functional team of data analysts, database administrators, database developers, geospatial specialists, and voting systems specialists to develop, design, and support enterprise-wide database solutions, audit election data, and create insights for solving complex problems in a fast paced, collaborative, and iterative analytical environment. 
+The manager will utilize their knowledge and expertise to participate in the development of solutions for day-to-day problems including the maintenance, modification, and/or development of complex integrated systems. Solutions link technical knowledge with business requirements to develop automated solutions. 
+Duties include needs-assessment as well as evaluating hardware and software requirements and availability. 
+Work involves providing for the effective and efficient storage retrieval customization and archiving of data by managing multiple datasets to assure an integrated database system for the enterprise. 
+Work includes a strong consultative role with application developers and IT management to assure that the conceptual and design phases of new systems applications are consistent with the database software format. 
+Maintains data integrity as maintenance and modification projects to existing applications are undertaken. 
+Work involves the integration of large and functionally independent computer systems with one another through the use of shareable data elements. 
+Manager should be able to work independently and with minimal supervision. 
+Job Description
+
+Manage Enterprise-Wide Database Administration: 
+Responsible for real-time transactional replication from each county to central state database. 
+Monitor state and county resources including multiple database instances and related processes and servers in order to proactively identify problems and provide for timely remediation. 
+Manage backup and disaster recovery by maintaining documentation and the capability to respond to issues in cooperation with network and server staff ranging from minor data corruption, disk and server failures, to major disaster recovery situations. 
+Provide guidance to junior Database Administrators and manage team workload. 
+Collaborate and consult with the Network Administrator on issues relating to data storage, access, backup/restore, and data archiving. 
+Implement measures to provide for database integrity, backup and recovery, disaster recovery, and business continuity. 
+Establish data security and access policies/practices. 
+Continuously monitor infrastructure resources and processes including the disposition of county/state transactions, replication, scheduled database jobs, and the status of servers and services. 
+Communicate database related issues and problems with relevant agency team members, developers, testers, and managers. 
+Recommend and employ third party database tools to enhance efficiency and support capabilities.
+Manage Data Analytics/ Business Intelligence Efforts: 
+Implement Operational Data Store by mapping to normalized data structures and implementing ETL scripts to load and clean data for use in multidimensional data mart/warehouse development. 
+Develop, implement, and manage an overall business intelligence strategy for the extraction and processing of data into useful information for consumption by state and county agencies, the media, and the general public. 
+Design dynamic reports for use by county board of election agencies and manage the related intranet data reporting sites. 
+Design and implement complex data warehouse solutions mindful of business requirements and current industry standards. 
+Responsible for managing a team of data analysts and business intelligence specialists providing visualizations, analytics and data extracts of voter, polling location and candidate/referenda information. 
+Manage a team responsible for designing heuristics and baselines that can be developed using clustering algorithms and other sophisticated data science techniques. The team has been tasked with analyzing event log information and voter registration changes to determine what constitutes normal registration and voter activity, and to develop systems to alert management of any abnormalities that could be evidence of fraud or cybersecurity threats.
+Lead Geospatial Analytical / Voting Systems Operations Efforts 15%: 
+Responsible for pre-election day and post-election day auditing. 
+Manage the efforts of GIS specialists for all geospatial activities for the agency
+Manage Voting Systems Specialists in their work to certify, install, and support county voting systems. Voting Services personnel are tasked with system maintenance, programming of contests and election definitions, ballot coding, logic and accuracy testing procedures, and collaboration with the Voting Systems Certification Manager to implement the certification program . Required to collaborate with other IT Sections and agency divisions to improve all aspects of their responsibilities.
+Manage Database Development: 
+Oversee the development of complex SQL code providing solutions for database administration, maintenance and other operational tasks.
+Devise and implement database management and monitoring, data transformation, reporting, and any other data processing activities as needed. 
+Build automated interfaces with outside agencies (DMV, DOC, DHHS) and Non-Governmental Agencies and vendors to exchange data in support of various business processes.
+Consult with testers to troubleshoot application issues and implement fixes. 
+ Manage and approve all data standards and data modeling:
+Maintain data dictionary for the statewide voter registration and election management system. 
+Responsible for implementing database schema, coding, naming, and normalization, and enforcing adherence to standards on a continuous basis. 
+Consult with senior management regarding the solution architecture of new products and systems including, most notably, the data architecture. The data layer is particularly important in elections because of the concern for security and accuracy. 
+Responsible for modeling database entities and attributes and maintaining official data dictionaries, and conceptual, logical and physical data models.
+
+Ability to manage staff working in remote, hybrid, and in-person environments.
+Superb service mentality that is instilled with staff and delivery of work.
+Ability to be available for and properly plan staffing and resource needs that ensure adequate coverage of all IT systems and services during an election cycle
+Possess understanding of data administration and data engineering principals 
+Knowledge of technologies and systems in-place with the capability of supporting these technologies and maintaining stable system environments.
+Working knowledge of database administration and development (on-premise and in the cloud) 
+General knowledge of database and Windows scripting languages (e.g., T-SQL, batch, PowerShell), data formats (e.g., json, xml), Windows server and web server administration 
+Working knowledge of backup and recovery procedures, replication topologies and implementation, database engine, code tuning and performance optimization, SQL Integration Services, SQL Reporting Services, Operational Data Store and Data Warehouse, and data modeling. 
+Understanding of outlier detection and removal techniques. 
+Must be capable of analyzing large, complex, multi-dimensional datasets with a variety of tools. 
+Possess understanding of relational database structures and data normalization techniques.
+Ability to occasionally work an irregular schedule to accommodate periodic system updates/upgrades, maintenance and/or emergency needs. 
+Must have elections experience.
+Management Preferences
+
+Demonstrated database development or data science experience.
+Strong understanding of PII/data privacy best practices.
+
+Bachelor's degree in Computer Science, Computer Information Systems, Computer Engineering, Math, or Engineering, or a related curriculum from an appropriately accredited institution and five years of progressive experience including two years in the design and maintenance of an integrated database system; Associate s degree in Information Systems, Computer Programming, Database Management, Computer Engineering, Math, or Engineering from an appropriately accredited institution and six years of progressive experience including two years in the design and maintenance of an integrated database system; or an equivalent combination of education and experience.
+
+Do you have at least two years of experience in the design and maintenance of an integrated database system?
+ Yes
+
+ No
+
+
+The recruitment range of this position is $83,127 - $122,502. If offered this position, would you be able to accept a salary within this range?
+ Yes
+
+ No

@@ -1,0 +1,62 @@
+=== JOB DETAILS ===
+
+Title: NETWORK MANAGER
+Salary: $73,416.00 - $83,126.00 YEAR
+Location: Providence, RI, RI, 02908
+Employer: State of Rhode Island
+Employment Type: OTHER
+Date Posted: 2023-07-17
+Job Type: NA
+Job Number: 14220
+Department: SECRETARY OF STATE
+Division: Administration
+Opening Date: 07/18/2023
+Closing Date: 10/19/2023 2:05 PM Eastern
+Pay Grade: 8629
+Classification: Unclassified
+Scheduled Work Days; Hours of Work: Monday - Friday; 8:30 a.m. - 4:30 p.m.
+Work Week: Non-Standard
+Bargaining Union: Non-Union (99)
+
+=== JOB DESCRIPTION ===
+
+The Network Manager will manage, maintain, document, and operate the Department of State’s (Department) network. Additionally, the Network Manager will configure, update, secure, and install network equipment with the Department’s infrastructure as well as work with other members of the eGov and IT Division to ensure secure reliable service to staff and the public.
+
+The Network Manager performs various duties including, but not limited to:
+
+
+Install, secure, maintain, troubleshoot, and repair LAN and WAN network hardware, software, systems, and cabling;
+Work with Department staff to assist them in understanding and utilizing network services and resources;
+Build and maintain network log infrastructure and support critical response initiatives;
+Manage, monitor, document, and expand the network infrastructure; 
+Resolve desktop and networking problems;
+Assist staff with maintaining voice, data, and wireless communications; 
+Develop and implement policies related to secure hardware and software; 
+Optimize and maintain network security through the proper design, implementation and maintenance of network devices, appliances, and other systems;
+Plan and implement new network installations and upgrades;
+Maintain an orderly networking office and equipment storage area;
+Participate in Disaster Recovery and Business Continuity planning, drill, and implementation activities; and 
+Perform other duties as required. 
+
+EDUCATION AND EXPERIENCE
+Bachelor’s or Associates degree from an accredited college or university in Computer Science or Computer Information or any combination of education and experience that shall be substantially equivalent to the previously described education and experience.
+
+Knowledge, Skills & Abilities:
+ 
+
+
+Minimum 5 years of broad IT experience, at least 2 of which has been in a security role.
+Thorough and detailed understanding of networking hardware, ability to configure and implement including but not limited to switches, routers, firewalls, VPNs, wireless access points.
+Thorough knowledge of lower and higher-level networking protocols (i.e., TCP/IP, QoS, DNS, and DHCP) as they relate to Internet and intranet access and performance.
+Ability to devise and enforce Network and OS security policies while balancing the needs of a diverse and dynamic organization.
+Experience troubleshooting firewalls, Intrusion Detection technologies, VPN appliances, vulnerability assessment tools, event and log analysis, security change tracking, and other network security systems and devices.
+Familiarity with security tools to audit infrastructure, detect issues, and coordinate remediation of any issues.
+A deep understanding of network security protocols and strong working knowledge of other network operating protocols and theory are essential.
+Strong knowledge in Telco/WAN services such as Ethernet, MPLS, VPLS, DSL, Lit & Dark Fiber, and Cable Internet/Ethernet services.
+Ability to see a network project through from start to finish, including analysis, design, planning, testing, and implementation.
+Eager to learn and use new network security software, devices, appliances, etc.
+Ability to organize, manage time, and follow-through under pressure.
+Excellent problem-solving and analytical skills.
+Effective verbal and written communication skills.
+Network +, CCNP, or equivalent certifications.
+Hours are Monday - Friday, 8:30 am - 4:30 pm and occasional nights and weekends, as required.

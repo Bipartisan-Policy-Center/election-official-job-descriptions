@@ -1,0 +1,111 @@
+=== JOB DETAILS ===
+
+Title: Election Data Specialist
+Salary: $5,527.00 - $6,742.67 MONTH
+Location: Boulder, CO, CO, 80302
+Employer: Boulder County
+Employment Type: FULL_TIME
+Date Posted: 2021-06-07
+Job Type: Full-time
+Job Number: 3829(BA1)
+Department: Clerk and Recorders Office
+Division: CLK Elections
+Opening Date: 06/08/2021
+Closing Date: 6/20/2021 11:59 PM Mountain
+FLSA: Exempt
+
+BENEFITS:
+  • a family-friendly workplace, including paid caregiver leave, a breast feeding friendly-work environment, sick child care, an infants-at-work policy, and generous paid vacation, medical leave, and holidays
+  • the opportunity to take charge of your well-being through a nationally-recognized wellness program, employee assistance program, and the choice of comprehensive health plans that include vision and dental coverage
+  • peace of mind for the future with PERA pension, PERA 401k, and Social Security retirement plans, in addition to life and disability insurance, as well as critical illness and accidental insurance options
+  • the opportunity to master new skills with robust learning programs and certificates, federal loan forgiveness (after ten years of public service), and county-paid tuition assistance for continuing education
+  • Free EcoPass that can be used any time and for commuting to and from work, to the Denver Intranational Airport and Fort Collins and on all bus and rail lines operated by RTD. Opportunity to sign up for a free BCycle membership for bike share in Boulder.
+
+For more information about benefits, visit the Jobs page: https://bouldercounty.gov/jobs/jobs-benefits/
+
+=== JOB DESCRIPTION ===
+
+
+
+The Boulder County Clerk and Recorder’s office, Elections Division, has an opening for an Election Data Specialist position. Boulder County Elections is committed to setting the state and nationwide gold standard for what an accurate, transparent, organized, and efficient election looks like, and this position is critical to our success in fulfilling that aim. The Elections Division is committed to continual improvement, and we are looking for a team member who can help strengthen our team and our work by overseeing mission-critical process areas that demonstrate accountability to the public while also assuring data integrity through data extraction, processing, analysis and storage.
+ 
+As a member of the election team, this position will be expected to emulate behaviors that demonstrate a commitment to all Clerk and Recorder values, including equity and inclusion, accountability, and integrity. At times, this position will work very closely with a variety of coworkers and the ability to form effective, collaborative, communicative working relationships with fellow teammates under deadlines and requirements is a must.
+ 
+The objective of this position is to create, maintain, manage, and interact with operational and analytical tools which assist elections staff in ensuring the integrity of voter and elections data. This position will create and reconcile a variety of reports that demonstrate the requirements for the certification of an election. This position will also assist election staff in creating and maintain additional reports and with a variety of data needs. To meet these goals, this position also requires an understanding of and experience with relational database systems.
+ 
+The successful candidate is self-sufficient, resourceful, collaborative; an efficient effective verbal, written(electronic) and visual communicator skilled in extracting user requirements; able to assess and manage priorities, driven to provide effective solutions and well organized and methodical, with an eye for detail, and a champion of process standards and documentation. We seek someone who is analytical, creative, and adaptive in problem-solving; enjoys digging through data and queries to root out data discrepancies; seeks to help others improve process, visibility, and decision making through reports and data; and makes time to evaluate and improve data specialist systems and procedures to support sustainability and the creation of new opportunities.
+ 
+Skills and experience necessary to complete duties independently include and are not limited to:
+• applying relational database theory and practice to design, build, and maintain complex relational database analysis and reporting tools in a production environment (excluding database platform management such as patching)
+• writing SQL/T-SQL queries, stored procedures, triggers, joins, views, etc.; and using SQL Server Management Studio or similar
+• utilizing .Net Framework as well as MS Office programming and references
+• all parts of the data analytics pipeline, such as data collection, cleaning, analysis, visualization, and presentation
+• effectively planning, evaluating, prioritizing, and managing multiple concurrent and competing tasks
+• basic computer troubleshooting, navigating Windows and file explorer, and using Microsoft 365 tools (Outlook, OneNote, Word, PowerPoint);
+• utilizing Microsoft Excel to create filtered views, pivot tables, graphs/charts, advanced formulas, and linked tables
+ 
+
+This is a full-time, benefitted position.  During election cycles, this position requires some schedule flexibility, periods of extended overtime, and is subject to periods of time when vacation scheduling is not allowed due to election obligations.  Outside election cycles, this position will regularly work four ten-hour days, Mondays – Thursdays, with occasional overtime and schedule flexibility required for reporting obligations and special projects in office at Boulder County Clerk and Recorder Office, 1750 33rd St, Boulder CO 80301. There is possibility for remote work depending on office needs.  Under FLSA guidelines, this position is exempt.  
+
+Boulder County requires its employees to reside in the state of Colorado as of the first day of work.
+
+Hiring Salary: $66,324.00 - $80,912.00 Annually   
+Classification Salary Range: $66,324.00 - $95,496.00 Annually 
+
+
+
+Tentative Hiring Timeline:
+Phone Screening: July 6th or 7th
+First Round Interview: mid-July
+
+
+
+Manage, maintain, and create new database operational, analytical, and reporting tools for a variety of functional and user needs within the Elections division
+ - Position is responsible for maintaining and managing legacy Microsoft Access systems and tools until fully migrated to Microsoft SQL Server (tentatively planned for 2023)
+Responsible for collecting, preparing, and analyzing diverse data sets; and producing operational reports and statistics, quality control reports and extracts, custom detailed reports and extracts
+Document work and maintain accurate and compliant Standard Operating Procedures
+Establish effective working relationships, and partners with staff to learn election processes and understand data interactions, recommend process improvements, efficiencies and implement quality assurance solutions
+Responsible for extracting business requirements and priorities and developing associated technical implementation plans
+Present official election certification report and aid recipients with interpretation in accordance with election rule and statute
+Lead, plan, execute, and/or assist with other projects and tasks during non-election times
+ - Examples: Redistricting, Microsoft Access to SQL Server Migration, Self- Service Analytics and Reporting
+Instruct and verify the accuracy of work for temporary employees
+Performs related work, as required
+May be reassigned in emergency situations
+
+PLEASE NOTE: When submitting your application be sure to include all relevant education and experience, as applications are screened based on the qualifications listed in this position announcement. Applications that do not appear to meet minimum qualifications, as outlined below, will not be considered. Resumes are not accepted in lieu of completed applications.
+
+
+Please be aware that your cover letter and resume will not be accessed in the initial screening process, so you must complete your application and supplemental questions with as much detail as possible. Any personally identifiable information (PII) such as name and address will be redacted from applications that meet the minimum screening requirements and are forwarded to the hiring manager. If the hiring manager selects you to advance in the hiring process, your cover letter and resume will then be accessible to the hiring team.
+
+
+EDUCATION & EXPERIENCE:
+Boulder County is looking for well-qualified candidates to fill our positions. In this position, we are looking for a minimum of six years of related education and experience, specifically a background in/of information services, computer science information services, working with a variety of systems, data, and reporting technologies. Any equivalent combination of relevant education, experience and training is encouraged. Training certifications are also factored into the combination of experience.
+
+
+
+
+BACKGROUND CHECK:
+
+A job offer is contingent on passing a criminal background investigation
+
+PREFERRED QUALIFICATIONS: 
+Experience in a fast paced, deadline driven environment, and individually responsible for producing accurate detailed and summary reports essential to organizational and team success
+Experience with ownership of business problem resolution using data analysis, data collection, and reporting
+Experience using presentation skills to summarize key findings and communicate with both business and technical teams
+Experience implementing and/or developing enterprise-class Business Intelligence tools such as PowerBI, Tableau, Oracle BI, or similar
+Experience working with version control systems such as Git and experience using scripting languages for data manipulation such as Python
+Applicable experience in elections and/or with elections related data
+
+KNOWLEDGE, SKILLS, & ABILITIES: 
+Ability to quickly learn, manage, and maintain MS Access database systems and outputs including: databases, tables, queries, macros, reports, and connections to SQL Server databases and MS Excel
+Highly proficient in one or more relational database technologies; creating relational database schemas and data models; understanding and building complex queries, stored procedures, functions, and views; and creating dynamic links between databases and other Microsoft 365 applications like Excel, Word, and Forms
+Ability to quickly and independently understand and apply complicated ideas, as well as learn and adapt to new hardware and software solutions
+Ability to effectively organize, present, and explain complex information to a variety of users, internally and externally
+Self-motivated and self-reliant with ability to plan, prioritize, and manage one’s time effectively
+Basic project management skills to organize, plan, prioritize, and manage work independently, and/or to direct the work of others
+Comfortable working in a fast paced, deadline-driven, and changing environment
+Ability to work both independently and as part of a cross-functional team
+ 
+
+Boulder County is a family-friendly workplace dedicated to fostering a diverse, inclusive, and respectful environment for all employees. We prohibit unlawful discrimination against applicants and employees on the basis of race, color, religion, gender, gender identity, national origin, age, disability, socio-economic status, sexual orientation, genetic information, or any other status protected by applicable federal, state, or local law.

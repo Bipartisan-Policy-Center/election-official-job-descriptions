@@ -1,0 +1,136 @@
+=== JOB DETAILS ===
+
+SALARY: $90,734.00 - $147,226.00 Annually
+LOCATION: Wake County, NC
+JOB TYPE: Time-Limited Full-Time
+JOB NUMBER: 65027809-08292019
+DEPARTMENT: State Board of Elections
+DIVISION: State Board of Elections
+OPENING DATE: 08/29/2019
+CLOSING DATE: 2/7/2020 5:00 PM Eastern
+POSITION NUMBER: 65027809
+SECTION: Information Technology
+SALARY GRADE: IT10
+
+=== JOB DESCRIPTION ===
+
+**This position is a Re-Post.  The working title has been changed to IT Security and Compliance Manager.  Previous applicants do not need to re-apply and are still being considered.***
+
+***This position is anticipated to be funded up to 3 years.  Pending availability of funds, the position will be extended per management discretion.***
+
+The N.C. State Board of Elections is the statewide agency that supervises elections administration, enforces campaign finance requirements, and conducts associated investigations.  The State Board ensures uniform implementation of state and federal election laws and appoints local officials serving on county boards of elections. The Board is composed of five individuals appointed by the Governor from lists of nominees submitted by the chairs of the two political parties having the highest number of registered affiliates.  Agency staff are civil servants subject to the State Personnel Act.
+
+Primary Purpose of the Division
+
+Information Technology operates as a Division of the State Board of  Elections (SBE).  The mission of Information Technology (IT) is to support and strengthen the Election's business divisions by providing central services and infrastructure for state-wide access to information resources and technologies for all election officials.  The purpose of IT is to research, advise, procure, implement and support State Board of Election business functions through the use of technology.  The U.S. Department of Homeland Security (DHS) has designated elections as critical infrastructure with priority cyber security support under the National Infrastructure Protection Plan. The State Board of Elections (SBE) administers and maintains secure administration of elections in North Carolina. The Agency partners with DHS, FBI, National Guard, NC Department of Information Technology, and the NC Department of Public Safety. The agency develops and maintains a central elections management network that coordinates statewide elections activity, voter registration, and results.
+
+Primary Purpose of the Position
+
+Position is designed to support agency functions in the areas of Security Incident Management and Response, Security Threat and Vulnerability Management, Risk Management, Security Administration; Security Education and Training; Security Publications; special security projects and investigations.  This position serves as a manager overseeing cyber security projects and incident response efforts.  The position manages compliance with statewide information security standards, such as National Institute of Standards and Technology (NIST), and requires a strong understanding of risk assessment, risk mitigation and risk management. The work will involve sophisticated problem-solving relying on internal agency resources and external partnerships to enhance the security posture of elections administration in our state.  The position will develop and implement SBE's information security program and advise SBE leadership on all aspects related to cyber security, assess voting systems security, and evaluate threats with the support of internal and external assets. This position will identify and implement security enhancements at the network, system, and application levels.  The position will cultivate external partnerships, including within DHS, FBI National Guard, NC Department of Information Technology, and the NC Department of Public Safety. SBE is custodian of sensitive data on all registered voters and handles complex datasets from other government agencies.
+
+Key Responsibilities and Duties Include:
+
+• Develops, implements and monitors a strategic, comprehensive information security program to ensure appropriate levels of confidentiality, integrity, availability, safety, privacy and recovery of information assets
+
+• Provides guidance, objective analysis, and recommendations regarding cybersecurity technologies and techniques (including on cybersecurity controls such as access and identity management, endpoint security, perimeter defenses, and threat intelligence)
+
+• Provides leadership through strong working relationships and collaboration to develop strategic goals for information security compliance and risk mediation
+
+• Oversight of project teams dealing with IT security issues, optimizing the contribution of people involved
+
+• Manage the work of a team of operating systems programmers and analysts that are responsible for network system planning, configuration, installation, maintenance, trouble shooting and security.
+
+• Leads and coordinates the development and maintenance of information systems security policies, procedures, standards, and guidelines, ensuring compliance with appropriate federal and state laws and regulations
+
+• Develops and maintains the Incident Management Plan and escalate possible incidents to a Security Incident Response Team
+
+• Serves as the liaison with external agencies and organizations, including law enforcement, as needed for incident response and planning
+
+• Creates a risk-based process for the assessment and mitigation of any information security risk associated but not limited to supply chain partners, vendors, customers, and other third parties
+
+• 10 years in a technology leadership position with at least five years in information security
+
+• Proven track record of developing and implementing information security policies and procedures
+
+• 6 years of experience leading complex, enterprise-wide security projects
+
+• 6 years of experience managing cross-functional teams
+
+• Experience implementing or administering common information security management frameworks such as ISO/IEC 27001, ITIL, COBIT or NIST
+
+• [Preferred] Experience leading organizations through SOX, HIPAA, PCI or CJIS compliance efforts
+
+• Knowledge of Risk Management Framework (RMF) requirements
+
+• Knowledge of new and emerging information technology (IT) and cybersecurity technologies.
+
+• Knowledge of cyber threats and vulnerabilities.
+
+• Knowledge of incident response and handling methodologies
+
+• Knowledge of cybersecurity and privacy principles used to manage risks related to the use, processing, storage, and transmission of information or data.
+
+• Knowledge of security control requirements for HIPAA, PCI DSS, IRS 1075 and other federal compliance requirements
+
+• Knowledge of system and application security threats and vulnerabilities (e.g., buffer overflow, mobile code, cross-site scripting, Procedural Language/Structured Query Language [PL/SQL] and injections, race conditions, covert channel, replay, return-oriented attacks, malicious code).
+
+• Knowledge of system life cycle management principles, including software security and usability.
+
+• Knowledge of network protocols such as TCP/IP, Dynamic Host Configuration, Domain Name System (DNS), and directory services.
+
+• Extensive understanding of computer and network forensics, system and network security, incident management, intrusion detection, vulnerability and patch management, log analysis, and related technologies
+
+• Ability to relate business requirements and risks to technology implementation for security-related issues.
+
+• Excellent communication skills; inter personal; organizational and analytical skills, written and verbal communications, experience with management presentations
+
+• Solid project management skills. Confidence and leadership as a member of project teams in a cross-functional environment.
+
+• Ability to integrate information security requirements into the acquisition process; using applicable baseline security controls as one of the sources for security requirements; ensuring a robust software quality control process; and establishing multiple sources (e.g., delivery routes, for critical system elements).
+
+• Must have or be able to obtain SECRET level clearance
+
+• Detail and goal oriented.
+
+• Possess excellent communication skills and ability to engage with senior leaders to design well-constructed analysis and work cross-functionally with managers to integrate results into the operations.
+
+• Good written and verbal communication skills and the ability to effectively clarify problem situations.
+
+• Possess the ability to work under time constraints and other demands.
+
+• Must possess the ability to establish and maintain effective working relationships and function well as a team member.
+
+• Ability to manage timelines, resources and personnel (internal staff and contractors), and direct implementation efforts to completion.
+
+• Knowledge of technologies and systems in-place with the capability of supporting these technologies and maintaining relatively stable system environments.
+
+• Ability to interact as a productive team member on a project team or manages a project task.
+
+• Ability to identify training needs of staff to promote the career path of employees.
+
+• Ability to weigh alternatives and consequences to make informed decisions on current operational issues.
+
+• Ability to gain support of superiors and clients, understand the impact of change and create a positive climate.
+
+• Able to supervise and evaluate staff
+
+Bachelor's degree in Computer Science, Computer Information Systems, Information Management or related degree from an appropriately accredited institution and five years of experience in IT security or closely related area; or
+
+Bachelor's degree from an appropriately accredited institution and six years of experience in IT Security or closely related area; or an equivalent combination of education and experience.
+
+Do you have at least a Bachelor's degree in Computer Science, Information Systems, or related degree with at least 5 years experience in IT security?
+ Yes
+
+ No
+
+
+Do you have at least 6 years experience leading complex, enterprise-wide security projects?
+ Yes
+
+ No
+
+
+Do you currently have a Secret level clearance or have the ability to obtain a secret level clearance?
+ Yes
+
+ No

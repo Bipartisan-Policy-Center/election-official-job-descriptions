@@ -1,0 +1,285 @@
+=== JOB DETAILS ===
+
+Title: Special Data Assistant to the Deputy Secretary for Elections
+Salary: $110,240.00 - $163,893.00 YEAR
+Location: Dauphin County, PA, PA, 17120
+Employer: Commonwealth of Pennsylvania
+Employment Type: OTHER
+Date Posted: 2024-01-11
+Job Type: Non-Civil Service Permanent Full-time
+Job Number: N-2024-73594
+Department: Department of State
+Division: ST Dep Sec Elect Ad
+Opening Date: 01/12/2024
+Closing Date: 1/21/2024 11:59 PM Eastern
+Job Code: U8046
+Position Number: 50615692
+Union: Non Union
+Bargaining Unit: A3
+Pay Group: ST12
+Bureau / Division Code: 1100
+Bureau / Division: Deputy Secretary for Elections
+Worksite Address: 401 North Street
+City: Harrisburg, Pennsylvania
+Zip Code: 17120
+Contact Name: Beth Conrad
+Contact Phone: 717.705.0313
+Contact Email: bconrad@pa.gov
+
+=== JOB DESCRIPTION ===
+
+The Department of State is seeking a strong technical data analyst to join our election team as a special data assistant to the Deputy Secretary for Elections.  This senior role will work closely with the Secretary of the Commonwealth, the Governor’s Office, and our chief of election technology to provide accurate and useful data analyses for the upcoming election as well as ensure safe and secure election administration in the Commonwealth of Pennsylvania.  Apply today to embark upon a professional career opportunity like no other! 
+
+
+
+Within this role, you will be responsible for performing data analysis work involving conducting extensive data research and analyzing and reporting the results.
+
+This position develops and executes complex queries, ensuring results are complete and accurate.  An important aspect of this work involves responsibility for direct interaction with high level administrative officials and decision makers within the Governor’s Office and administration to represent the Secretary's interests and programs.  You will provide advisory and consultative professional work to/for the Secretary on a variety of highly complex and sensitive election matters.
+
+Serve as a business strategy leader and an intermediary in advising the Secretary and the Governor’s Office on specific problems around elections, in collaboration with the Election’s Bureau.
+
+You will develop and execute complex queries, ensuring results are complete and accurate.  Develop dashboards and reports at the request of senior department officials and/or at the request of the Governor’s Office, ensuring that information is complete and accurate.  Identify problems and solutions, and research and recommend action(s) to the Secretary.
+
+This work is conducted in connection with the department’s Elections Bureau and analysis is focused on elections data. This position will have a high-level role in assisting to ensure Pennsylvania's 2024 election results are accurate.  This is extremely important as the national spotlight will include Pennsylvania.  Candidates must possess strong structured query language (SQL) background and experience in creating and validating data queries.  
+
+
+
+
+Interested in learning more?  Additional details regarding this position can be found in the position description. 
+ 
+Work Schedule and Additional Information:  
+
+Full-time employment 
+
+Work hours are 8:00 AM to 4:30 PM, Monday - Friday, with a 60-minute lunch. 
+
+Telework: You may have the opportunity to work from home (telework) part-time, up to 3 days a week.  In order to telework, you must have a securely configured high-speed internet connection.  If you are unable to telework, you will have the option to report to the headquarters office in Harrisburg.
+
+Salary: In some cases, the starting salary may be non-negotiable. 
+
+You will receive further communication regarding this position via email.  Check your email, including spam/junk folders, for these notices. 
+
+QUALIFICATIONS 
+
+Minimum Experience and Training Requirements: 
+
+Experience in data analysis, research, compilation, and/or reporting work. Graduation from an accredited four-year college or university with major coursework in data science, business analytics, computer science, computer information systems, management information systems, accounting, finance, mathematics, statistics, economics, or a related field is generally preferred. Experience and education may be substituted for one another.
+
+  
+ Additional Requirements:  
+
+You must possess a strong SQL background and experience in creating and validating data queries.
+
+You must possess experience with data analytics.
+
+You must possess experience in gathering reporting requirements.
+
+You must be able to perform essential job functions. 
+
+  
+
+Preferred Qualifications (not required): 
+
+Experience with data analysis and data visualization tools.
+
+Experience with scripting language.
+
+A master's degree in data science or related discipline. 
+
+  
+
+How to Apply: 
+
+Your application must include a cover letter and resume.
+
+You must attach a cover letter and resume to your application for review by the hiring manager.  However, the information contained therein will not be considered for the purposes of determining your eligibility for the position.  Information to support your eligibility for the position must be provided on the application (i.e., relevant, detailed experience/education). 
+
+If you are claiming education in your answers to the supplemental application questions, you must attach a copy of your college transcripts for your claim to be accepted toward meeting the minimum requirements.  Unofficial transcripts are acceptable. 
+
+Your application must be submitted by the posting closing date.  Late applications and other required materials will not be accepted. 
+
+Failure to comply with the above application requirements may eliminate you from consideration for this position.   
+
+  
+
+Veterans:  
+
+Pennsylvania law (51 Pa. C.S. §7103) provides employment preference for qualified veterans for appointment to many state and local government jobs.  To learn more about employment preferences for veterans, go to www.employment.pa.gov/Additional%20Info/Pages/default.aspx and click the Veterans’ Preference tab or contact us at ra-cs-vetpreference@pa.gov. 
+
+  
+
+Telecommunications Relay Service (TRS):  
+
+711 (hearing and speech disabilities or other individuals). 
+
+  
+
+If you are contacted for an interview and need accommodations due to a disability, please discuss your request for accommodations with the interviewer in advance of your interview date.  
+
+  
+
+The Commonwealth is an equal employment opportunity employer and is committed to a diverse workforce. The Commonwealth values inclusion as we seek to recruit, develop, and retain the most qualified people to serve the citizens of Pennsylvania. The Commonwealth does not discriminate on the basis of race, color, religious creed, ancestry, union membership, age, gender, sexual orientation, gender identity or expression, national origin, AIDS or HIV status, disability, or any other categories protected by applicable federal or state law. All diverse candidates are encouraged to apply.   
+
+Learn more about our Total Rewards by watching this short video!Health & WellnessWe offer multiple health plans so our employees can choose what works best for themselves and their families. Our comprehensive benefits package includes health coverage, vision, dental, and wellness programs.*Compensation & Financial PlanningWe invest in our employees by providing competitive wages and encouraging financial wellness by offering multiple ways to save money and ensure peace of mind including multiple retirement and investment plan options. Work/Life BalanceWe know there’s more to life than just work! Our generous paid leave benefits include paid vacation, paid sick leave, eight weeks of paid parental leave, military leave, and paid time off for most major U.S. holidays, as well as flexible work schedules and work-from-home opportunities.* Values and CultureWe believe in the work we do and provide continual opportunities for our employees to grow and contribute to the greater good. As one of the largest employers in the state, we provide opportunities for internal mobility, professional development, and the opportunity to give back by participating in workplace charitable giving.Employee PerksSometimes, it is the little “extras” that make a big difference. Our employees receive special employee-only discounts and rates on a variety of services and memberships.For more information on all of these Total Rewards benefits, please visit www.employment.pa.gov and click on the benefits box.*Eligibility rules apply.
+
+
+                            
+    
+        
+
+01
+
+    
+
+    
+        Additional Requirement:
+
+Do you posses a strong SQL background with experience in creating and validating data queries?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+02
+
+    
+
+    
+        If you are claiming experience in the above question, please list the employer(s) where you gained this experience in the text box below.  The employer(s) and a description of the experience must also be included in the appropriate sections of your application if you would like the experience to be considered in the eligibility decision.  If you claimed you do not have experience, type N/A in the text box below.
+        
+        
+        
+    
+
+
+    
+        
+
+03
+
+    
+
+    
+        Additional Requirement:
+
+Do you have data analytics experience?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+04
+
+    
+
+    
+        If you are claiming experience in the above question, please list the employer(s) where you gained this experience in the text box below.  The employer(s) and a description of the experience must also be included in the appropriate sections of your application if you would like the experience to be considered in the eligibility decision.  If you claimed you do not have experience, type N/A in the text box below.
+        
+        
+        
+    
+
+
+    
+        
+
+05
+
+    
+
+    
+        Additional Requirements:
+
+Do you have experience in gathering reporting requirements?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+06
+
+    
+
+    
+        If you are claiming experience in the above question, please list the employer(s) where you gained this experience in the text box below.  The employer(s) and a description of the experience must also be included in the appropriate sections of your application if you would like the experience to be considered in the eligibility decision.  If you claimed you do not have experience, type N/A in the text box below.
+        
+        
+        
+    
+
+
+    
+        
+
+07
+
+    
+
+    
+        Preferred criteria:
+
+List all data analysis and data visualization tools that you have experience with and the number of years with each.
+        
+        
+        
+    
+
+
+    
+        
+
+08
+
+    
+
+    
+        Preferred criteria:
+
+List the scripting languages that you have worked with and the number of years of experience in each (like Python, SAS, R etc.)
+        
+        
+        
+    
+
+
+    
+        
+
+09
+
+    
+
+    
+        Preferred criteria:
+
+Do you possess a master's degree in data science or a related discipline.
+        
+        
+                Yes
+                No
+        
+    
+
+
+                                
+                                     Required Question
+                                
+                        

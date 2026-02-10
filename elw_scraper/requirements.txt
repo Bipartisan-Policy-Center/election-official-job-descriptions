@@ -2,6 +2,7 @@ anthropic>=0.79.0
 beautifulsoup4>=4.12.3
 gspread>=6.1.0
 pandas>=2.2.1
+playwright>=1.48.0
 requests>=2.31.0
 trafilatura>=2.0.0
 tqdm>=4.66.1

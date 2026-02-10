@@ -1,0 +1,2 @@
+Currently TurboVote requires JavaScript.
+Please use a browser that supports it or turn it on to use TurboVote.

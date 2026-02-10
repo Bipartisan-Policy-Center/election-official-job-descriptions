@@ -1,0 +1,109 @@
+=== JOB DETAILS ===
+
+Title: IT Voting Equipment Analyst (Business Analyst I)
+Salary: $66,103.86 - $110,173.86 YEAR
+Location: FAIRFAX (EJ32), VA, VA, 22035
+Employer: Fairfax County
+Employment Type: OTHER
+Date Posted: 2023-11-24
+Job Type: FT Salary W BN
+Job Number: 23-03400
+Department: Office of Elections
+Opening Date: 11/25/2023
+Closing Date: 12/8/2023 11:59 PM Eastern
+Pay Grade: S24
+Posting Type: Open to General Public
+
+BENEFITS:
+  • Medical/Vision/Dental Insurance Coverage
+  • Group Term Life Insurance
+  • Long Term Disability
+  • LiveWell Program
+  • Flexible Spending Programs
+  • Paid Leave (annual, sick, parental, volunteer activity, and more!)
+  • Paid Holidays
+  • Contributory Retirement Plan
+  • Deferred Compensation
+  • Employee Assistance Program
+  • Employees' Child Care Center
+  • Commuter Benefit Program
+  • Continuous Learning Opportunities
+
+NOTE:  Fairfax County Government is a qualifying employer under the Public Service Loan Forgiveness program. For more information about the PSLF program: https://studentaid.gov/manage-loans/forgiveness-cancellation/public-service
+For additional details please visit the County's benefits webpage.
+
+=== JOB DESCRIPTION ===
+
+Provides support in administering complex automated systems including the election returns system, website, and informational databases. Analyzes legal and technical requirements and coordinates development, acquisition, and implementation of new technology to support departmental functions. Serves as the liaison with county, state, and vendor representatives to ensure election-related IT issues are resolved. Provides advanced PC hardware, software, and network support and establishes security protocols and back-up procedures. Serves as information security coordinator (AISC) for the department. Assist with training system users. Works under guidance of the IT manager.
+
+(The illustrative duties listed in this specification are representative of the class but are not an all-inclusive list. A complete list of position duties and unique physical requirements can be found in the position job description.)
+
+Provides support in administering a complex automated systems;
+Ensures information and reports produced by the system are accurate and valid;
+Performs data integrity checks;
+Notifies technical staff of any problems or errors;
+Integrates data from various sources into the system;
+Monitors system activity and reports problems;
+Tests and analyzes all new interfaces into the system and reports problems;
+Creates and distributes reports;
+Assists agencies in correcting errors;
+Provides assistance and training to system users;
+Assists in analyzing, developing, implementing, and maintaining applications to meet the needs of users;
+Assists with product evaluations and product implementation;
+Assists in the development and dissemination of information alerting staff to new IT-related administrative procedures or services;
+Assists in identifying business needs and business process improvement;
+Participates in planning for future IT solutions;
+Attends training workshops, product demonstrations, conferences, and technical briefings;
+Stays abreast of technology changes;
+Provides assistance to other staff as needed.
+
+(The knowledge, skills and abilities listed in this specification are representative of the class but are not an all-inclusive list.)
+
+Some knowledge of business operations, processes, and procedures;
+Some knowledge of the capabilities of information technology software, hardware, and network communication technology;
+Some knowledge of the capabilities of various computer platforms functioning in centralized, distributed, client server, and stand-alone environments;
+Some knowledge of effective processes, methods, and techniques to analyze and evaluate business operations;
+Ability to analyze and evaluate administrative processes and procedures for automation purposes;
+Ability to conduct research into new information technology;
+Ability to train employees in the use of hardware and software;
+Ability to prepare user manuals;
+Ability to translate technical terminology into terms understandable to management and employees;
+Ability to establish and maintain effective business relationships.
+
+MINIMUM QUALIFICATIONS:
+Any combination of education, experience, and training equivalent to the following:
+(Click on the aforementioned link to learn how Fairfax County interprets equivalencies for "Any combination, experience, and training equivalent to")
+Bachelor's degree in business, computer science or a field related to the department where the information technology services are being used; plus six months of experience analyzing business processes and/or developing/maintaining the main business system, technical platform or a related system. 
+
+NECESSARY SPECIAL REQUIREMENTS:
+The appointee to this position will be required to complete a criminal background check to the satisfaction of the employer.
+
+Additional Work Schedule Requirements: Ability to work extensive overtime before, during and after each election
+
+PREFERRED QUALIFICATIONS:
+
+
+Three (3) years of experience developing IT solutions for the office of elections.
+Ability to identify possible solutions for solving IT problems.
+Considerable knowledge in managing vendor and stakeholder engagement to prioritize and manage the project schedule against specific milestones and deliverables. 
+Experience configuring and implementing voter machines.
+Understanding of election office operations and related technologies.
+Ability to form collaborative partnerships across agency lines and county agencies.
+Ability to perform multiple tasks simultaneously and work in a collaborative team environment.
+Must possess excellent customer service skills with the ability to interact in a friendly, service oriented and professional manner with internal and external. 
+Experience updating webpages and administrate databases or similar applications.
+Proficient in Microsoft Office Suite (i.e., Word, Excel, and Outlook). 
+
+PHYSICAL REQUIREMENTS:
+Work is generally sedentary and performed in a normal office environment. Ability to lift, move, assemble and install PC's, voting machines and related peripheral devices. Ability to lift and carry items weighing up to 75 lbs. All duties performed with or without reasonable accommodations.
+
+SELECTION PROCEDURE:
+Panel Interview and may include a practical exercise.
+
+The population of Fairfax County is very diverse where 39.8% of residents speak a language other than English at home (Spanish, Asian/Pacific Islander, Indo-European, and others) and we encourage candidates bilingual in English and a foreign language to apply to this opportunity.
+
+Fairfax County Government prohibits discrimination on the basis of race, color, religion, national origin, sex, pregnancy, childbirth or related medical conditions, age, marital status, disability, sexual orientation, gender identity, genetics, political affiliation, or military status in the recruitment, selection, and hiring of its workforce.  
+ 
+Reasonable accommodations are available to persons with disabilities during application and/or interview processes per the Americans with Disabilities Act. Contact 703-324-4900 for assistance. TTY 703-222-7314. DHREmployment@fairfaxcounty.gov. EEO/AA/TTY.
+
+#LI-LD1

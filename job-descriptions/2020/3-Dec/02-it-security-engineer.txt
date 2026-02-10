@@ -1,0 +1,147 @@
+=== JOB DETAILS ===
+
+SALARY: $74,987.00 - $121,857.00 Annually
+LOCATION: Wake County, NC
+JOB TYPE: Time-Limited Full-Time
+JOB NUMBER: 65027809-12022020
+DEPARTMENT: State Board of Elections
+DIVISION: State Board of Elections
+OPENING DATE: 12/02/2020
+CLOSING DATE: 12/17/2020 5:00 PM Eastern
+POSITION NUMBER: 65027809
+SECTION: Information Technology
+SALARY GRADE: IT08
+
+=== JOB DESCRIPTION ===
+
+***This position is grant funded and time limited up to 3 years.  Additional years of service is contingent upon fund availability and management discretion***
+
+Max Salary: Up to  $100,600 (subject to education and qualifications)
+
+Description of Agency:
+
+The State Board of Elections oversees the enforcement of federal and state laws, rules, and procedures governing the conduct of elections, voter registration, and campaign finance activities in North Carolina. 
+
+
+
+
+Primary Purpose of the Position: 
+
+The Information Technology Security Engineer is responsible for the operation of agency security infrastructure, technical security guidance in the application of best practices, and ensuring that the configuration of agency systems, applications and networks are in compliance with agency security policies. This position requires broad technical expertise, sophisticated problem solving and critical thinking, excellent documentation skills, security experience, and the ability to communicate complex topics clearly and effectively.
+
+ 
+
+The primary goal of this position is to ensure the proper function of agency information security systems and solutions on a day to day basis.
+
+This position is also required to identify, plan, document, execute, and report on continuous improvement activities related to security and other tasks as assigned.
+
+Successful candidates will demonstrate the desire and ability to learn skills to grow into activities required for the position where the candidate does not currently possess such skills.
+
+This position will be subject to a background check. DHS carries all security clearances for SBE. This position may require the receipt and ongoing maintenance of a security clearance.
+
+ 
+
+Description of Duties
+
+
+ 
+
+Operational Activities 
+
+Daily operation of security solutions within the agency to include implementation and operational support
+Conducts first responder activities related to security incident response (This includes alerting information security leadership, working with the affected parties to identify if there is a problem, capture appropriate data, and work through appropriate remediation activities)
+Coordinates the general maintenance and installation of security applications and appliances
+Assists with security event monitoring and review as well as any remediation efforts
+Performs activities relating to security testing, project driven security improvements, and additional security operations activities as tasked
+Continuously evaluates current security solutions effectiveness and provides input for future improvements; this includes analysis and selection of security solutions, as tasked.
+Oversees general health of all security appliances and applications in the environment
+Addresses security related cases and tickets both as assigned and proactively
+As tasked, review of software and solutions at the agency from a security perspective
+As tasked, reviews and recommendations of firewall rule additions/modifications and some security policy exceptions
+
+ 
+
+Business Activities 
+
+Develops implements and maintains the technical methods, procedures and processes associated with securing agency systems, applications, and networks in compliance with agency security policies
+Works with agency IT, development, and other personnel to consultatively provide technical security advice and best practice recommendations, also provides education and guidance on agency security practices and policy.
+Actively contributes to and helps maintain the agency Information Security run book and associated documentation
+Interfaces with vendor support to troubleshoot and maintain the functionality of vendor provided solutions
+As tasked, facilitates security focused code review of internally developed applications
+
+ 
+
+Policy & Compliance Activities 
+
+Proactively works with agency IT personnel to identify and remediate security risks
+Embraces technological change while seeking to ensure that it is deployed in a secure manner
+Provides technical support for both internal and external security audits, security-related audit issue tracking, and risk assessments
+As tasked, documents, and reports on internal investigations of possible security violations
+As tasked, and where appropriate, conducts analysis and creates reports such as those relating to vulnerability management, tracks and assists with remediation where necessary
+As tasked, conducts access and security activity reviews (internal and external), reports findings, and assists with remediation where appropriate
+
+ 
+
+Initiative & Continuous Improvement 
+
+Self-manages security-related projects and initiatives and takes ownership of security tickets through resolution
+Maintains a regimen of self-study to stay current on the latest security exploits, technologies, and news to protect agency networks, applications and systems from current and future attacks and exploits
+Follows company policy regarding internal controls as well as complies with agency policies to ensure that the employee and the company act legally and with the highest standards of ethics and integrity
+
+Required
+
+2+ years of technical IT experience in systems, networks, and applications
+
+2+ years of experience in a security-related position
+
+Operational experience in both Windows and Linux operating systems
+
+Understanding of configuration management, general server administration, different authentication technologies, network services and protocols
+
+Understanding of risk assessment
+
+Understanding of scripting and programming
+
+Must be self-directed, have excellent initiative and organizational skills
+
+Excellent communication and prioritization skills
+
+Exhibit a strong ability to handle multiple demands with a sense of urgency, drive, and energy
+
+Works well in a fast-paced environment with the ability to deliver on time
+
+Proven track record of meeting commitments with the highest standards of ethics and integrity
+
+Flexibility and adaptability to changing needs and demands dictated by business and IT requirements
+
+Minimal travel may be required
+
+ 
+
+Suggested
+
+3+ years of experience in IT or security-related positions
+
+Strong operational knowledge of Information Security technologies including hardware and software for servers, network, applications (including web and mobile), security and messaging platforms; such as, VPN, Firewalls, IDS/IPS, Vulnerability Management, Penetration Testing, MFA/SSO, SAML, SSL/TLS (key use and management), Directory Services, Threat Detection & Mitigation, Antivirus/EDR, Proxy and Filtering, and SIEM/Log Collection and how these systems apply operationally to information technology systems
+
+Understanding of incident response and related forensics and data preservation processes
+
+Understanding of identity and access management concepts, applications, in both on premise and cloud-based uses, especially Microsoft Windows Active Directory (security, groups, and role membership)
+
+Understanding of system and software life cycle management as it pertains to security, 
+
+Familiarity with security frameworks such as NIST, COBIT, RMF, CMMC or others
+
+Experience working in a large-scale enterprise environment
+
+Bachelor s degree in Computer Science, Computer Engineering or an Information Security degree or closely related field from an appropriately accredited institution and two year of experience in IT Security or closely related area; or Bachelor s degree from an appropriately accredited institution and three years of experience in IT Security or closely related area; or Associate s degree in Information Systems Security from an appropriately accredited institution and three years of experience in IT Security or closely related area; or an equivalent combination of education and experience.
+
+I understand that the budgeted salary for this position is limited to $100,600. If offered this position, the salary offered will be within the posted recruitment range.
+ Yes
+
+ No
+
+
+If you have a Bachelor's degree or higher, please indicate your major(s). If you do not have a Bachelor's degree, type "N/A."
+
+If you answered "yes" to the previous question, please indicate the Security Certifications you hold.

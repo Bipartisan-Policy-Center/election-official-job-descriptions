@@ -1,0 +1,115 @@
+=== JOB DETAILS ===
+
+Title: Elections Technology Specialist - Voting System
+Salary: $64,764.00 - $93,240.00 YEAR
+Location: Boulder, CO, CO, 80302
+Employer: Boulder County
+Employment Type: FULL_TIME
+Date Posted: 2022-06-29
+Job Type: Full-time
+Job Number: 4605(PC2)
+Department: Clerk and Recorders Office
+Division: CLK Elections
+Opening Date: 06/30/2022
+Closing Date: 8/1/2022 11:59 PM Mountain
+FLSA: Exempt
+
+BENEFITS:
+  • a family-friendly workplace, including paid caregiver leave, a breast feeding friendly-work environment, sick child care, an infants-at-work policy, and generous paid vacation, medical leave, and holidays
+  • the opportunity to take charge of your well-being through a nationally-recognized wellness program, employee assistance program, and the choice of comprehensive health plans that include vision and dental coverage
+  • peace of mind for the future with PERA pension, PERA 401k, and Social Security retirement plans, in addition to life and disability insurance, as well as critical illness and accidental insurance options
+  • the opportunity to master new skills with robust learning programs and certificates, federal loan forgiveness (after ten years of public service), and county-paid tuition assistance for continuing education
+  • Free EcoPass that can be used any time and for commuting to and from work, to the Denver Intranational Airport and Fort Collins and on all bus and rail lines operated by RTD. Opportunity to sign up for a free BCycle membership for bike share in Boulder.
+
+For more information about benefits, visit the Jobs page: https://bouldercounty.gov/jobs/jobs-benefits/
+
+=== JOB DESCRIPTION ===
+
+We have extended the application deadline through August 1, 2022.
+
+
+
+The Boulder County Clerk and Recorder's Office has an opening for an Elections Technology Specialist. This position is accountable for oversight of the voting system; which includes preparing, maintaining, and testing the equipment and ballots for elections; as well as tabulation of ballots during election time.
+
+About the division
+The Elections Division provides comprehensive elections services for Boulder County, including voter records, voter services, ballot processing, technical and logistical support, and end-to end election administration. Commitment to building an inclusive, forward looking, continual improvement, and supportive work culture is required.
+
+About the team
+The Elections Division is passionate about the work we do for democracy, and we are committed to facilitating the highest quality elections in the country. We set a high bar for fulfilling our commitment to voters in Boulder County, and we are a national award-winning organization with a reputation for excellence, innovation, accuracy, and continual improvement.
+
+Commitment to ensuring we include historically excluded communities in our administration is vital to fulfilling our mission of facilitating democracy. This person must be committed to building a culture where individuals from any background can be successful, which includes ongoing work around disrupting patterns, systems, and behaviors of inequity and exclusion.
+
+About the position
+As the point person for the voting system, this position is instrumental in helping us achieve our goal of implementing the most accurate, efficient, accessible, and secure elections in the country. This position is accountable for end-to-end activities associated with the voting system – from procurement of equipment all the way through to results reporting. Along the way, this position will be charged with designing and building the ballot in the voting system, conducting extensive compatibility testing, documenting and updating procedural documentation, setting up the scan room environment, leading a team of temporary workers in scan room activities, scanning ballots, and reconciling reports on a nightly basis.
+This position must be comfortable working in a highly scrutinized environment. The ideal candidate is someone who is committed to accuracy and is willing to triple check their work and the work of their team members. The ideal candidate will be committed to maintaining and updating documentation, likes to troubleshoot and problem solve, and is able to create a team environment that is collaborative, compliant, and aligned. 
+
+This is a full-time, benefited position.  This position will require overtime, nights and weekends during election season and is subject to periods of time when vacation scheduling is not allowed (because of the election calendar). The Elections Technology Specialist will work Monday-Thursday (10-hour day) 40 hours per week during non-election time; this includes both in-office and telecommuting options at certain points in the year.  This position will work out of the Boulder County Clerk and Recorder's Office, located at 1750 33rd St., Boulder, CO 80301; this position has the ability to telecommute at certain points in the year.  Under Fair Labor Standards Act (FLSA), this position is exempt. 
+
+
+
+Boulder County requires its employees to reside in the state of Colorado as of the first day of work.
+ 
+
+Hiring Salary Range: $59,964.00 - $73,146.00 Annually
+Classification Salary Range: $59,964.00 - $86,328.00 Annually 
+
+
+Tentative Hiring Timeline:
+
+Phone Screening: August 9th
+First Round Interviews:  August 11th
+Second Round Interviews: August 16th
+
+ 
+Plan, schedule, and execute election system processes such as ballot programming, testing, scanning, adjudication, and results reporting
+
+Ensure voting system components are updated, maintained, tested, and secure
+
+Set up, maintain, and support related hardware, software, and network components
+
+Create and maintain procedural documentation
+
+Ensure accurate reconciliation and reporting of scan room activities
+
+Export, analyze, and present timely, accurate data from various systems that meet user needs
+
+Ensure compliance with Colorado statute and rule as well as Clerk and Recorder policies
+
+Train and supervise a team of temporary workers during election time
+
+Present information to audiences with varying technical backgrounds
+
+Act as a backup for peers, learning essential technology and procedures in other areas to support critical functions
+
+Support and collaborate on special projects outside of the elections cycle, improving processes and systems within the scope of elections 
+Performs related work, as required
+May be reassigned in emergency situations
+
+PLEASE NOTE: When submitting your application be sure to include all relevant education and experience, as applications are screened based on the qualifications listed in this position announcement. Applications that do not appear to meet minimum qualifications, as outlined below, will not be considered. Resumes are not accepted in lieu of completed applications.
+ 
+Please be aware that your cover letter and resume will not be accessed in the initial screening process, so you must complete your application and supplemental questions with as much detail as possible. Any personally identifiable information (PII) such as name and address will be redacted from applications that meet the minimum screening requirements and are forwarded to the hiring manager. If the hiring manager selects you to advance in the hiring process, your cover letter and resume will then be accessible to the hiring team.
+
+EDUCATION & EXPERIENCE:
+Boulder County is looking for well qualified candidates to fill our positions. Any combination of relevant education and experience is encouraged. In this position, we are looking for a minimum of six years of combined education and professional experience in a technology related capacity as it applies to this position.  Required experience includes applying fundamental concepts, practices and procedures related to planning, setup, testing, and troubleshooting of a variety of hardware, software, and network components.  Any equivalent combination of education and experience may be considered. 
+
+BACKGROUND CHECK:
+
+A job offer is contingent on passing a criminal background investigation
+
+PREFERRED QUALIFCATIONS:
+ArcGIS, advanced Microsoft Excel and Access (forms, reports, linked and embedded tables), Powershell, C# or other scripting language, SQL/TSQL, SharePoint, public speaking experience, and project management
+Experience in compliance and security driven environment where security and audit processes are enforced
+
+KNOWLEDGE, SKILLS, & ABILITIES:
+Thorough knowledge of supported hardware and software systems
+Ability to troubleshoot and solve a variety of technical problems
+Ability to communicate procedures of a technical nature to non-technical personnel both orally and in written form
+Ability to perform a variety of project tasks requiring good communications skills
+Ability to work effectively with other employees
+ 
+
+Boulder County is a family-friendly workplace dedicated to fostering a diverse, inclusive, and respectful environment for all employees. We prohibit unlawful discrimination against applicants and employees on the basis of race, color, religion, gender, gender identity, national origin, age, disability, socio-economic status, sexual orientation, genetic information, or any other status protected by applicable federal, state, or local law.
+
+ 
+
+

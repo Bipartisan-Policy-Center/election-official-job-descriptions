@@ -1,0 +1,333 @@
+=== JOB DETAILS ===
+
+Title: GIS MANAGER II
+Salary: $56,210.00 - $104,000.00 YEAR
+Location: Richland County, SC, 29250
+Employer: State of South Carolina
+Employment Type: OTHER
+Date Posted: 2023-11-30
+Job Type: FTE - Full-Time
+Job Number: 155212
+Agency: Election Commission
+Opening Date: 12/01/2023
+Closing Date: 5/12/2024 11:59 PM Eastern
+Agency Specific Application Procedures:: Resume required.
+Class Code:: HA35
+Position Number:: 61144766
+Normal Work Schedule:: Monday - Friday (8:30 - 5:00)
+Pay Grade: Band 7
+Hiring Range - Min.: $54,974.00
+Hiring Range - Max.: $78,343.00
+EEO Statement: Equal Opportunity Employer
+Veteran Preference Statement: South Carolina is making our Veterans a priority for employment in state agencies and institutions.
+
+BENEFITS:
+  • Health, dental, vision, long-term disability, and life insurance for employees, spouse, and children.
+  • 15 days annual (vacation) leave per year
+  • 15 days sick leave per year
+  • 13 paid holidays
+  • Paid Parental Leave
+  • S.C. Deferred Compensation Program available (S.C. Deferred Compensation)
+  • Retirement benefit choices *  
+State Retirement Plan (SCRS)
+State Optional Retirement Program (State ORP)
+  • State Retirement Plan (SCRS)
+  • State Optional Retirement Program (State ORP)
+
+=== JOB DESCRIPTION ===
+
+    “Special Notice: This is a REPOST -- Previous applicants are
+ still being considered and do not need to re-apply for this position.” 
+
+
+
+
+The GIS Manager II for the South Carolina Election Commission will be responsible for developing and managing the GIS programs for the agency and serve as staff expert on GIS matters. 
+
+
+
+The GIS Manager II will be responsible for the following:
+
+
+Develop and manage the GIS programs for the agency and serve as staff expert on GIS matters.
+Develop goals and implement long range plans, policies, and procedures to guide GIS operations. 
+Develop, implement, and maintain standard operating procedures for unit operations.
+Design, construct, and maintain large databases.
+Using GIS technology, generate proposed plans, tables, analytic reports, and quality maps.
+Provide statistical support, demographic research analysis, and technical assistance to county voter registration and election offices. 
+Assist counties on the development, and maintenance of the voter registration and election management street addressing system.
+Produce election district, voting precinct and other various maps for the county voter registration and election offices.
+Develop registered voter databases of conflicting voter assignments.
+Develop interactive web-based mapping applications.
+Develop guidance and procedures for the assignment of voters after the redistricting process.
+Work with legislative staff on the creation and modification of voting precincts as well as the drafting and tracking of legislation as it relates to voting precincts and election districts.
+Utilizing effective written and oral communication skills, create reports and presentations to successfully communicate technical findings to non-technical audiences. 
+Collaborate with other state and local government GIS officials to assist the county voter registration and elections offices perform their official duties and accomplish program objectives.
+
+
+
+
+
+Interested candidates must possess a Bachelor’s degree in Geographic Information Systems, Geography, or closely related field of study and two years of professional experience in the management and application of geographic information systems.  
+
+  
+
+Must be proficient in GIS software such as  ArcGIS software or QGIS, knowledgeable of GIS standards and applications and possess advanced skills in Microsoft Office Suite. 
+Ability to create and manipulate complex databases.
+Exceptional data analysis and interpretation abilities.
+Demonstrated ability to apply the principals, practices, and methods of effective map development.
+Experience with large scale plotters or printers.
+Expertise in generating and presenting reports through data analysis.
+Ability to communicate information verbally and in writing using language that is appropriate to both the complexity of the topic and knowledge and understanding of the audience.
+Exceptional interpersonal and customer services skills and proficiency in building and maintaining relationships with different stakeholders.
+Strong multitasking and organizational skills and ability to effectively manage and prioritize workload.
+Detail oriented with strong problem-solving skills.
+Ability to work independently and perform duties with minimal oversight.
+Ability to work in a team environment and actively contribute to meeting divisional objectives.
+Understanding of information security concepts, especially in relation to personally identifiable information.
+Applicant must have the willingness to work extended hours during peak election cycles is required and assisting other team members in meeting the division's objectives is expected.  
+
+
+Occasional out-of-town travel may be necessary.
+
+Must have and maintain a valid South Carolina driver’s license and pass a criminal background check.
+
+
+Experience and/or knowledge of R, Python, SQL, HTML, JavaScript, or other relevant programming and mapping languages.  
+
+The South Carolina Election Commission is committed to providing equal employment opportunities to all applicants and does not discriminate on the basis of race, color, religion, sex (including pregnancy, childbirth, or related medical conditions including, but not limited, to lactation), national origin, age (40 or older), disability or genetic information. Any misrepresentation will result in your disqualification from employment.  
+
+
+The South Carolina Elections Commission offers an exceptional benefits package for full time (FTE) employees: 
+
+Health, dental, vision, long-term disability, and life insurance for employees, spouse, and children. 
+15 days annual (vacation) leave per year
+15 days sick leave per year
+13 paid holidays
+Paid Parental Leave
+S.C. Deferred Compensation Program available (S.C. Deferred Compensation)
+Retirement benefit choices *  
+State Retirement Plan (SCRS)
+State Optional Retirement Program (State ORP)
+
+
+
+Benefits for State Employees The state of South Carolina offers eligible employees generous benefits, including health and dental insurance; retirement and savings plan options; and paid vacation and sick leave. Plus, work-life balance programs such as telecommuting and flexible work schedules are available to employees of some state agencies. Insurance BenefitsEligible employees may enroll in health insurance, which includes prescription coverage and wellness benefits. Other available insurance benefits include dental, vision, term life insurance, long term disability and flexible spending accounts for health and child care expenses. Retirement BenefitsState employees are also offered retirement plan options, including defined benefit and defined contribution plans. Additionally, eligible employees may elect to participate in the South Carolina Deferred Compensation Program, which is a voluntary, supplemental retirement savings plan offering 401(k) and 457 plan options. Workplace BenefitsState employees may also be eligible for other benefits, including tuition assistance; holiday, annual and sick leave; and discounts on purchases, travel and more. Note: The benefits above are available to most state employees, with the exception of those in temporary positions. Employees in temporary grant and time-limited positions may be eligible for all, some or none of these benefits as benefits are associated with each position type. For these positions, contact the hiring agency to determine what benefits may be available.
+
+
+                            
+    
+        
+
+01
+
+    
+
+    
+        Supplemental questions are considered part of your official application. Any misrepresentation will result in your disqualification from employment. Please complete the state application to include all current and previous work history and education. I have read and acknowledge the above statement.
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+02
+
+    
+
+    
+        Do you at least have a Bachelor's degree in Geographic Information Systems, Geography, or closely related field of study and two years of professional experience in the management and application of geographic information systems?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+03
+
+    
+
+    
+        Please note that a resume is required in order for your application to be considered complete.
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+04
+
+    
+
+    
+        Please describe your experience using ArcGIS?
+        
+        
+        
+    
+
+
+    
+        
+
+05
+
+    
+
+    
+        Please describe your experience geocoding data to be used for mapping and spatial analysis?
+        
+        
+        
+    
+
+
+    
+        
+
+06
+
+    
+
+    
+        Do you have any work experience in the design, construction, and maintenance of large databases?  If so, please describe.
+        
+        
+        
+    
+
+
+    
+        
+
+07
+
+    
+
+    
+        Do you hold any GIS, IT or computer certifications?  If so, please list.
+        
+        
+        
+    
+
+
+    
+        
+
+08
+
+    
+
+    
+        Do you have any experience with software products such as R, Python, SQL, or HTML?  If so, please describe.
+        
+        
+        
+    
+
+
+    
+        
+
+09
+
+    
+
+    
+        Do you have any work experience creating and printing maps?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+10
+
+    
+
+    
+        Do you have any prior experience managing confidential or personally identifiable information?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+11
+
+    
+
+    
+        Do you understand that a GIS topic related presentation will be required for selected applicants.
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+12
+
+    
+
+    
+        Do you understand that you may be required to work extended hours during peak election cycles and assist other team members in meeting the division's objectives is expected?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+13
+
+    
+
+    
+        Do you understand that occasional out-of-town travel may be necessary?
+        
+        
+                Yes
+                No
+        
+    
+
+
+                                
+                                     Required Question
+                                
+                        

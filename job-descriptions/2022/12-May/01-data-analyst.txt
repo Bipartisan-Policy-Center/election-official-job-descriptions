@@ -1,0 +1,85 @@
+=== JOB DETAILS ===
+
+SALARY: $61,209.00 - $107,116.00 Annually
+LOCATION: Wake County, NC
+JOB TYPE: Permanent Full-Time
+REMOTE EMPLOYMENT: Flexible/Hybrid
+JOB NUMBER: 65027807-05052022
+DEPARTMENT: State Board of Elections
+DIVISION: State Board of Elections
+OPENING DATE: 05/05/2022
+CLOSING DATE: 5/16/2022 5:00 PM Eastern
+POSITION NUMBER: 65027807
+SECTION: Communications
+SALARY GRADE: GN13
+
+=== JOB DESCRIPTION ===
+
+Recruitment Range: $61,000 - $75,000 (salary based on qualifications and agency equity)
+
+
+Description of Agency:
+The N.C. State Board of Elections is the statewide agency that supervises elections administration, enforces campaign finance requirements, and conducts associated investigations. The State Board ensures uniform implementation of state and federal election laws and appoints local officials serving on county boards of elections. The Board is composed of five individuals appointed by the Governor from lists of nominees submitted by the chairs of the two political parties having the highest number of registered affiliates.  Agency staff are civil servants subject to the State Personnel Act.
+
+Description of Division:
+The Communications Division at the State Board of Elections is responsible for providing accurate elections information to voters, the media and the general public. This is done through a variety of outreach methods, including traditional media interactions, the State Board website, social media platforms and print materials. Division staff also routinely respond to requests for information and data from advocacy groups, political organizations and the general public, as well as public records requests. The State Board of Elections hopes to continue to improve its data analysis program to help the public better understand elections results and trends and better serve an increasingly data savvy public.
+
+Primary Purpose of Position:
+The Elections Data Analyst will be part of the State Board's Communications Team and report to the Public Information Director, with regular guidance from the Chief Information Officer and IT Data staff. The employee also will work routinely with other departments in the agency.
+
+A large portion of the Elections Data Analyst’s role will be educating the public about our data, including where to access, how to use, and understanding our data. The employee will assist with responses to members of the public and with public records requests. Additionally, the Elections Data Analyst will create and maintain data visualizations, charts, and other data tools to help the public understand important voter and voter registration statistics and trends.
+
+This position is responsible for technical and analytical work with an emphasis on data analysis, data visualization, and data communication. The employee should be able to work collaboratively in cross-functional teams as well as independently with minimal supervision.
+ 
+Description of Work:
+ 
+The Elections Data Analyst at the State Board of Elections performs a variety of diverse functions to help the Communications Division in disseminating data and information about elections to the media and general public, while promoting the transparency and integrity of elections in North Carolina.
+ 
+Specific tasks may include:
+•    Analyzing and organizing elections and voter registration data for public dissemination on the agency's website and through other media, and maintaining the data-related sections of NCSBE.gov
+•    Developing data reports to help the public understand elections and voting and voting registration trends in North Carolina
+•    Responding to data requests about elections from political parties, advocacy organizations, researchers, candidates, news organizations and the general public
+•    Creating data visualizations, maps, charts and graphics that help with the understanding of election data and trends.
+•    Assisting the Communications Team as necessary in areas such as responding to public records requests and drafting data-related social media posts.
+
+
+
+
+Thorough knowledge of descriptive statistics, the methods of statistical research, and the use of information; and of research and investigative methodology, its application to problems, and the presentation of results.
+Considerable knowledge of Excel and/or statistical software (such as R), and a working knowledge of a business intelligence tools, such as Tableau or PowerBI preferred.
+Ability to initiate, develop, and design research projects; to apply statistical principles and methods in the evaluation of problems; and to analyze statistical data and to explain findings effectively in oral, written, or graphic form.
+Ability to coordinate and review the work of others; and to establish and maintain effective working relationships with associates, managers, other agencies, and the public.
+Ability to work professionally and maintain a pleasant demeanor with members of the public, even under sometimes stressful conditions.
+Must be able to communicate in-depth information for the purpose of interpreting and application.
+
+Doctoral degree in statistics, mathematics, data science, data analytics, psychometrics or
+measurement and evaluation from an appropriately credited institution; or
+
+Master's degree in statistics, mathematics, data science, data analytics, psychometrics or
+measurement and evaluation from an appropriately credited institution including Doctoral course work and experience equal to two years in study design and data analysis; or
+
+Bachelor’s degree in statistics, mathematics, data science, data analytics, psychometrics or
+measurement and evaluation from an appropriately credited institution and four years of experience in study design and data analysis; or an equivalent combination of education and experience.
+
+Does your application demonstrate a thorough knowledge of descriptive statistics, the methods of statistical research, and the use of information?
+ Yes
+
+ No
+
+
+Do you have experience using statistical software such as R and are prepared to demonstrate during an interview?
+ Yes
+
+ No
+
+
+Do you have considerable knowledge using Excel for purposes of analyzing large volumes data?
+ Yes
+
+ No
+
+
+If offered the position, would you accept a salary between $61,000 and $75,000? (salary is dependent on qualifications and equity within agency)
+ Yes
+
+ No

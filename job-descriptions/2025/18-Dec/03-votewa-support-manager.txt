@@ -1,0 +1,316 @@
+=== JOB DETAILS ===
+
+Title: VoteWA Support Manager
+Salary: $102,000.00 - $110,004.00 YEAR
+Location: Thurston County – Tumwater, WA, WA, 98504
+Employer: State of Washington
+Employment Type: OTHER
+Date Posted: 2025-12-04
+Job Type: Full Time - Permanent
+Job Number: 25 EL WMS2 0014
+Department: Office of the Secretary of State
+Division: Elections
+Opening Date: 12/04/2025
+Closing Date: 12/18/2025 11:59 PM Pacific
+
+=== JOB DESCRIPTION ===
+
+
+
+The Office of Secretary of State (OSOS) offers some of the most unique and diverse job opportunities in state government. Its critical responsibilities include: ensuring a fair and accurate elections process; connecting Washingtonians through the power of libraries; protecting our important government records; and registering corporations and charities. The Secretary of State also administers vital community programs that inspire giving, document our history, and assist crime survivors in avoiding further abuse. This independent office under the state Constitution operates from facilities in the Olympia area and statewide.
+
+The OSOS is looking for top-performing employees who embody its core values of integrity, service excellence, visionary leadership, collaboration and teamwork. It is committed to both employee growth and work-life balance. The benefits of working in state government also include potential eligibility for the federal Public Service Loan Forgiveness program.
+
+The Elections Division plays a critical role in ensuring Washington's democratic process is fair, accurate, accessible, and secure. Elections staff provide valuable services to voters, as well as statutorily required training and certifications to election administrators in all 39 counties. The division develops elections policy, administers our statewide voter registration database, manages statewide elections, and verifies and accepts petitions for initiatives and referenda.
+ 
+VoteWA Support Manager, WMS2
+Full-time, Permanent
+ 
+The VoteWA Support Manager is a member of the Elections Management Team that advises the Elections Deputy Director and Director on direction and policy, which helps set strategic direction for the division.    This position reports to the Elections Deputy Director. This position is deemed critical or essential according to the Division’s Continuity of Operations Plan (COOP) as the Division would heavily rely on this work unit to support VoteWA activities and functions.
+
+This position reports to the Deputy Director of Elections and is responsible for managing the VoteWA support team. VoteWA is a mission critical application required to register voters and conduct elections statewide. The VoteWA support manager develops, implements, and manages program objectives and priorities. Much of this work is accomplished in collaboration with external stakeholders and 39 independently elected auditors and election officials. 
+ 
+The VoteWA program manager is responsible for making collaborative strategic judgements and decisions balancing competing program demands and priorities for resources. This position plays a critical leadership role within the Elections Division of the Office of the Secretary of State (OSOS), overseeing the VoteWA Support Team and ensuring effective collaboration between state and county election officials. The incumbent is responsible for supervising staff, managing the delivery of high-quality customer service, and ensuring the functionality and usability of VoteWA—the centralized voter registration and election management system mandated under RCW 29A.08.125.
+
+The position leads the development and implementation of the VoteWA training program and user manual for county election administrators, ensuring compliance with Washington State election laws and promoting consistent, accurate election administration across all 39 counties. A key responsibility includes managing the end-to-end process for Initiative and Referendum (I&R) filings in accordance with RCW 29A.72, ensuring legal compliance, transparency, and timely communication with stakeholders.
+
+Additionally, the position serves as the primary conduit for VoteWA-related communication between OSOS and county election offices. This includes representing OSOS in advisory and user engagement groups, gathering and synthesizing feedback from county users, and providing actionable recommendations to leadership and the VoteWA development team. The role requires a deep understanding of Washington’s election laws, strong leadership and communication skills, and a commitment to supporting secure, accessible, and transparent elections statewide.
+ 
+
+Manages the VoteWA Support Team
+Tasks include:
+
+Provides direct supervision, coaching, and performance management to assigned staff, ensuring alignment with Office core values. 
+Fosters a collaborative and inclusive team environment that supports innovation, accountability and continuous improvement. 
+Conducts regular team meetings, one-on-ones, and performance evaluations to support staff engagement and productivity. 
+Oversees the day-to-day operations of the VoteWa Support Team, ensuring timely and accurate responses to county election officials and other stakeholders. 
+Ensures high-quality customer service is delivered consistently, including troubleshooting, issue resolution, and proactive outreach. 
+Monitors support trends and metrics to identify areas of improvement and training needs for assigned staff. 
+Ensures the VoteWA team maintains a high level of knowledge regarding VoteWA functionality, election processes, and statutory requirements, including voter registration (RCW 29A.08) and election administration (RCW 29A.04) 
+Develops, modifies, and implements policies related to VoteWA management. 
+
+VoteWa Training Program and Initiative & Referendum Processing 
+Tasks include:
+Leads the development, maintenance and delivery of the VoteWa training program and user manual for accessibility, tracking and communication with relevant stakeholders. 
+Coordinates with subject matter experts and county partners to ensure training materials are accurate, accessibility and up-to-date. 
+Manages the full lifecycle of Initiative and Referendum processing in accordance with RCW 29A.72, including petition intake, signature verification coordination, and communication with sponsors and stakeholders. 
+Ensure Initiative & Referendum processing complies with legal requirements and internal procedures, and that all milestones are met with established timelines.
+Manage VoteWA-Related Communication Between OSOS and County Users
+Serves as the primary liaison for VoteWa-related communication between the Office of the Secretary of State (OSOS) and county election officials.
+Directs the VoteWa Support Team in providing responsive, accurate, and courteous customer service to county election administrators, ensuring compliance with Title 29A RCW. 
+Represents OSOS in VoteWA Advisory Board and Learning and User Engagement Group meetings, ensuring county perspectives are heard and considered. 
+Collects, analyzes and synthesizes feedback from county users through various channels (e.g. meetings, support tickets, surveys) and translates it into actionable recommendations for leadership and the VoteWa Development team. 
+Collaborate with internal teams to ensure consistent messaging, timely updates, and transparent communication with county partners. 
+Develops timelines and procedures for response to incidents.
+Implements clear expectations for timely and understandable responses and solutions to incidents sent to VoteWA Support Team by county partners.
+Supports pre- and post-Election testing of VoteWA, including Election Night results reporting.
+Provides clear and timely communication to county partners of service disruptions, to include a timeframe for service restoration. 
+Distributes post-election surveys to VoteWA users, analyzes the results, and prepares recommendations for leadership.
+Communicates Release Notes with VoteWA users that are plain-language and easy to understand.
+Develops and implements a training program for election administrators including changes in Production releases and other needed topics.
+Manages VoteWA Development in collaboration with leadership’s roadmap
+Communicates with Development Manager on immediate complex issues with VoteWA.
+Coordinates updates to the VoteWA Manual for the processes and procedures in VoteWA and distributes to users; to include coordinating training of other teams within the Division on updates. 
+Assists with the implementation of state law changes. 
+Propose WAC or Clearinghouse changes and assist in the review of drafts.
+Educates and informs the VoteWA Business Analyst on election laws and business requirements for VoteWA when reviewing potential enhancements or bug fixes.
+Reviews and discusses VoteWA support request trends with the VoteWA Support team and prepare and summarize to assist with VoteWA Development prioritization.
+Assists in drafting business requirements for VoteWA enhancements or bug fixes.
+Assists with VoteWA testing of new enhancements and bug fixes prior to their release.
+Collaborates on testing and review with the Risk, Compliance, and Quality Control (RCQC) team.
+Maintain Voter Registration Data Integrity Program
+Processes data from federal and state agencies in compliance with applicable laws including coordinating required notices and responses.
+Manages user access for VoteWA and supporting applications and ensures regular ERIC data exports and report imports. 
+Notifies County Auditors of dual registrations or voting activity and supports state agencies with voter registration processes, ensuring accurate county-level processing. 
+Compiles and analyzes data from data integrity programs to evaluate effectiveness and identify areas for improvement. 
+Miscellaneous
+Serves as a member of the elections management team.
+Represents the office as staff to various committees.
+
+REQUIRED QUALIFICATIONS
+
+ Eight years of progressively responsible experience in program management to include policy and budget development, stakeholder engagement, and workforce planning; OR a Bachelor's degree in a field closely related to the specific position and four years of progressively responsible experience.
+ One year of experience as a supervisor managing teams and performing the following tasks; interviewing, hiring, training, assigning, and directing work and evaluating staff. 
+ Ability to efficiently use a personal computer and applicable software to successfully perform the essential job functions of the position
+PREFERRED/DESIRED QUALIFICATIONS
+Washington State Certified Election Administrator credentials highly preferred at time of hire.
+ A bachelor’s degree in public administration, business administration, computers, technology, education or related field.
+ Experience as a supervisor and leading and mentoring staff.
+ Effective oral and written communication skills, ability to multi-task, ability to analyze complex data and make recommendations is required.
+ Demonstrated knowledge of voter registration management and vote tabulation systems.
+ Demonstrated knowledge of governmental structure of municipalities, special purpose districts, counties, and the state.
+ Demonstrated strong interpersonal skills to successfully facilitate and coordinate the efforts of diverse staff and promote a cooperative work environment; coaching and mentoring, inspiring and motivating; building trust in others and maintaining confidentiality.
+ Demonstrated ability to balance and manage multiple priorities and activities; conduct annual, weekly, and daily workload planning and analysis, including establishment of short-and long-term goals, objectives and performance measures; and meet critical deadlines without compromising accuracy or compliance standards.
+ Demonstrated skills and professional development to represent the agency in a positive, professional manner, when so requested or required.
+PLEASE READ: If you have gotten this far and are thinking you do not qualify, consider again. Studies have shown that members of historically marginalized and underrepresented communities, specifically women and people of color, are less likely to apply to jobs unless they clearly meet every single qualification. 
+                
+At the Office of the Secretary of State, we are dedicated to building a diverse and authentic work force with a foundation of belonging. If you are excited about this role and have relevant experience and skills, but question whether your experience aligns perfectly with every qualification in the job description, we encourage you to apply regardless. You may just be the ideal candidate this office needs.
+
+WORKING CONDITIONS
+
+While in office, standard office environment with sitting and using a computer, laptop, or files. Field work in county election administrator offices throughout Washington.
+Standard core business hours of Monday - Friday, 8 am - 5 pm. Some evening and weeks which are generally scheduled in advance. Some election period leave blackout periods throughout the year. This position is eligible for mobile work up to 50%.
+Travel to other facilities in Washington state. Statewide travel with overnight stays.
+Direct working relationships with county election administrators with onsite desk support, training.
+Willing to work with diverse groups and individuals with compassion and sensitivity.
+
+How to Apply
+To be considered for this position, you must attach the following:
+Letter of interest describing how your experience and qualifications relate to the duties and qualifications of the position.
+Resume
+Three professional references. Personal references will not be considered.
+You must complete the supplemental questions at the end of this application.  Incomplete responses such as "see resume" will not be considered.  In addition, if the employer you identify in the additional information section is not included on your resume or work experience profile and/or you do not identify an employer, you will not receive credit.
+All veterans must include a copy of your DD214 or NGB-22/NGB-23 to receive preference in the hiring process.  You must redact your social security number before attaching it to your application.
+The Office of the Secretary of State is an equal opportunity employer (EOE). We do not discriminate on the basis of religion, age, sex, marital status, color, creed, national origin, political affiliation, military status, sexual orientation, or any real or perceived sensory, mental or physical ability. All interested candidates are encouraged to apply. Persons of disability needing assistance in the application process, or those needing the announcement in alternative format, should call (360) 704-5211.
+
+More than Just a Paycheck!Employee benefits are not just about the kind of services you get, they are also about how much you may have to pay out of pocket. Washington State offers one of the most competitive benefits packages in the nation.We understand that your life revolves around more than just your career. Like everyone, your first priority is ensuring that you and your family will maintain health and financial security. That's why choice is a key component of our benefits package. We have a selection of health and retirement plans, paid leave, staff training and other compensation benefits that you can mix and match to meet your current and future needs.Read about our benefits:The following information describes typical benefits available for full-time employees who are expected to work more than six months. Actual benefits may vary by appointment type or be prorated for other than full-time work (e.g. part-time); view the job posting for benefits details for job types other than full-time.Note:  If the position offers benefits which differ from the following, the job posting should include the specific benefits. Insurance BenefitsEmployees and their families are covered by medical (including vision), dental and basic life insurance. There are multiple medical plans with affordable monthly premiums that offer coverage throughout the state.Staff are eligible to enroll each year in a medical flexible spending account which enables them to use tax-deferred dollars toward their health care expenses. Employees are also covered by basic life and long-term disability insurance, with the option to purchase additional coverage amounts.To view premium rates, coverage choice in your area and how to enroll, please visit the Public Employees Benefits Board (PEBB) website. The Washington Wellness program from the Health Care Authority works with PEBB to support our workplace wellness programs.Dependent care assistance allows the employee to save pre-tax dollars for a child or elder care expenses.Other insurance coverage for auto, boat, home, and renter insurance is available through payroll deduction.The Washington State Employee Assistance Program promotes the health and well-being of employees.Retirement and Deferred CompensationState Employees are members of the Washington Public Employees' Retirement System (PERS).  New employees have the option of two employer contributed retirement programs.  For additional information, check out the Department of Retirement Systems' web site.Employees also have the ability to participate in the Deferred Compensation Program (DCP).  This is a supplemental retirement savings program (similar to an IRA) that allows you control over the amount of pre-tax salary dollars you defer as well as the flexibility to choose between multiple investment options.Social SecurityAll state employees are covered by the federal Social Security and Medicare systems. The state and the employee pay an equal amount into the system.Public Service Loan ForgivenessIf you are employed by a government or not-for-profit organization, and meet the qualifying criteria, you may be eligible to receive student loan forgiveness under the Public Service Loan Forgiveness Program.Holidays Full-time and part-time employees are entitled to paid holidays and one paid personal holiday per calendar year.Note: Employees who are members of certain Unions may be entitled to additional personal leave day(s), please refer to position specific Collective Bargaining Agreements for more information.Full-time employees who work full monthly schedules qualify for holiday compensation if they are employed before the holiday and are in pay status for at least 80 nonovertime hours during the month of the holiday; or for the entire work shift preceding the holiday. Part-time employees who are in pay status during the month of the holiday qualify for the holiday on a pro-rata basis. Compensation for holidays (including personal holiday) will be proportionate to the number of hours in pay status in the month to that required for full-time employment, excluding all holiday hours. Pay status includes hours worked and time on paid leave.Sick Leave Full-time employees earn eight hours of sick leave per month. Overtime eligible employees who are in pay status for less than 80 hours per month, earn a monthly proportionate to the number of hours in pay status, in the month to that required for full-time employment. Overtime exempt employees who are in pay status for less than 80 hours per month do not earn a monthly accrual of sick leave. Sick leave accruals for part-time employees will be proportionate to the number of hours in pay status, in the month to that required for full-time employment. Pay status includes hours worked, time on paid leave and paid holiday.Vacation (Annual Leave)Full-time employees accrue vacation leave at the rates specified in WAC 357-31-165(1) or the applicable collective bargaining agreement (CBA). Full-time employees who are in pay status for less than 80 nonovertime hours in a month do not earn a monthly accrual of vacation leave.Part-time employees accrue vacation leave hours in accordance with WAC 357-31-165(1) or the applicable collective bargaining agreement (CBA) on a pro rata basis. Vacation leave accrual will be proportionate to the number of hours in pay status, in the month to that required for full-time employment.Pay status includes hours worked, time on paid leave and paid holiday.As provided in WAC 357-58-175, an employer may authorize a lump-sum accrual of vacation leave or accelerate the vacation leave accrual rate to support the recruitment and/or retention of a candidate or employee for a Washington Management Service position. Vacation leave accrual rates may only be accelerated using the rates established WAC 357-31-165.  Note: Most agencies follow the civil service rules covering leave and holidays for exempt employees even though there is no requirement for them to do so. However, agencies are required to adhere to the applicable RCWs pertaining holidays and leave.Military LeaveWashington State supports members of the armed forces with 21 days paid military leave per year.Bereavement Leave Most employees whose family member or household member dies, or for loss of pregnancy, are entitled to five (5) days of paid bereavement leave. In addition, the employer may approve other available leave types for the purpose of bereavement leave.Additional LeaveLeave SharingParental LeaveFamily and Medical Leave Act (FMLA)Leave Without PayPlease visit the State HR Website for more detailed information regarding benefits.Updated 01-07-2026
+
+
+                            
+    
+        
+
+01
+
+    
+
+    
+        Where did you hear about this job opening?
+        
+        
+        
+    
+
+
+    
+        
+
+02
+
+    
+
+    
+        Do you have a family member or relative currently employed at the Office of the Secretary of State? 
+*Relative includes: parent, child, spouse, domestic partner, brother, sister, grandparent, aunt, uncle, cousin, niece, any 'step' relations within the preceding categories, any in-law relations within the preceding categories and any others living in the employee's household*
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+03
+
+    
+
+    
+        If you answered yes in the previous question, what is the name of your family member/relative?
+        
+        
+        
+    
+
+
+    
+        
+
+04
+
+    
+
+    
+        How many years of experience do you have of progressive responsibility in program management to include budget development, stakeholder engagement, and workforce planning?
+        
+        
+                More than 8 years of experience
+                More than 6 years of experience, but less than 8 years
+                More than 4 years of experience, but less than 6 years
+                Less than 4 years of experience
+                I do not have this experience, but I am willing to learn
+        
+    
+
+
+    
+        
+
+05
+
+    
+
+    
+        Please describe your experience in reference to question #4 including where and when you gained the experience and the tasks and skills you obtained to gain this experience.
+If you do not have this experience, please write "N/A" in the box below.
+        
+        
+        
+    
+
+
+    
+        
+
+06
+
+    
+
+    
+        Do you have a Bachelor's degree in a closely related field?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+07
+
+    
+
+    
+        Please describe your experience with strategic planning and budget development/management?
+        
+        
+        
+    
+
+
+    
+        
+
+08
+
+    
+
+    
+        Please describe your management experience, including personnel management in an elections environment or elections-related field.
+        
+        
+        
+    
+
+
+    
+        
+
+09
+
+    
+
+    
+        Do you have knowledge of federal and Washington State election laws?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+10
+
+    
+
+    
+        Do you have the ability to efficiently use a personal computer and applicable software to successfully perform the essential job functions of the position?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+11
+
+    
+
+    
+        This position has a requirement to be physically in the office which is located in Tumwater, Washington.
+Are you able to do this? Please answer YES or NO.
+        
+        
+                Yes
+                No
+        
+    
+
+
+                                
+                                     Required Question
+                                
+                        

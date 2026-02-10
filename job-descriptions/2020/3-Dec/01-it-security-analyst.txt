@@ -1,0 +1,158 @@
+=== JOB DETAILS ===
+
+SALARY: $61,972.00 - $100,892.00 Annually
+LOCATION: Wake County, NC
+JOB TYPE: Time-Limited Full-Time
+JOB NUMBER: 65032378 - 12022020
+DEPARTMENT: State Board of Elections
+DIVISION: State Board of Elections
+OPENING DATE: 12/02/2020
+CLOSING DATE: 12/17/2020 5:00 PM Eastern
+POSITION NUMBER: 65032378
+SECTION: Information Technology
+SALARY GRADE: IT06
+
+=== JOB DESCRIPTION ===
+
+***This position is grant funded and time limited up to 3 years.  Additional years of service is contingent upon fund availability and management discretion***
+
+Max Salary: Up to  $83,232  (subject to education and qualifications)
+
+Description of Agency:
+
+The State Board of Elections oversees the enforcement of federal and state laws, rules, and procedures governing the conduct of elections, voter registration, and campaign finance activities in North Carolina. 
+
+
+
+
+Primary Purpose of the Position: 
+
+
+
+
+The Information Technology Security Analyst is responsible for the monitoring and review of agency security systems and associated data, and ensuring that the configuration of agency systems, applications and networks are in compliance with agency security policies.
+
+This position requires a technical background, with problem solving, critical thinking, documentation skills, and the ability to communicate complex topics clearly and effectively.
+
+ 
+
+The primary goal of this position is to provide security support, monitoring of security solutions, logging of security events and support additional security systems and solutions on a day to day basis. From time to time, this position is also required to identify, plan, document, execute, and report on continuous improvement activities related to security and other tasks as assigned.
+
+ 
+
+Successful candidates will demonstrate the desire and ability to learn skills to grow into activities required for the position where the candidate does not currently possess such skills. 
+
+This position will be subject to a background check. DHS carries all security clearances for SBE. This position may require the receipt and ongoing maintenance of a security clearance.
+
+ 
+
+Description of Duties:
+
+
+ 
+
+Operational Activities 
+
+Day-to-day review of security event and log information for anomalies requiring investigation
+Providing assistance to agency security and IT staff with security system updates and tuning
+Operation and report generation from security solutions within the agency environment
+As appropriate, tracking for report findings requiring remediation activities
+Addresses security related cases and tickets both as assigned and proactively
+As tasked, assists with implementation and configuration of agency security solutions
+As tasked, assists with security incident response
+As tasked, assists agency security and IT staff with troubleshooting related to security solutions
+
+ 
+
+Business Activities 
+
+Actively contributes to and helps maintain the agency Information Security run book and associated documentation
+Develops implements and maintains the technical methods, procedures and processes associated with securing agency systems, applications, and networks in compliance with agency security policies
+Interfaces with vendor support to troubleshoot and maintain the functionality of vendor provided solutions
+As tasked, works with agency IT, development, and other personnel to consultatively provide technical security advice and best practice recommendations, also provides education and guidance on agency security practices and policy.
+As tasked, facilitates security focused code review of internally developed applications
+
+ 
+
+Policy & Compliance Activities 
+
+Proactively works with agency IT personnel to identify and remediate security risks
+Embraces technological change while seeking to ensure that it is deployed in a secure manner
+As tasked, provides technical support for both internal and external security audits, security-related audit issue tracking, and risk assessments
+As tasked, documents, and reports on internal investigations of possible security violations
+As tasked, and where appropriate, conducts analysis and creates reports such as those relating to vulnerability management, tracks and assists with remediation where necessary
+As tasked, conducts access and security activity reviews (internal and external), reports findings, and assists with remediation where appropriate
+
+ 
+
+Initiative & Continuous Improvement 
+
+Self-manages security-related projects and initiatives and takes ownership of security tickets through resolution
+Maintains a regimen of self-study to stay current on the latest security exploits, technologies, and news to protect agency networks, applications and systems from current and future attacks and exploits
+Follows company policy regarding internal controls as well as complies with agency policies to ensure that the employee and the company act legally and with the highest standards of ethics and integrity
+
+Required
+
+1+ years of technical IT experience in systems, networks, and applications
+
+At least basic operational experience in both Windows and Linux operating systems
+
+Ability to maintain scheduled regimen of security log review and reporting
+
+Ability to use ticket and case management systems for tracking information
+
+Ability to create and update documentation for processes and procedures
+
+Must be self-directed, have excellent initiative and organizational skills
+
+Excellent communication and prioritization skills
+
+Exhibit a strong ability to handle multiple demands with a sense of urgency, drive, and energy
+
+Works well in a fast-paced environment with the ability to deliver on time
+
+Proven track record of meeting commitments with the highest standards of ethics and integrity
+
+Flexibility and adaptability to changing needs and demands dictated by business and IT requirements
+
+Minimal travel may be required
+
+ 
+
+Suggested
+
+2+ years of experience in IT or security-related positions
+
+Experience in a security-related position
+
+Understanding of scripting and programming
+
+Understanding of risk assessment
+
+Familiarity with Information Security technologies including hardware and software for servers, network, applications (including web and mobile), security and messaging platforms; such as, VPN, Firewalls, IDS/IPS, Vulnerability Management, Penetration Testing, MFA/SSO, SAML, SSL/TLS (key use and management), Directory Services, Threat Detection & Mitigation, Antivirus/EDR, Proxy and Filtering, and SIEM/Log Collection and how these systems apply operationally to information technology systems
+
+Familiarity with incident response and related forensics and data preservation processes
+
+Familiarity with identity and access management concepts, applications, in both on premise and cloud-based uses, especially Microsoft Windows Active Directory (security, groups, and role membership)
+
+Familiarity with security frameworks such as NIST, COBIT, RMF, CMMC or others
+
+Experience working in a large-scale enterprise environment
+
+ 
+
+ 
+
+ 
+
+Bachelor s degree in Computer Science, Computer Engineering or an Information Security degree or closely related field from an appropriately accredited institution and one year experience in IT Security; or Bachelor s degree from an appropriately accredited institution and two years of experience in IT Security or closely related area; or Associate s degree in Information Systems Security from an appropriately accredited institution and two years of experience in IT Security or closely related area; or an equivalent combination of education and experience.
+
+I understand that the budgeted salary for this position is limited to $83,232. If offered this position, the salary offered will be within the posted recruitment range.
+ Yes
+
+ No
+
+
+If you have a Bachelor's degree or higher, please indicate your major(s). If you do not have a Bachelor's degree, type "N/A."
+
+If you answered "yes" to the previous question, please indicate the Security Certifications you hold.
