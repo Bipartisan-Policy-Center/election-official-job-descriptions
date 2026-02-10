@@ -80,16 +80,15 @@ for file in downloaded_files:
     new_df = pd.concat([new_df, week_jobs], ignore_index=True)
 
 
+# For initial deduplication, use simple description-based fingerprinting
+# since new_df doesn't have job_title, employer, state yet
 def letters_only(x):
-    # reduce string to just lower-case letters, for matching purposes
-    return ''.join(filter(str.isalpha, x)).lower()
+    return ''.join(filter(str.isalpha, str(x))).lower()
 
-
-# Apply the letters_only() function to fingerprint the 'description' column in both DataFrames
 old_fingerprint = old_df['description'].apply(letters_only)
 new_fingerprint = new_df['description'].apply(letters_only)
 
-# Find rows in new_df where the fingerprinted description is not present in old_df
+# Find rows in new_df where fingerprint not in old_df
 new_df = new_df[~new_fingerprint.isin(old_fingerprint)]
 
 if len(new_df) == 0:
@@ -104,11 +103,18 @@ if len(new_df) == 0:
     print("No new jobs found after postprocessing.")
     sys.exit(0)
 
-new_df = process_listings.add_gpt_fields(new_df)
+new_df = process_listings.parse_and_classify_with_claude(new_df)
+
+# Scrape full job descriptions from links
+import scrape_full_descriptions
+new_df = scrape_full_descriptions.scrape_new_jobs(new_df)
+
 new_df = process_listings.handle_pay_basis(new_df)
-new_df = process_listings.classify_job(new_df)
 
 job_df = pd.concat([old_df, new_df], ignore_index=True)
+
+# Mark duplicates for research (using improved fingerprinting)
+job_df = process_listings.mark_duplicates(job_df)
 
 job_df = process_listings.process_columns(job_df)
 

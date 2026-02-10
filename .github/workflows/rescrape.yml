@@ -28,7 +28,7 @@ jobs:
       - name: Download new pages
         run: python elw_scraper/add_new_pages.py
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

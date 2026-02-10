@@ -1,16 +1,16 @@
-import os, sys, re, openai, timeout_decorator, datetime, gspread
+import os, sys, re, datetime, gspread, json
 from bs4 import BeautifulSoup
 import pandas as pd
 from urllib.parse import urlparse
 from tqdm import tqdm
-from scrapeghost import SchemaScraper
+import anthropic
 
 TQDM_WIDTH = 140
 
 
 # this line is not necessary, but for the code to run you will need
-# to set the OPENAI_API_KEY environment variable to your OpenAI API key
-# openai.api_key = os.environ["OPENAI_API_KEY"]
+# to set the ANTHROPIC_API_KEY environment variable to your Anthropic API key
+# os.environ["ANTHROPIC_API_KEY"]
 
 def disable_console_printing():
     sys.stdout = open(os.devnull, 'w')
@@ -107,40 +107,86 @@ def postprocess(job_df):
     return job_df
 
 
-def add_gpt_fields(job_df, starting_row=0): 
-    # starting row is bc sometimes it gets stuck and you need to start from whatever row you left off
+def parse_and_classify_with_claude(job_df, starting_row=0):
+    """Extract structured data and classify jobs in single Claude API call."""
     disable_console_printing()
-    schema = {
-            "job_title": "string",
-            "employer": "string",
-            "state_full_name": "string",
-            "salary_low_end": "float",
-            "salary_high_end": "float",
-            "pay_basis": "yearly, monthly, hourly, etc.",
-                    }
 
-    scrape_job_description = SchemaScraper(schema=schema, max_cost=2)
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-    # add new columns from schema
-    # job_df[list(schema.keys())] = None
+    # Initialize columns that will be added
+    new_columns = ['job_title', 'employer', 'state', 'salary_low_end',
+                   'salary_high_end', 'pay_basis', 'classification_experimental']
+    for col in new_columns:
+        if col not in job_df.columns:
+            job_df[col] = None
 
     extra_rows = []
-    for row in tqdm(job_df.loc[starting_row:].index, ncols=TQDM_WIDTH, desc='parsing job descriptions with GPT-3.5 and scrapeghost'):
+    for row in tqdm(job_df.loc[starting_row:].index, ncols=TQDM_WIDTH, desc='parsing and classifying with Claude Haiku 4.5'):
         description = job_df.loc[row]['description']
-        response = scrape_job_description(description)
-        
-        if isinstance(response.data, list): # sometimes (rarely), it will be a list because multiple jobs are in one paragraph
-            extra_rows += response.data
-        else: # vast majority of rows
-            # data = {f'{key}{suffix}': value for key, value in response.data.items()}
-            job_df.loc[row, response.data.keys()] = response.data.values()
+
+        try:
+            response = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=1024,
+                messages=[{
+                    "role": "user",
+                    "content": f"""Extract structured data from this job posting.
+
+Classification guidelines:
+- election_official: Works in a public elections office
+- top_election_official: Directs entire elections office, typically salary >$100k, reports to board/secretary of state
+- not_election_official: Non-profit or private company
+
+Job posting:
+{description}"""
+                }],
+                output_config={
+                    "format": {
+                        "type": "json_schema",
+                        "schema": {
+                            "type": "object",
+                            "properties": {
+                                "job_title": {"type": "string"},
+                                "employer": {"type": "string"},
+                                "state": {"type": "string"},
+                                "salary_low_end": {"type": ["number", "null"]},
+                                "salary_high_end": {"type": ["number", "null"]},
+                                "pay_basis": {
+                                    "type": "string",
+                                    "enum": ["yearly", "monthly", "hourly", "biweekly", "semi-monthly", "unknown"]
+                                },
+                                "classification": {
+                                    "type": "string",
+                                    "enum": ["election_official", "top_election_official", "not_election_official"]
+                                }
+                            },
+                            "required": ["job_title", "employer", "state", "classification", "pay_basis"],
+                            "additionalProperties": False
+                        }
+                    }
+                }
+            )
+
+            data = json.loads(response.content[0].text)
+
+            if isinstance(data, list):  # Multiple jobs in one paragraph
+                extra_rows += data
+            else:  # Normal case
+                # Map classification to expected column name
+                data['classification_experimental'] = data.pop('classification')
+                # Assign each field individually
+                for key, value in data.items():
+                    job_df.at[row, key] = value
+
+        except Exception as e:
+            print(f"Failed to parse row {row}: {e}")
+            continue
 
     if len(extra_rows) > 0:
         extra_df = pd.DataFrame(extra_rows)
-        extra_df.columns = list(schema.keys())
+        # Rename classification column for extra rows too
+        extra_df = extra_df.rename(columns={'classification': 'classification_experimental'})
         job_df = pd.concat([job_df, extra_df])
-
-    job_df = job_df.rename(columns={'state_full_name': 'state'})
 
     reenable_console_printing()
     return job_df
@@ -176,55 +222,29 @@ def handle_pay_basis(job_df):
 
     return job_df
 
-def get_next_message(messages):
-    response = openai.chat.completions.create(
-        model="gpt-3.5-turbo",
-        messages=messages,
-        seed=1,
-        temperature=0)
-    return response.choices[0].message.content
 
-@timeout_decorator.timeout(5)
-def job_description_analysis(system_prompt, job_description):
-    messages = [{
-        "role": "system",
-        "content": system_prompt
-    }, {
-        "role": "user",
-        "content": job_description
-    }]
+def letters_only(x):
+    """Reduce string to just lower-case letters."""
+    return ''.join(filter(str.isalpha, str(x))).lower()
 
-    return get_next_message(messages)
+def create_job_fingerprint(row):
+    """Create composite fingerprint from multiple fields."""
+    title = letters_only(row.get('job_title', ''))
+    employer = letters_only(row.get('employer', ''))
+    state = letters_only(row.get('state', ''))
+    desc_preview = letters_only(row.get('description', ''))[:500]
+    return f"{title}|{employer}|{state}|{desc_preview}"
 
+def mark_duplicates(df):
+    """Mark duplicate jobs based on improved fingerprinting."""
+    # Generate fingerprints for all rows
+    fingerprints = df.apply(create_job_fingerprint, axis=1)
 
-def classify_job(job_df, starting_row=0):
-    # Use GPT-3.5 to determine whether a job description appears to be for
-    # an election official, a top election official, or other
+    # Mark duplicates (keeps first occurrence as False, marks subsequent as True)
+    df['is_duplicate_job'] = fingerprints.duplicated()
 
+    return df
 
-    system_prompt = """
-    You are to be given a job description.
-    - If the job appears to be in an office responsible for public elections, you shall say "election_official".
-    - If the job appears to be for the top official in an office responsible for public elections, you shall say "top_election_official". A description for the top elections official typically indicates that they direct the operations for the entire elections office, not just one piece of it. They often report to a board, or to the secretary of state, or to a county director. They typically have a salary above 100,000.
-    - If the job appears to be for an office or company with no election-related duties, such as a non-profit or for-profit organization, you shall say "not_election_official".
-
-    You are to return NO OTHER ANSWER BESIDES `election_official`, `top_election_official` or `not_election_official`.
-    """
-
-    # for i, row in tqdm(job_df.loc[starting_row:].iterrows(), total=job_df.loc[starting_row:].shape[0]):
-    for row in tqdm(job_df.loc[starting_row:].index, ncols=TQDM_WIDTH, desc='classifying job descriptions with GPT-3.5'):
-        attempts = 0
-        while attempts < 100:
-            try:
-                is_top = job_description_analysis(system_prompt, job_df.loc[row]['description'])
-                job_df.loc[row, 'classification_experimental'] = is_top
-                break
-
-            except timeout_decorator.TimeoutError:
-                # Handle the timeout (API call took more than 5 seconds) here
-                attempts += 1
-
-    return job_df
 
 def process_columns(job_df):
     job_df = job_df.sort_values(['year', 'date', 'description'],
@@ -240,7 +260,11 @@ def process_columns(job_df):
                 'salary_high_end',
                 'salary_mean',
                 'pay_basis',
-                'classification_experimental']
+                'classification_experimental',
+                'full_text_preview',
+                'full_text_length',
+                'full_text_scraped_date',
+                'is_duplicate_job']
     
     job_df = job_df[col_order]
     job_df = job_df.astype({'year': 'int', 'salary_low_end': 'float', 'salary_high_end': 'float', 'salary_mean': 'float'})
@@ -276,7 +300,11 @@ def upload(df):
                 120,  # salary_high_end
                 120,  # salary_mean
                 100,  # pay_basis
-                200]  # classification
+                200,  # classification
+                300,  # full_text_preview
+                80,   # full_text_length
+                100,  # full_text_scraped_date
+                80]   # is_duplicate_job
 
         width_requests = [{
                         "updateDimensionProperties": {
@@ -310,13 +338,13 @@ def main():
     # to rebuild the entire database
     job_df = build_from_html()
     job_df = postprocess(job_df)
-    job_df = add_gpt_fields(job_df)
+    job_df = parse_and_classify_with_claude(job_df)
     job_df = handle_pay_basis(job_df)
-    job_df = classify_job(job_df)
+    job_df = mark_duplicates(job_df)
     job_df = process_columns(job_df)
 
     job_df.to_csv('dataset.csv', index=False)
-    
+
     upload(job_df)
 
 if __name__ == "__main__":
