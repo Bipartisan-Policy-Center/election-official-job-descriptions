@@ -77,6 +77,9 @@ def main():
     rows_succeeded = 0
     rows_failed = 0
 
+    # Track job numbers per date (reset counter for each date)
+    date_counters = {}
+
     for idx in range(start_row, total_rows):
         row = df.iloc[idx]
 
@@ -93,14 +96,27 @@ def main():
             rows_processed += 1
             continue
 
+        # Get job number for this date (1-based)
+        date_key = f"{row['year']}-{row['date']}"
+        if date_key not in date_counters:
+            date_counters[date_key] = 1
+        else:
+            date_counters[date_key] += 1
+        job_number = date_counters[date_key]
+
         # Scrape with retry logic
         text, error = scrape_full_descriptions.scrape_with_retry(url)
 
         if text is not None and len(text) > 0:
             # Save to file
             try:
+                # Get job title for slug
+                job_title = row.get('job_title', '')
+                if pd.isna(job_title):
+                    job_title = ''
+
                 file_path = scrape_full_descriptions.save_full_description(
-                    text, row['year'], row['date'], idx
+                    text, row['year'], row['date'], job_number, job_title
                 )
 
                 # Update dataframe

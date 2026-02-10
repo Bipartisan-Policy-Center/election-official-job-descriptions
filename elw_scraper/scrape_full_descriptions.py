@@ -1,6 +1,7 @@
 import os
 import time
 import logging
+import re
 from urllib.parse import urlparse
 from urllib.robotparser import RobotFileParser
 import trafilatura
@@ -134,7 +135,44 @@ def scrape_with_retry(url, max_retries=MAX_RETRIES):
     return None, "Max retries exceeded"
 
 
-def save_full_description(text, year, date, row_index):
+def create_slug(text, max_length=50):
+    """
+    Create a URL-friendly slug from text.
+
+    Args:
+        text: The text to slugify
+        max_length: Maximum length of the slug
+
+    Returns:
+        str: A slugified version of the text
+    """
+    if not text or text == '' or str(text).lower() == 'nan':
+        return 'untitled'
+
+    # Convert to lowercase and string
+    slug = str(text).lower()
+
+    # Replace spaces and underscores with hyphens
+    slug = re.sub(r'[\s_]+', '-', slug)
+
+    # Remove any character that isn't alphanumeric or hyphen
+    slug = re.sub(r'[^a-z0-9-]', '', slug)
+
+    # Remove multiple consecutive hyphens
+    slug = re.sub(r'-+', '-', slug)
+
+    # Trim hyphens from start and end
+    slug = slug.strip('-')
+
+    # Truncate to max length
+    if len(slug) > max_length:
+        slug = slug[:max_length].rstrip('-')
+
+    # Return 'untitled' if slug is empty
+    return slug if slug else 'untitled'
+
+
+def save_full_description(text, year, date, job_number, job_title=''):
     """
     Save full description text to filesystem.
 
@@ -142,7 +180,8 @@ def save_full_description(text, year, date, row_index):
         text: The full text content
         year: Year (e.g., "2024")
         date: Date in MM-DD format (e.g., "01-05")
-        row_index: The row index in the CSV (0-based)
+        job_number: The job number (1-based, 01-99)
+        job_title: The job title for the slug
 
     Returns:
         str: Path to the saved file
@@ -151,8 +190,9 @@ def save_full_description(text, year, date, row_index):
     dir_path = os.path.join('job-descriptions', str(year), date)
     os.makedirs(dir_path, exist_ok=True)
 
-    # Create filename: row-XXXX.txt
-    filename = f"row-{row_index:04d}.txt"
+    # Create filename: NN-job-title-slug.txt
+    title_slug = create_slug(job_title)
+    filename = f"{job_number:02d}-{title_slug}.txt"
     file_path = os.path.join(dir_path, filename)
 
     # Save the text
@@ -167,7 +207,7 @@ def scrape_new_jobs(df):
     Scrape full descriptions for new jobs in a dataframe.
 
     Args:
-        df: pandas DataFrame with 'link', 'year', 'date' columns
+        df: pandas DataFrame with 'link', 'year', 'date', 'job_title' columns
 
     Returns:
         DataFrame with additional columns:
@@ -188,6 +228,9 @@ def scrape_new_jobs(df):
     if len(df) == 0:
         return df
 
+    # Track job numbers per date (reset counter for each date)
+    date_counters = {}
+
     for idx in tqdm(df.index, ncols=TQDM_WIDTH, desc='scraping full job descriptions'):
         row = df.loc[idx]
         url = row['link']
@@ -196,12 +239,26 @@ def scrape_new_jobs(df):
         if pd.isna(url) or url == '' or not url.startswith('http'):
             continue
 
+        # Get job number for this date (1-based)
+        date_key = f"{row['year']}-{row['date']}"
+        if date_key not in date_counters:
+            date_counters[date_key] = 1
+        else:
+            date_counters[date_key] += 1
+        job_number = date_counters[date_key]
+
         # Scrape with retry logic
         text, error = scrape_with_retry(url)
 
         if text is not None and len(text) > 0:
+            # Get job title for slug
+            job_title = row.get('job_title', '')
+            if pd.isna(job_title):
+                job_title = ''
+
             # Save to file
-            file_path = save_full_description(text, row['year'], row['date'], idx)
+            file_path = save_full_description(text, row['year'], row['date'],
+                                             job_number, job_title)
 
             # Update dataframe
             df.at[idx, 'full_text_preview'] = text[:500]
