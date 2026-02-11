@@ -264,9 +264,12 @@ def process_columns(job_df):
                 'full_text_preview',
                 'full_text_length',
                 'full_text_scraped_date',
+                'full_text_file',
                 'is_duplicate_job']
-    
-    job_df = job_df[col_order]
+
+    # Only include columns that exist in the dataframe
+    existing_cols = [col for col in col_order if col in job_df.columns]
+    job_df = job_df[existing_cols]
     job_df = job_df.astype({'year': 'int', 'salary_low_end': 'float', 'salary_high_end': 'float', 'salary_mean': 'float'})
     job_df = job_df.reset_index(drop=True)
 
@@ -288,23 +291,29 @@ def upload(df):
         # upload new data
         worksheet.update([df.fillna("").columns.values.tolist()] + df.fillna("").values.tolist())
 
-        # set column widths
-        widths = [50,   # year
-                50,   # date
-                150,  # description
-                50,   # link
-                150,  # job_title
-                150,  # employer
-                150,  # state
-                120,  # salary_low_end
-                120,  # salary_high_end
-                120,  # salary_mean
-                100,  # pay_basis
-                200,  # classification
-                300,  # full_text_preview
-                80,   # full_text_length
-                100,  # full_text_scraped_date
-                80]   # is_duplicate_job
+        # set column widths - map column names to widths
+        width_map = {
+            'year': 50,
+            'date': 50,
+            'description': 150,
+            'link': 50,
+            'job_title': 150,
+            'employer': 150,
+            'state': 150,
+            'salary_low_end': 120,
+            'salary_high_end': 120,
+            'salary_mean': 120,
+            'pay_basis': 100,
+            'classification_experimental': 200,
+            'full_text_preview': 300,
+            'full_text_length': 80,
+            'full_text_scraped_date': 100,
+            'full_text_file': 250,
+            'is_duplicate_job': 80
+        }
+
+        # Only set widths for columns that exist in dataframe
+        widths = [width_map.get(col, 100) for col in df.columns]
 
         width_requests = [{
                         "updateDimensionProperties": {
@@ -330,6 +339,54 @@ def upload(df):
         # format the sheet
         worksheet.format('1:1', {'textFormat': {'bold': True}}) # bold header row
         worksheet.format('H:J', {'numberFormat': {'type': "NUMBER", 'pattern': "$#,##0.00"}}) # format salary columns as currency
+
+        # Add hyperlinks to full_text_file column
+        if 'full_text_file' in df.columns:
+            col_index = df.columns.get_loc('full_text_file')
+            col_number = col_index + 1  # 1-indexed for col_values
+
+            BASE_URL = "https://github.com/Bipartisan-Policy-Center/election-official-job-descriptions/blob/main/"
+
+            values = worksheet.col_values(col_number)
+
+            requests = []
+
+            # Skip header row
+            for i, path in enumerate(values[1:], start=1):
+                if not path.strip():
+                    continue
+
+                url = BASE_URL + path
+
+                requests.append({
+                    "updateCells": {
+                        "rows": [{
+                            "values": [{
+                                "userEnteredValue": {
+                                    "stringValue": path
+                                },
+                                "textFormatRuns": [{
+                                    "startIndex": 0,
+                                    "format": {
+                                        "link": {
+                                            "uri": url
+                                        }
+                                    }
+                                }]
+                            }]
+                        }],
+                        "fields": "userEnteredValue,textFormatRuns",
+                        "start": {
+                            "sheetId": worksheet.id,
+                            "rowIndex": i,
+                            "columnIndex": col_index
+                        }
+                    }
+                })
+
+            if requests:
+                sht1.batch_update({"requests": requests})
+                print(f"✓ Added hyperlinks to {len(requests)} cells in full_text_file column")
     else:
         print("new data is not longer than old data, not updating google sheet")
 
