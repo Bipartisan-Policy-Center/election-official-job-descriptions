@@ -19,6 +19,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 17,,,,,,,,,,False,,,,,,,,not_election_official,low,,,,,low
 18,Elections Administrator,Lubbock County,TX,95000.0,105000.0,yearly,ops|vr|legal|it_cyber|pm|personnel|budget,data,budget|ops|legal|vr|pm|personnel|data|it_cyber,True,bachelor,"Public Administration, Political Science, Business Administration or related field",5.0,False,Public Information Act Basic Training,Certified Elections/Registration Administrator Certification (CERA)|Registered Election Official (REO) Certification,,top_election_official,high,False,True,,,high
 19,Elections Division Manager,Washington County,OR,121647.84,155217.0,yearly,,,,False,,,,,,,,top_election_official,high,,,,400000.0,high
+20,Elections Project Manager,Salt Lake County,UT,,,,ops|pm|personnel|data,,ops|pm|personnel|data,False,bachelor,"Public Administration, Business Administration, or related field",4.0,True,,,,election_official,high,False,,,,high
 21,,UCLA,CA,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 22,Community Outreach Coordinator,Dallas County,TX,5883.0,47343.0,yearly,comms,data|intergovt,comms|intergovt|data|ops,False,,,,,,,,not_election_official,low,,,,,medium
 23,Election Services Manager,Department of Elections,VA,,130000.0,yearly,legal|vr|ops|data|personnel|comms|intergovt|budget,legal,budget|legal|intergovt|vr|data|comms|ops|personnel,False,,,,,,,,top_election_official,high,False,True,,,high
@@ -36,6 +37,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 35,"Departmental Technician 7-E9 - Filings, Disclosure, and Compliance","State of Michigan, Department of State, Bureau of Elections",MI,46904.0,64438.4,yearly,ops|data,,ops|vr|data|personnel,False,high_school,,1.0,True,,,,election_official,high,,True,hybrid,,high
 36,Elections Education Supervisor (Auditor - Supervisor I),City of Portland,OR,97505.28,126683.0,yearly,ops|comms|legal|personnel|budget|pm|data,ops|legal|comms|personnel,ops|vr|comms|legal|budget|personnel|pm|data|gis,False,high_school,,2.0,True,,,,election_official,high,False,True,hybrid,,high
 37,Departmental Specialist 13 - Security & Standards Section - Emerging Topics Specialist,State of Michigan - Department of State - Bureau of Elections,MI,64604.8,96428.8,yearly,ops|intergovt|legal,,ops|intergovt|legal|pm|personnel|data,True,bachelor,any major,4.0,True,,,,election_official,high,False,True,hybrid,,high
+38,Election Program Supervisor,Clark County,NV,30.38,44.84,hourly,ops|personnel|budget|comms,,ops|personnel|budget|comms|intergovt|data|pm,False,associate,"Business, Communications, or closely related field",2.0,True,Valid Nevada Class C Driver's License,,,election_official,high,False,True,,,high
 39,Election Specialist,Franklin County (NC),NC,38102.0,40007.0,yearly,ops|vr|data|personnel,,ops|vr|legal|data|personnel|comms|intergovt,False,high_school,,,,Notary Public Certification|NC Elections Administrator certificate,,,election_official,high,,True,,,high
 40,Elections Administrative Coordinator,Buncombe County Elections Services Department,NC,58450.0,72977.0,yearly,,,ops|personnel|comms,False,,,,,,,,election_official,high,,,,,high
 41,Organizer,Common Cause,MN,63860.0,80340.0,yearly,,,,False,,,,,,,,not_election_official,high,,True,on_site,,high
@@ -105,6 +107,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 105,Assistant Registrar of Voters,County of Santa Clara,CA,194184.52,249180.63,yearly,ops|legal|it_cyber|budget|personnel,vr|comms|intergovt,budget|ops|comms|legal|intergovt|vr|personnel|it_cyber,True,bachelor,public or business administration or related field,3.0,True,,,,top_election_official,high,False,True,on_site,,high
 106,Automatic Voter Registration Policy Specialist,Oregon Secretary of State,OR,6437.0,9889.0,monthly,vr|legal|data,,vr|legal|data|ops|intergovt|comms|personnel,False,,,,,,,,election_official,high,,,,,high
 107,Clerk-Recorder/Registrar of Voters,"County of Nevada, California",CA,188453.4,188453.4,yearly,ops|personnel|budget|comms|intergovt,,ops|personnel|budget|comms|intergovt,False,,,,,,,,top_election_official,high,True,,,,high
+108,Elections Assistant,Clallam County,WA,24.36,29.68,hourly,ops|vr|data|personnel|comms,,ops|vr|legal|it_cyber|data|personnel|comms|intergovt,False,high_school,,,,Election Administrator,,,election_official,high,False,True,on_site,,high
 109,,State of Arizona,AZ,,,,,,,False,,,,,,,,not_election_official,high,False,,hybrid,,low
 110,"VOTER REGISTRATION MANAGER, Elections (Project Employee)",Tarrant County,TX,74431.76,81875.04,yearly,vr|personnel|data|budget,bilingual,budget|bilingual|vr|data|personnel,False,high_school,,2.0,True,,,,election_official,high,False,False,on_site,,high
 111,DEPUTY REGISTRAR OF VOTERS,Washoe County,NV,97406.4,126630.4,yearly,ops|legal|personnel,vr|data|pm|budget|comms|intergovt,ops|vr|legal|it_cyber|data|pm|personnel|budget|comms|intergovt,False,bachelor,"public administration, business administration or closely related field",2.0,True,Valid Driver's License|Nevada Registered Voter Status,,,election_official,high,False,True,on_site,,high
@@ -127,9 +130,12 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 128,Director of Elections Information Technology (Division Director - Technology),King County Elections,WA,172757.31,218980.11,yearly,it_cyber|pm|personnel|ops,gis|budget|intergovt|data,it_cyber|gis|pm|personnel|ops|vr|legal|budget|intergovt|data,True,,,,,,,,top_election_official,high,False,True,hybrid,1400000.0,high
 129,Elections Director,New Hanover County Board of Elections,NC,79291.0,134795.0,yearly,ops|vr|legal|pm|personnel|budget|comms|intergovt|data,gis,budget|legal|intergovt|vr|gis|pm|comms|data|ops|personnel,False,bachelor,Political Science or related field,7.0,True,,NC Election Administrator|CERA - Certified Elections/Registration Administrator,,top_election_official,high,False,True,on_site,183400.0,high
 130,Registrar of Voters,"Sonoma County, California",CA,195036.0,237072.0,yearly,ops|vr|legal|personnel|comms|intergovt,,ops|vr|legal|it_cyber|personnel|budget|comms|intergovt,False,,,,,,,,top_election_official,high,False,True,,,high
+131,Sales Director,SOE Software Corporation,FL,70000.0,80000.0,yearly,,,,False,bachelor,"telecommunications, business, technology, or related discipline",5.0,,,,,not_election_official,high,False,True,remote,,high
 132,Ballot Processing Supervisor (Program Supervisor I),King County,WA,40.24,51.01,hourly,ops|personnel|pm|data,ops,ops|personnel|pm|data|legal|intergovt,True,,,,,,,,election_official,high,False,True,hybrid,1400000.0,high
 133,Elections and Recording Manager,Marion County,OR,89481.6,119870.4,yearly,ops|vr|legal|personnel|budget|pm,,ops|vr|legal|personnel|budget|pm|data|intergovt|gis,False,,,,,,,,election_official,high,False,True,on_site,,high
 134,Elections Technician,Marion County,OR,22.81,30.56,hourly,ops|vr|legal|data|personnel,,ops|vr|legal|data|personnel|budget|comms|intergovt,False,,,,,,,,election_official,high,,True,on_site,,high
+135,Online Voting System Product Owner,Free Democracy Foundation,,,,,,,it_cyber|pm|comms|intergovt,True,,,,,,,,not_election_official,high,,,,,high
+136,Senior Elections Supervisor,Placer County Clerk-Recorder-Elections Office,CA,,,,ops|legal|it_cyber|data|pm|personnel|budget|comms|intergovt,ops|legal|it_cyber|data|comms,ops|legal|it_cyber|data|pm|personnel|budget|comms|intergovt,False,associate,"business administration, public administration or a related field",5.0,True,,,,election_official,high,False,True,,,high
 137,Assistant Elections Supervisor,Ottawa County,MI,30.67,39.88,hourly,ops|legal|it_cyber|data|personnel|budget|comms|intergovt,,budget|legal|intergovt|data|comms|it_cyber|ops|personnel,False,bachelor,"public administration, business administration, business information systems, political science",3.0,True,,,,election_official,high,False,True,on_site,,high
 138,City Clerk,City of Vernon,CA,189584.0,230441.0,yearly,ops|legal|data|pm,,ops|legal|data|pm|personnel|comms,False,,,,,,,,top_election_official,high,,True,hybrid,,high
 139,Director of Elections/General Registrar,City of Richmond,VA,131504.0,219600.0,yearly,ops|vr|legal|it_cyber|budget|personnel|comms|intergovt,,ops|vr|legal|it_cyber|budget|personnel|comms|intergovt,True,bachelor,"public administration, Management, Business Administration, or related area",5.0,False,Election Official certification,Certified Election Officials|Certified Legal Professionals,,top_election_official,high,False,True,on_site,,high
@@ -261,6 +267,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 265,Registrar of Voters Juris Doctorate,Washoe County,NV,169852.8,237785.6,yearly,ops|legal|intergovt|personnel|comms,,ops|legal|intergovt|personnel|comms|vr,True,doctorate,Law,2.0,True,Nevada State Bar Membership|Valid Nevada Law License,,,top_election_official,high,False,True,on_site,,high
 266,REGISTRAR OF VOTERS,Washoe County,NV,144393.6,202176.0,yearly,ops|vr|legal|personnel|budget|comms|intergovt,pm,budget|ops|legal|intergovt|vr|pm|comms|personnel,False,bachelor,"public administration, business administration or a closely related field",4.0,True,,,,top_election_official,high,False,True,on_site,,high
 267,Elections Coordinator,Buncombe County,NC,28.65,40.11,hourly,ops|personnel|budget|comms|data,,ops|vr|legal|data|pm|personnel|budget|comms|intergovt,False,,,,,,,,election_official,high,,,,,high
+268,Elections Administrator,"Johnson County, Texas",TX,,100000.0,yearly,ops|vr|legal|data|personnel|budget|comms|intergovt,,ops|vr|legal|data|personnel|budget|comms|intergovt,False,,,,,,,,top_election_official,high,False,,,,high
 269,Assistant County Attorney,Karnes County,TX,75000.0,85000.0,yearly,,,,False,,,,,,,,not_election_official,high,,,,,high
 270,Investigations Specialist (Compliance Specialist 2),Oregon Secretary of State's Office,OR,5079.0,8252.0,monthly,legal|data,,legal|data|comms,False,,,,,,,,not_election_official,high,,,,,high
 271,City Clerk / Manager of the Office of the Mayor and City Council,City of Moreno Valley,CA,131185.6,208915.2,yearly,legal|personnel|ops,,legal|personnel|ops,False,,,,,,,,top_election_official,low,False,True,,,high
@@ -271,6 +278,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 276,,,,,,,,,,False,,,,,,,,not_election_official,low,,,,,low
 277,,Utah County Government,UT,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 278,Elections Technology Specialist,McLennan County,TX,20.61,31.71,hourly,it_cyber|ops,,ops|it_cyber,False,,,,,,,,election_official,high,,,,,high
+279,Training Manager,Charleston County Government,SC,64209.0,84146.0,yearly,ops|personnel|comms|data|legal,,ops|personnel|comms|data|legal|pm,False,bachelor,,3.0,,State Certification|CERA Certified,,,election_official,high,,True,,,high
 280,Voter Registration Administrator,"City and County of Denver, Office of the Clerk and Recorder, Elections Division",CO,65523.0,86818.0,yearly,vr|ops|legal|personnel|intergovt,,vr|ops|legal|personnel|intergovt|pm|comms,False,,,,,,,,election_official,high,,,,,high
 281,"Advocacy Campaign Strategist, Elections and Government Program",The Brennan Center,,,,,pm|comms,intergovt|legal,pm|comms|intergovt|legal,False,,,,,,,,not_election_official,high,,,,,high
 282,Job Posting Portal - Multiple Positions,County of Davie,NC,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
@@ -284,6 +292,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 290,National Elections Supervisor,Pacifica Foundation,,,,,,,ops|data|pm|personnel|budget|comms,False,,,,,,,,not_election_official,high,False,,,,high
 291,Elections Investigator,"State Board of Elections, North Carolina",NC,59752.0,82159.0,yearly,legal|ops|data|personnel,,legal|ops|data|personnel|intergovt|comms,False,bachelor,"Criminal Justice, Accounting, Business Administration, Public Administration, or related field",4.0,False,,,,election_official,high,False,True,hybrid,,high
 292,Training and Education Coordinator,Pima County,AZ,54863.0,65836.0,yearly,,,ops|legal|data|pm|personnel|comms,False,,,,,,,,not_election_official,high,,,,,high
+293,"Associate Director, Elections Project",Bipartisan Policy Center,,110000.0,130000.0,yearly,legal|comms|pm|intergovt|personnel,,legal|comms|pm|intergovt|personnel,False,,,,,,,,not_election_official,high,False,,,,high
 294,Election Assistant,Olmsted County,MN,20.13,26.88,hourly,ops|data|personnel,data,ops|data|comms|personnel,False,high_school,,0.5,True,,Administrative Office Professional Certification,,election_official,high,False,False,on_site,,high
 295,"Fellow, Governance",R Street Institute,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 296,"Election Specialist, Candidate Services",Palm Beach County,FL,21.63,24.04,hourly,ops|legal|data,,ops|legal|data|pm,False,,,,,,,,election_official,high,,,,,high
@@ -298,11 +307,13 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 305,Election Protection Hotline Specialist,Lawyers' Committee for Civil Rights Under Law,,,,,,,ops|personnel|comms|data|it_cyber,False,,,,,,,,not_election_official,high,False,,,,high
 306,Information Technology Security Analyst,Illinois State Board of Elections,IL,5417.0,10713.0,monthly,it_cyber,,it_cyber|data|comms|intergovt,True,,,,,,,,not_election_official,high,,,,,high
 307,Rules and Hearings Coordinator,Oregon Secretary of State,OR,6016.0,9800.0,monthly,legal|comms|pm,,legal|comms|pm|intergovt,False,,,,,,,,election_official,high,,True,,,high
+308,Departmental Technician 7-E9 - Metrics Tech,"State of Michigan - Department of State, Bureau of Elections",MI,46904.0,64438.4,yearly,data|it_cyber,,data|it_cyber|ops,False,high_school,,1.0,True,,,,election_official,high,False,True,hybrid,,high
 309,General Office Assistant 5-E7 - Operations Assistant,"State of Michigan, Department of State",MI,41100.8,58177.6,yearly,ops|data,,ops|budget|data,False,high_school,,0.0,,,,,election_official,high,,True,on_site,,high
 310,Election Supplies Coordinator (Administrative Assistant IV),Fairfax County,VA,48617.09,81028.48,yearly,ops|pm,ops|pm|data|comms,ops|pm|data|comms|personnel|budget,False,high_school,,3.0,True,,,,election_official,high,False,True,hybrid,,high
 311,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,low
 312,Voting Equipment & Logistics Assistant Manager (Administrative Assistant V),Fairfax County,VA,53265.06,88775.02,yearly,ops|it_cyber|data|personnel|pm,ops|data|personnel|pm|comms,pm|data|comms|it_cyber|ops|personnel,True,high_school,,4.0,True,Valid driver's license|Virginia voter registration,,,election_official,high,False,True,hybrid,,high
 313,Departmental Analyst (Trainee) 9-P11 - Training and Election Assistance,"State of Michigan, Department of State",MI,54766.4,81806.4,yearly,ops|vr|legal|comms,it_cyber|data|pm,ops|legal|vr|pm|comms|data|it_cyber,False,bachelor,,0.0,True,,,,election_official,high,False,True,on_site,,high
+314,"Advocacy Campaign Strategist, Elections and Government Program",The Brennan Center,,,,,,,pm|comms|intergovt|personnel,False,,,,,,,,not_election_official,high,,,,,high
 315,"Counsel, Elections and Government Program (Research and Policy)",The Brennan Center,,,,,legal|data|comms|personnel,,legal|data|comms|personnel|pm,False,,,,,,,,not_election_official,high,False,,on_site,,high
 316,"Counsel, Elections and Government Program",The Brennan Center,,,,,legal,comms|intergovt,legal|comms|intergovt|data,True,,,,,,,,not_election_official,high,False,,on_site,,high
 317,Departmental Analyst Trainee-P11 - Disclosure and Compliance Section,"State of Michigan, Department of State",MI,47923.2,77916.8,yearly,legal|data,,legal|data|comms|intergovt,False,bachelor,,2.0,True,,,,election_official,high,,True,hybrid,,high
@@ -538,6 +549,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 547,"Election Specialist I, II or III",Douglas County,CO,39520.0,67581.0,yearly,,,ops|data|comms,False,,,,,,,,election_official,high,,,,,high
 548,Central Count Coordinator,Dallas County Elections Department,TX,3598.0,4491.0,monthly,ops|personnel|data,,ops|personnel|data|it_cyber,False,,,,,,,,election_official,high,,,,,high
 549,Departmental Technician 10 - Bureau of Elections Help Desk,"State of Michigan, Department of State",MI,50980.8,68390.4,yearly,ops|legal|comms|data,,ops|legal|comms|data|personnel,False,high_school,,2.0,True,,,,election_official,high,,True,,,high
+550,Deputy Director,Greene County Board of Elections,OH,80000.0,85000.0,yearly,ops|vr|legal|data|personnel|budget|comms|intergovt,it_cyber|gis,gis|vr|legal|ops|personnel|intergovt|it_cyber|data|budget|comms,True,high_school,,5.0,,,,,top_election_official,high,False,True,on_site,,high
 551,Deputy Director,Miami County Board of Elections,OH,,,,ops|legal|personnel|budget,,ops|legal|personnel|budget|intergovt,False,,,,,,,,election_official,high,,,,,high
 552,Deputy Election Director,"Montgomery County Board of Elections, Maryland",MD,86401.0,152940.0,yearly,ops|vr|legal|it_cyber|data|personnel|budget|comms|intergovt,,budget|legal|intergovt|vr|data|comms|it_cyber|ops|personnel,False,,,,,,,,top_election_official,high,False,True,,750000.0,high
 553,Director Board of Elections/Voter Registration,Bucks County Board of Elections/Voter Registration,PA,,,,ops|vr|legal|it_cyber|budget|personnel|comms,,ops|vr|legal|it_cyber|budget|personnel|comms|intergovt,True,,,,,,,,top_election_official,high,False,True,,470992.0,high
@@ -628,6 +640,8 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 638,Training Coordinator,Sarasota County,FL,,,,ops|personnel,,ops|personnel|comms,False,,,,,,,,election_official,high,,,,,high
 639,Elections Business Intelligence Specialist,Tennessee Secretary of State,TN,,,,data|vr|it_cyber,,data|vr|it_cyber|legal|intergovt,False,,,,,,,,election_official,high,,,,,high
 640,Publications and Clearinghouse Program Specialist,"State of Washington, Office of the Secretary of State",WA,57324.0,77028.0,yearly,ops|vr|legal|comms|pm|data,comms|pm,ops|vr|legal|comms|pm|data,False,,,4.0,True,Elections Administrator within two years of employment,Certified Election Administrator in Washington State,,election_official,high,False,True,on_site,,high
+641,,,,,,,vr|ops|data,,vr|ops|data|it_cyber,True,,,,,,,,election_official,high,,,,,medium
+642,Grant and Contract Specialist,"State of Washington, Office of the Secretary of State, Elections Division",WA,3446.0,4627.0,monthly,budget|pm,legal|data,budget|pm|legal|data|intergovt,True,,,3.0,False,,Grant Management Specialist Credential or Certification|Washington State Election Administrator Certification,,election_official,high,False,True,on_site,,high
 643,"Deputy Director, Registration & Elections","Decatur County, Georgia",GA,74961.0,116190.0,yearly,ops|vr|legal|personnel,,ops|personnel|legal|vr,False,,,,,,,,election_official,high,,,,,high
 644,Deputy Elections Counsel,Ohio Secretary of State,OH,88067.0,,yearly,legal,,legal|ops|vr,False,,,,,,,,election_official,high,False,,,,high
 645,Director of Elections,Pima County,AZ,125000.0,160638.0,yearly,ops|pm|personnel|legal,,ops|pm|personnel|legal,False,,,,,,,,top_election_official,high,False,True,,650000.0,high
@@ -644,6 +658,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 656,Elections Technology and Security Project Manager,Boulder County,CO,80316.0,97980.0,yearly,it_cyber|pm|personnel|ops,it_cyber|data,it_cyber|pm|personnel|ops|legal|data,True,,,6.0,True,,,,election_official,high,False,True,hybrid,,high
 657,"Executive Director, Deliver My Vote",Deliver My Vote (DMV) / Deliver My Vote Education Fund (DMVEF),DC,,,,,,comms|legal,False,,,,,,,,not_election_official,high,False,,remote,,high
 658,Executive Director,EAC (Election Assistance Commission),,,,,pm|budget|personnel,,pm|budget|personnel|legal|intergovt|comms,False,bachelor,,1.0,True,,,,not_election_official,high,False,,,,high
+659,Grant and Contract Specialist,"State of Washington, Office of the Secretary of State, Elections Division",WA,3446.0,4627.0,monthly,budget|data|legal,budget|legal,budget|data|legal|intergovt|pm,True,,,3.0,False,,Grant Management Specialist Credential or Certification|Washington State Election Administrator Certification,,election_official,high,False,True,on_site,,high
 660,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,medium
 661,Program Manager,California Voter Foundation (CVF),CA,,,,comms|pm,legal|data,comms|pm|legal|data|intergovt,False,bachelor,,3.0,,,,,not_election_official,high,False,False,remote,,high
 662,Senior Programmer Analyst,Clark County,NV,33.03,51.23,hourly,it_cyber|data|pm|personnel,,it_cyber|data|pm|personnel,False,bachelor,"Computer Science, Management Information Systems, or a related field",4.0,True,,,,not_election_official,high,,True,,,high
@@ -655,6 +670,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 668,Deputy Director of Elections,Arapahoe County,CO,78780.0,125866.0,yearly,ops|vr|legal|it_cyber|data|pm|personnel|budget|intergovt,,budget|legal|intergovt|vr|pm|data|it_cyber|ops|personnel,True,bachelor,"Political Science, Computer Science, Public Administration, Business Administration, or Communications",5.0,False,,,,top_election_official,high,False,True,,,high
 669,City & County Clerk,City and County of Broomfield,CO,110240.0,149136.0,yearly,ops|legal|personnel|pm|comms|intergovt,legal,ops|legal|intergovt|pm|comms|personnel,False,bachelor,business or public administration,3.0,True,,,,top_election_official,high,False,True,on_site,,high
 670,,Democracy Fund,,,,,,,,False,,,,,,,,not_election_official,high,,True,,,medium
+671,Election Expert,The Elections Group,,,,,,,ops|legal|comms|intergovt,True,,,,,,,,not_election_official,high,False,,remote,,high
 672,Election Hardware Manager,"Dallas County, Texas",TX,5094.59,6355.07,monthly,ops|it_cyber|data|pm|personnel|budget,,ops|it_cyber|data|pm|personnel|budget,True,,,,,,,,election_official,high,,,,,high
 673,Election Specialist Lead,Thurston County,WA,3819.0,5079.0,monthly,ops|vr|personnel|comms|legal,legal|budget|data,ops|budget|legal|vr|data|comms|personnel,False,high_school,"business, office management, or public administration",3.0,True,Washington State Certified Elections Administrator (within 2 years),Washington State Certified Elections Administrator,,election_official,high,False,True,on_site,,high
 674,Elections Supervisor,Pinal County,AZ,49647.0,76953.0,yearly,,,ops|pm,False,,,,,,,,election_official,high,,True,on_site,,high
@@ -712,6 +728,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 726,Departmental Training Coordinator,DeKalb County,GA,52815.0,81862.0,yearly,,,personnel|comms|data,False,,,,,,,,not_election_official,high,,,,,high
 727,Election Specialist,"Boone County, Missouri",MO,15.45,16.41,hourly,ops|vr|data,,ops|data|vr,False,high_school,,2.0,,,,,election_official,high,,True,on_site,,high
 728,"Deputy Director, Elections",Pinal County,AZ,81979.0,131166.0,yearly,,,ops|pm|personnel|legal|comms|intergovt,False,,,,,,,,election_official,high,False,True,,,high
+729,,,NC,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 730,Director of Elections & Chief Registrar,"Butler County, Pennsylvania",PA,,,,ops|vr|legal|personnel|comms,legal|personnel,ops|legal|vr|comms|personnel,False,,business,3.0,,,,,top_election_official,high,,,,,high
 731,Director of Elections,Cumberland County,NC,78784.4,132425.23,yearly,ops|vr|legal|it_cyber|pm|personnel|budget,ops,ops|vr|legal|it_cyber|pm|personnel|budget|comms|intergovt|gis,True,bachelor,,3.0,True,North Carolina Elections Administrator,,,top_election_official,high,False,True,on_site,,high
 732,Director of Registration and Elections,Fulton County,GA,175000.0,195000.0,yearly,ops|vr|budget|personnel|comms,,ops|vr|budget|personnel|comms|gis|it_cyber,False,,,,,,,,top_election_official,high,False,,,,high
@@ -728,6 +745,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 743,Information Technology Security Analyst,"State of Illinois, State Board of Elections",IL,6264.0,8917.0,monthly,it_cyber,,it_cyber|intergovt,True,bachelor,"information technology, cybersecurity, or related field",2.0,True,,CISSP|SSCP|Security+|CEH|CISM|GSEC,,election_official,high,,True,hybrid,,high
 744,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 745,Public Relations Manager,"DeKalb County, Georgia",GA,67182.0,104133.0,yearly,personnel|comms|budget,,personnel|comms|budget|pm,False,,,,,,,,not_election_official,high,,,,,high
+746,Publications and Clearinghouse Program Specialist,"State of Washington, Office of the Secretary of State",WA,57324.0,77028.0,yearly,legal|comms|intergovt,pm|personnel,intergovt|pm|legal|comms|ops|personnel,False,,,4.0,True,Elections Administrator,Certified Election Administrator in Washington State,,election_official,high,False,True,on_site,,high
 747,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 748,Assistant County Clerk-Recorder,"Nevada County, California",CA,111810.0,136500.0,yearly,,,,False,,,,,,,,top_election_official,high,,,,,high
 749,Elections Technology Specialist,Boulder County,CO,64764.0,93240.0,yearly,it_cyber|ops|data,gis|data|pm|comms,ops|comms|gis|pm|data|it_cyber,True,,,6.0,True,,,,election_official,high,False,True,hybrid,,high
@@ -739,6 +757,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 755,Election Director,Weber County,UT,75000.0,85000.0,yearly,ops|vr|legal|it_cyber|data|pm|personnel|budget|comms|gis,,ops|vr|legal|it_cyber|data|pm|personnel|budget|comms|gis,True,,,,,,,,top_election_official,high,False,True,,,high
 756,Elections Supervisor,Larimer County,CO,26.78,32.14,hourly,ops|vr|legal|data|pm|personnel|budget|comms|intergovt,,ops|vr|legal|data|pm|personnel|budget|comms|intergovt,False,high_school,,3.0,False,Colorado State Election Certification,,,election_official,high,False,True,on_site,250000.0,high
 757,Elections and Recording Manager,Marion County,OR,6494.8,8706.53,monthly,ops|vr|legal|data|pm|personnel|budget|intergovt|gis,,ops|vr|legal|data|pm|personnel|budget|intergovt|gis|it_cyber,False,,,,,,,,top_election_official,high,False,True,,,high
+758,Elections Data Analyst,N.C. State Board of Elections,NC,61209.0,107116.0,yearly,data,data,data|comms|intergovt,False,bachelor,"statistics, mathematics, data science, data analytics, psychometrics, or measurement and evaluation",4.0,True,,,,election_official,high,False,True,hybrid,,high
 759,Elections Technical Specialist,Buncombe County,NC,23.32,27.22,hourly,,,it_cyber|ops,False,,,,,,,,election_official,high,,,,,high
 760,Elections Specialist,Oregon Secretary of State's Office,OR,3535.0,5361.0,monthly,,,ops|vr|data|comms,False,,,,,,,,election_official,high,,,,,high
 761,Election Director,"Board of Elections for Montgomery County, Maryland",MD,107000.0,190042.0,yearly,ops|vr|personnel|budget|pm,,ops|vr|personnel|budget|pm|comms|intergovt,False,,,,,,,,top_election_official,high,,,,,high
@@ -758,6 +777,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 775,"State Division Administrator 17 - Filing, Disclosure and Compliance Division","State of Michigan, Department of State",MI,106679.0,145032.0,yearly,legal|personnel|budget|intergovt,legal,budget|legal|intergovt|personnel,False,bachelor,,2.0,True,,,,top_election_official,high,False,True,,,high
 776,Elections Analyst-Candidate Filings,Arizona Secretary of State's Office,AZ,,,,ops|legal|data|comms,vr|intergovt,ops|legal|intergovt|vr|data|comms,False,,,,,,,,election_official,high,,,,,high
 777,Elections Analyst-Public Records,"Arizona Secretary of State's Office, Elections Division",AZ,,,,ops|data|comms,,ops|vr|data|comms|intergovt|bilingual,False,,,,,,,,election_official,high,,,,,high
+778,"Fellowship, Arizona Secretary of State's Office",Arizona Secretary of State's Office,AZ,,,,vr|data|ops,,vr|data|ops|intergovt|legal,True,,,,,,,,election_official,high,False,True,,,high
 779,Registrar of Voters,County of Orange,CA,137675.2,261081.6,yearly,ops,legal|intergovt,ops|legal|intergovt,False,bachelor,"Public Administration, Political Science, Business Administration, or related field",10.0,,,Certified Elections/Registration Administrator (CERA),,top_election_official,high,,True,,3000000.0,high
 780,GIS Specialist,Polk County,FL,,,,gis|data,,gis|data,False,,,,,,,,election_official,high,,,,,high
 781,ADMINISTRATOR II,SBE (State Board of Elections),MD,50971.0,81596.0,yearly,ops|personnel,ops|personnel|comms,ops|comms|personnel,False,bachelor,,4.0,True,,,,election_official,high,,True,,,high
@@ -778,6 +798,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 796,Information Technology Director,Leon County Supervisor of Elections Office,FL,80443.0,132731.0,yearly,it_cyber|budget|personnel,,it_cyber|budget|personnel|ops,True,,,,,,,,election_official,high,,,,,high
 797,Logistics Specialist,Wake County Board of Elections,NC,18.36,24.78,hourly,ops|budget|pm|personnel,,ops|budget|pm|personnel,False,,,,,,,,election_official,high,,,,,high
 798,Voter Information Coordinator (Elections Specialist),Pierce County,WA,31.42,39.73,hourly,ops|comms,personnel|vr,ops|comms|vr|data|personnel,False,,,4.0,True,,Elections Administrator (WAC/RCW),,election_official,high,False,True,on_site,560000.0,high
+799,Elections Office Technician - Elections,Yavapai County Government,AZ,19.81,25.26,hourly,ops|data|personnel|pm|legal|comms,,ops|data|personnel|pm|legal|comms|it_cyber|budget,True,high_school,,2.0,,Certified Arizona Election Officer (A.R.S. § 16-407),,,election_official,high,,True,on_site,,high
 800,Mail Ballot Administrator,"City and County of Denver, Election Division",CO,61263.0,101084.0,yearly,ops|pm|personnel,,ops|pm|personnel|intergovt|comms,False,,,,,,,,election_official,high,False,True,,,high
 801,Policy and Compliance Administrator,"City and County of Denver, Office of the Clerk & Recorder",CO,83348.0,137524.0,yearly,legal|intergovt,,legal|intergovt|comms|data,False,,,,,,,,borderline,low,False,,,,high
 802,Program Manager 3,Nevada Secretary of State's Office,NV,,,,ops|legal|pm|personnel|budget,,ops|legal|pm|personnel|budget|comms|data,False,,,,,,,,top_election_official,high,,,,,high
@@ -790,6 +811,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 809,,Lake County Board of Elections,OH,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 810,Director/Deputy Director,Geauga County Board of Elections,OH,,,,,,,False,,,,,,,,top_election_official,high,False,,,,medium
 811,Elections Director,Oregon Secretary of State's Office,OR,8842.0,15240.0,monthly,ops|legal|it_cyber|budget|personnel|comms|intergovt,,ops|legal|it_cyber|budget|personnel|comms|intergovt|vr,True,,,,,,,,top_election_official,high,False,True,,,high
+812,Elections and Voter Registration Manager,Snohomish County Auditor's Office,WA,86276.0,121913.0,yearly,ops|vr|personnel|budget,,ops|vr|personnel|budget,True,,,,,,,,top_election_official,high,False,True,,,high
 813,Program Manager III,"State Board of Elections (SBE), Maryland",MD,65857.0,105735.0,yearly,ops|personnel,ops|legal|pm|personnel|comms|intergovt,legal|intergovt|pm|comms|ops|personnel,False,,,,,,law degree|graduate degree in public administration|graduate degree in public policy,,election_official,high,,True,on_site,,high
 814,Senior Election Subject Matter Expert (SME) Accessibility,U.S. Election Assistance Commission (EAC),,,,,,,legal|comms|data,False,bachelor,related field,,,,,,not_election_official,high,False,,,,high
 815,Senior Election Subject Matter Expert (SME),Election Assistance Commission (EAC),,,,,,,comms|data,False,bachelor,related field,,,,,,not_election_official,high,False,,,,medium
@@ -816,6 +838,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 836,Support Specialist - Elections,Marion County,OR,27.56,36.94,hourly,it_cyber|data|ops,,it_cyber|data|ops|comms|intergovt|gis,False,,,,,,,,election_official,high,False,True,on_site,,high
 837,In Person Absentee Coordinator,Charleston County Government,SC,48722.0,66276.0,yearly,ops|personnel|pm,data,ops|pm|data|personnel,False,,,3.0,,,,,election_official,high,False,True,,,high
 838,"Program Manager Senior II, Assistant Deputy for Election Policy","State Board of Elections (SBE), Maryland",MD,80074.0,128568.0,yearly,legal|ops,legal|ops|personnel|comms,legal|ops|personnel|comms|pm,False,bachelor,"law, public administration, or public policy",,,,,,top_election_official,high,False,True,,,high
+839,Director/Deputy Director,Geauga County Board of Elections,OH,,,,,,,False,,,,,,,,top_election_official,high,True,,,,medium
 840,Administrative Specialist II (Language Services) - Temporary,King County,WA,22.57,28.75,hourly,comms|data|ops,,comms|data|ops|bilingual,False,,,,,,,,election_official,high,False,False,hybrid,1300000.0,high
 841,Administrative Specialist III (Ballot Collection Lead),King County Elections,WA,24.87,31.66,hourly,ops|data|personnel|pm|comms,gis,ops|data|personnel|pm|comms|gis,False,,,,,,,,election_official,high,,True,hybrid,1400000.0,high
 842,"Chief IT Officer, Elections Office","Dallas County, Texas",TX,,,,it_cyber|pm|budget|personnel,data|ops,it_cyber|pm|budget|personnel|data|ops,True,,,,,,,,election_official,high,False,,,,high
@@ -825,6 +848,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 846,Deputy Elections Administrator,Dallas County,TX,8077.0,10081.0,monthly,ops|vr|legal|it_cyber|budget|personnel,,ops|vr|legal|it_cyber|budget|personnel|pm|intergovt|comms,False,,,,,,,,election_official,high,,,,1100000.0,high
 847,Director of Elections,"City and County of Denver, Office of the Clerk & Recorder",CO,99649.0,159438.0,yearly,,,ops|vr|pm|personnel|budget|it_cyber|intergovt,False,,,,,,,,top_election_official,high,False,,,,high
 848,Human Resources,County of San Diego,CA,,,,,,,False,,,,,,,,not_election_official,high,,,,,low
+849,Election Superintendent,Mason County,WA,5175.0,6140.0,monthly,ops|vr|it_cyber|personnel|budget|comms,,ops|vr|legal|it_cyber|personnel|budget|comms,True,,,,,,,,top_election_official,high,,,,,high
 850,General Registrar,Prince William County Government,VA,100000.0,130000.0,yearly,ops|vr|legal|personnel|budget|intergovt,legal,budget|ops|legal|intergovt|vr|personnel,True,bachelor,Public/Business Administration or a related field,2.0,,,,,top_election_official,high,False,True,on_site,300000.0,high
 851,Policy Associate,National Conference of State Legislatures (NCSL),CO,50388.0,50388.0,monthly,,,data|pm|comms|intergovt,False,,,,,,,,not_election_official,high,,True,on_site,,high
 852,Registrar of Voters,San Diego County,CA,,,,ops|legal,legal|it_cyber|comms,ops|legal|it_cyber|comms,False,bachelor,,5.0,,,,,top_election_official,high,False,,,,high
@@ -876,9 +900,12 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 898,Supervisor of Elections,Leon County Supervisor of Elections Office,FL,,,,,,,False,,,,,,,,top_election_official,high,,,,,high
 899,Voting Systems Assistant OPS/Seasonal,"Leon County, Florida",FL,,,,ops,,ops,False,,,,,,,,election_official,high,False,True,on_site,,high
 900,City and County Clerk,City and County of Broomfield,CO,104832.0,148408.0,yearly,ops|vr|legal|personnel|budget|comms,pm|intergovt,budget|ops|legal|intergovt|vr|pm|comms|personnel,False,,,,,Colorado election law,,,top_election_official,high,False,True,,,high
+901,Early Voting Specialist,Wake County Board of Elections,NC,17.49,23.6,hourly,ops|comms|data|pm,,ops|comms|data|pm|it_cyber,False,,,,,,,,election_official,high,,,,,high
 902,Elections Manager,City of Alexandria,VA,66459.64,116956.84,yearly,ops|vr|legal|it_cyber|personnel|budget,,ops|vr|legal|it_cyber|personnel|budget,True,bachelor,,5.0,,,,,election_official,high,,True,on_site,,high
+903,Elections Specialist,Stanly County,NC,15.82,,hourly,vr|ops|data,comms|personnel,vr|ops|data|comms|personnel,False,,,,,,,,election_official,high,False,,,,high
 904,General Registrar,Fairfax County,VA,95447.87,159078.61,yearly,ops|vr|legal|it_cyber|data|budget|personnel|intergovt,pm,ops|vr|legal|it_cyber|data|budget|personnel|intergovt|pm,True,bachelor,,4.0,True,,CERA|PMP,,top_election_official,high,False,True,,800000.0,high
 905,Redistricting Litigation Counsel,Citizens Redistricting Commission,CA,,,,legal,,legal,False,,,,,,,,not_election_official,high,,,,,high
+906,Voting Rights Act Counsel,Citizens Redistricting Commission,,,,,legal,,legal,False,,,,,Attorney license,,,not_election_official,high,,,,,high
 907,State Administrative Manager 15 - Elections Operations Manager,"State of Michigan, Department of State",MI,87471.0,125818.0,yearly,ops|pm|personnel|budget|intergovt,,ops|vr|data|pm|personnel|budget|comms|intergovt,False,bachelor,any,4.0,True,,,,top_election_official,high,False,True,on_site,,high
 908,DEPUTY COMMISSIONER OF ELECTIONS,Linn County,IA,71518.0,101318.0,yearly,ops|vr|legal|personnel|budget|comms|data,,budget|ops|legal|vr|data|comms|personnel,True,bachelor,business or public administration or a related field,3.0,True,,,,top_election_official,high,False,True,,,high
 909,GIS Specialist,Polk County,FL,,,,gis|data,,data|gis,False,,,,,,,,election_official,high,False,,on_site,,high
@@ -929,6 +956,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 954,Senior Deputy/Elections Assistant,Mono County Clerk Recorder's Office,CA,,,,,,,False,,,,,,,,election_official,high,,,,,medium
 955,Systems Specialist,Dominion Voting,CO,,,,,,it_cyber|data|pm|comms,False,,,,,,,,not_election_official,high,,,,,high
 956,Vice President of Election Operations,Center for Internet Security (CIS),,,,,,,it_cyber|comms|intergovt,True,,,,,,,,not_election_official,high,,,,,high
+957,Chief Operating Officer (COO),U.S. Election Assistance Commission (EAC),,,,,,pm|comms|budget|personnel|ops|intergovt,pm|comms|budget|personnel|ops|intergovt|it_cyber|legal|vr,False,,,,,,,,not_election_official,high,False,,,,high
 958,Election Outreach Coordinator,Thurston County Auditor's Office,WA,3952.0,5257.0,monthly,ops|comms|data,vr|legal,ops|legal|vr|data|comms,False,high_school,"Public Relations, Graphic Design, or Public Administration",3.0,True,Election Certification (Office of the Secretary of State),,,election_official,high,,True,,,high
 959,"Clerk, Election Division",Douglas County Clerk and Recorder's Office,CO,13.5,16.9,hourly,ops|vr|data|comms,,comms|ops|data|vr,False,,,,,,,,election_official,high,,False,,,high
 960,Customer Success Manager,Dominion Voting Systems,CO,,,,,,pm|comms,False,,,,,,,,not_election_official,high,,,,,high
@@ -941,6 +969,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 967,HAVA Administrator,"State of Nevada, Secretary of State's Office, State Elections Division",NV,66628.08,100161.36,yearly,legal|budget|pm|personnel|comms|intergovt,,ops|legal|budget|pm|personnel|comms|intergovt,False,bachelor,"public or business administration, communications, law or related field",5.0,True,,,,top_election_official,high,False,True,on_site,,high
 968,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,low
 969,"Senior Data Fellow, Voting Information Project",Democracy Works,,,,,,,data|it_cyber,False,,,,,,,,not_election_official,high,,,,,high
+970,Information Technology Security Analyst,"State Board of Elections, North Carolina",NC,61972.0,100892.0,yearly,it_cyber|data,it_cyber|data,it_cyber|data|ops|pm,True,associate,"Information Systems Security, Computer Science, Computer Engineering, Information Security",1.0,True,,,,election_official,high,False,True,,,high
 971,Information Technology Security Engineer,"State Board of Elections, North Carolina",NC,74987.0,121857.0,yearly,it_cyber,it_cyber,it_cyber|ops,True,bachelor,"Computer Science, Computer Engineering, Information Security, or closely related field",2.0,True,,,,election_official,high,False,True,on_site,,high
 972,Network Engineer / IT Infrastructure Analyst,North Carolina State Board of Elections,NC,74987.0,121857.0,yearly,it_cyber,it_cyber|data,it_cyber|data|ops,True,bachelor,"electrical engineering, telecommunications engineering, or closely related field",3.0,True,,CCNA|MSCE,CCNP|CISSP,election_official,high,False,True,on_site,,high
 973,General Office Assistant,North Carolina State Board of Elections,NC,30280.0,34461.0,yearly,ops|comms,vr|legal|data,ops|legal|vr|data|comms,False,high_school,,4.0,True,,,,election_official,high,,True,,,high
@@ -974,6 +1003,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1001,Elections Division Director,Douglas County Clerk & Recorder's Office,CO,87547.0,109433.0,yearly,ops|vr|legal|personnel|budget|comms|intergovt,it_cyber,budget|ops|legal|intergovt|vr|it_cyber|comms|personnel,False,bachelor,"Political Science, Public Administration, Public Policy, Business Administration, Management, or related field",4.0,True,Colorado Driver's License,,,top_election_official,high,False,True,on_site,,high
 1002,Communications Associate,Democracy Works,,58000.0,68000.0,yearly,,,comms,False,,,,,,,,not_election_official,high,,,,,high
 1003,Deputy Director of Elections,Pasquotank County,NC,35808.0,,yearly,ops|data,,ops|data|budget|comms,False,,,,,,,,election_official,high,False,,,,high
+1004,Director of Communications,EAC (Election Assistance Commission),,,,,comms|pm|data,,comms|pm|data,False,,,,,,,,not_election_official,high,False,,,,high
 1005,,Orange County Government Florida,FL,,,,,,,False,,,,,,,,not_election_official,high,,,,,low
 1006,Senior Quality Assurance (QA) Engineer,North Carolina State Board of Elections,NC,56339.0,91817.0,yearly,it_cyber|data|pm,it_cyber|data,pm|data|it_cyber,True,bachelor,"Computer Science, Computer Information Systems, Computer Engineering, math, or Engineering or related technical",5.0,True,,,,election_official,high,False,True,on_site,,high
 1007,Operating Systems Software Programmer II (Information Technology Infrastructure Analyst),North Carolina State Board of Elections,NC,68170.0,110876.0,yearly,it_cyber|data|intergovt,it_cyber,it_cyber|data|intergovt|ops,True,bachelor,"computer science, computer engineering, or closely related field",3.0,True,,,,election_official,high,False,True,,,high
@@ -992,6 +1022,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1020,"Analyst, Michigan Secretary of State's Office",Michigan Secretary of State's Office,MI,21.03,32.95,hourly,,,vr|data|personnel|ops,False,,,,,,,,election_official,high,,,,,high
 1021,,State Board of Elections (Kentucky),KY,,,,legal|vr,,legal|vr|personnel,False,,,,,,,,borderline,low,,,,,medium
 1022,"Associates (Government Associate, Voting Information Project Outreach Associate, Research Associate, Partner Outreach Associate, Partner Support Associate)",Democracy Works,,57000.0,72000.0,yearly,,,,False,,,,,,,,not_election_official,high,,,,,high
+1023,Deputy Chief Information Security Officer (Deputy CISO),EAC (Election Assistance Commission),,,,,it_cyber,it_cyber,it_cyber|personnel|budget|comms|intergovt,True,,,10.0,,,CISSP,,not_election_official,high,False,,,,high
 1024,Election Judge Recruiter,Montgomery County Board of Elections,MD,47848.0,78902.0,yearly,ops|personnel|data|comms,,ops|personnel|data|comms|bilingual,False,,,,,,,,election_official,high,False,True,,,high
 1025,Elections Specialist Lead,King County Elections,WA,24.5,31.19,hourly,ops|vr|data|personnel|comms,,ops|vr|data|personnel|comms,False,,,,,,,,election_official,high,False,True,on_site,1300000.0,high
 1026,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
@@ -1025,6 +1056,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1054,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,low
 1055,Red Team Independent Contractor,Galois,,,,,,,it_cyber,False,,,,,,,,not_election_official,high,,,,,high
 1056,,MIT,MA,,,,,,,False,,,,,,,,not_election_official,high,,True,,,high
+1057,Senior Research Program Specialist,U.S. Election Assistance Commission (EAC),,,,,legal|data|pm|comms|intergovt,,legal|data|pm|comms|intergovt,False,,,,,,,,not_election_official,high,False,,,,high
 1058,Technical Bid Specialist,Scytl,FL,,,,,,it_cyber|comms|pm,False,,,,,,,,not_election_official,high,,,,,high
 1059,Elections Specialist,City of St. Louis Park,MN,60498.0,75623.0,yearly,ops|personnel|comms,,ops|personnel|comms,False,,,,,,,,election_official,high,,,,,high
 1060,Assistant Registrar I,City of Richmond Registrar's Office,VA,30000.0,45500.0,yearly,vr|ops|comms,,vr|ops|personnel|comms,False,,,,,,,,election_official,high,,,,,high
@@ -1041,6 +1073,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1071,VP of Engineering,Free & Fair,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1072,Clerk of the Board/Elections Director,Santa Cruz County,AZ,69186.0,69186.0,yearly,ops|legal|personnel|budget|intergovt,,ops|legal|personnel|budget|intergovt|pm,False,,,,,,,,top_election_official,high,,True,,,high
 1073,,Arlington County,,,,,,,,False,,,,,,,,borderline,high,,,,,low
+1074,"Director, Miami County Board of Elections","Miami County Board of Elections, Ohio",OH,,,,ops|budget|legal,ops,ops|budget|legal,False,high_school,,,,,,,top_election_official,high,False,,,,high
 1075,Election Technician,Monroe County Auditor's Office,WA,3042.0,3896.0,monthly,ops|vr|data,,ops|vr|comms|data,False,,,,,,,,election_official,high,,True,on_site,,high
 1076,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1077,GIS Analyst,Yolo County ACE (Assessor/Clerk-Recorder/Elections Department),CA,,,,,,gis|it_cyber|ops,False,,,,,,,,election_official,high,,,,,high
@@ -1054,9 +1087,11 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1085,Embedded Systems Engineer,Free & Fair,,,,,,,it_cyber,True,,,,,,,,not_election_official,high,,,,,high
 1086,UI/UX Engineer,Free & Fair,,,,,,,it_cyber,True,,,,,,,,not_election_official,high,,,,,medium
 1087,Assistant Director of Logistics and Warehouse Management,Maricopa County,AZ,72092.0,111425.0,yearly,ops|pm,,ops|pm|budget,False,,,,,,,,election_official,high,,,,,high
+1088,Communications Manager,Hillsborough County Supervisor of Elections,FL,,,,comms|data,,comms|data,False,bachelor,,,True,,,,election_official,high,False,True,on_site,,high
 1089,Deputy Registrar of Voters,Solano County,CA,94682.0,115086.0,yearly,ops|personnel,,ops|personnel,False,,,,,,,,election_official,high,,,,,high
 1090,Director of Elections/General Registrar,Frederick County Electoral Board,VA,60000.0,73900.0,yearly,ops|vr|legal|personnel|budget|comms|intergovt,it_cyber|data,ops|vr|legal|it_cyber|data|pm|personnel|budget|comms|intergovt,True,bachelor,"Public Administration, Management, Business Administration, Communications, or related area",2.0,False,,Certified Professional Election Official|Certified Election and Registration Associate|Virginia Registered Election Official,,top_election_official,high,False,True,,,high
 1091,Systems Engineer,Arizona Secretary of State's Office,AZ,60000.0,75000.0,yearly,it_cyber,,it_cyber|ops|pm,False,,,,,,,,not_election_official,high,,True,on_site,,high
+1092,Director of Elections,Robeson County Board of Elections,NC,48103.02,,yearly,ops|vr|legal|personnel,,ops|vr|legal|personnel,False,,,,,,,,top_election_official,high,,,,,high
 1093,Election Supervisor I,Frederick County Board of Elections,MD,32176.0,50377.0,yearly,ops|vr|legal|personnel,personnel|comms|data,ops|comms|legal|vr|data|personnel,False,high_school,,2.0,True,,,,election_official,high,,True,,,high
 1094,UI/UX Engineer,Free & Fair,,,,,,,it_cyber,True,,,,,,,,not_election_official,high,False,,,,high
 1095,"Chief Information Officer, Virginia Department of Elections",Virginia Department of Elections,VA,,150000.0,yearly,it_cyber|budget|pm,,it_cyber|budget|pm|data|ops,False,,,,,,,,top_election_official,high,,,,,high
@@ -1073,6 +1108,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1106,,Democracy Fund,,,,,,,,False,,,,,,,,not_election_official,high,,True,,,low
 1107,,Nonprofit VOTE,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1108,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
+1109,Software Developer,North Carolina State Board of Elections,NC,46561.0,76065.0,yearly,it_cyber|data,,it_cyber|data|ops,False,associate,Computer Programming or Computer-related,,True,,,,election_official,high,False,True,on_site,,high
 1110,Software Sales Specialist,VOTEC,,,,,,,ops,False,,,,,,,,not_election_official,high,,,,,high
 1111,Director of Elections,"Henderson County, North Carolina",NC,51558.0,96856.5,yearly,ops|vr|legal|personnel|budget|comms|intergovt,,budget|ops|legal|intergovt|vr|comms|personnel,False,,,,,,,,top_election_official,high,False,True,,,high
 1112,Election Clerk,Douglas County Clerk and Recorder's Office,CO,2304.0,2879.0,monthly,ops|vr|data,it_cyber,ops|it_cyber|data|vr,True,high_school,,2.0,,Valid Colorado Driver's License|Complying Colorado Insurance|US citizenship,,,election_official,high,False,True,on_site,,high
@@ -1135,6 +1171,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1169,Elections Division Specialist,Pierce County Auditor's Office,WA,30.25,38.26,hourly,ops|vr|legal,ops|vr|legal|personnel,ops|legal|vr|personnel,False,,,4.0,True,,Elections Administrator,,election_official,high,False,True,on_site,520000.0,high
 1170,Election Equipment Warehouse Specialist,Douglas County Clerk & Recorder Office,CO,2445.0,3056.0,monthly,ops|data,,ops|data,False,high_school,,,,Valid Colorado Driver's License|Complying Colorado Insurance,Forklift certification,,election_official,high,,True,on_site,,high
 1171,Government Affairs Director,Democracy Works,,,,,,,comms|intergovt|data,False,,,,,,,,not_election_official,high,False,,,,high
+1172,IT & Compliance Manager,North Carolina State Board of Elections,NC,90734.0,147226.0,yearly,it_cyber|legal|pm|ops,,it_cyber|legal|pm|ops|data|intergovt,True,,,,,,,,election_official,high,,,,,high
 1173,Investigations and Legal Specialist,Oregon Secretary of State's Office,OR,,,,legal,,legal|comms,False,,,,,,,,election_official,high,,,,,high
 1174,Paralegal,N.C. State Board of Elections,NC,42780.0,58000.0,yearly,legal|data,,legal|data|intergovt|comms,False,associate,Paralegal Studies,2.0,True,,,,election_official,high,,True,,,high
 1175,Quality Assurance Engineer,Democracy Works,,100000.0,135000.0,yearly,,,it_cyber|pm|data,False,,,,,,,,not_election_official,high,,,,,high
@@ -1147,6 +1184,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1182,Elections Supervisor,"Gwinnett County, Georgia",GA,74940.0,88055.0,yearly,ops|legal|personnel|comms|bilingual,,ops|legal|personnel|comms|bilingual,False,,,,,,,,election_official,high,,,,,high
 1183,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1184,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
+1185,Elections Lead Specialist,Douglas County Clerk and Recorder's Office,CO,3550.0,4438.0,monthly,ops|vr|data|personnel|legal,it_cyber|comms|pm,ops|vr|data|personnel|legal|it_cyber|comms|pm|budget|gis,True,high_school,,3.0,True,Colorado Driver's License|Secretary of State Election Certification,Poll Chief,,election_official,high,False,True,on_site,,high
 1186,Database and Systems Specialist,New Hanover County Board of Elections,NC,42532.0,57418.0,yearly,it_cyber|data,ops|personnel|comms,ops|comms|personnel|data|it_cyber,True,,,,,,,,election_official,high,,,,,high
 1187,Data and Reporting Fellow,ProPublica,NY,,,,data|comms,it_cyber,data|comms|it_cyber,True,,,,,,,,not_election_official,high,False,True,on_site,,high
 1188,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
@@ -1163,6 +1201,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1199,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1200,Elections Supervisor,Pinal County,AZ,49647.0,56473.0,yearly,,,,False,,,,,,,,election_official,high,,,,,high
 1201,Program Manager-Overseas Voting Initiative,Council of State Governments (CSG),KY,,,,legal|pm|personnel|budget|data|comms|intergovt,,ops|legal|pm|personnel|budget|data|comms|intergovt,True,bachelor,"public administration, public policy, policy management, public finance, political science, or political communications",5.0,,,,,not_election_official,high,,,,,high
+1202,Senior Level Software Developer,BPro,,,,,it_cyber,,it_cyber|comms,False,bachelor,,,,,,,not_election_official,high,,,,,high
 1203,Clerk-Recorder Services Specialist,Contra Costa County Clerk-Recorder-Elections Department,CA,53842.92,65446.44,yearly,ops|data|personnel|legal|budget,comms,ops|data|personnel|legal|budget|comms,False,high_school,,2.0,False,,,,not_election_official,high,False,True,on_site,,high
 1204,Account Manager,ES&S,FL,57000.0,73000.0,yearly,,,,False,,,,,,,,not_election_official,high,,,,,high
 1205,Deputy Registrar of Voters,Solano County Registrar of Voters Office,CA,94682.09,115086.66,yearly,ops|vr|personnel,,ops|personnel|vr,False,bachelor,"Business Administration, Government, History, Public Administration, Political Science or closely related field",4.0,True,,,California Association of Clerks and Election Officials California Professional Election Administration Course|The Election Center Certified Elections/Registration Administrator (CERA),election_official,high,,True,on_site,,high
@@ -1194,16 +1233,19 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1231,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1232,Deputy Director of Voter Services,City and County of Denver,CO,93217.0,149147.0,yearly,ops|vr|legal|personnel|pm,ops|vr|legal|personnel|pm|data,legal|vr|pm|data|ops|personnel,False,bachelor,,3.0,True,Colorado Class R Driver's License|New Manager Training Program,Lean Methodologies,,top_election_official,high,False,True,,,high
 1233,Information Services Specialist - Elections,Marion County Clerk's Office,OR,21.68,29.02,hourly,it_cyber|ops|data,,it_cyber|ops|data|vr|pm|comms|gis,False,associate,Computer Science,0.0,,,,,election_official,high,False,True,on_site,,high
+1234,Chief Information Officer (CIO),U.S. Election Assistance Commission (EAC),,,,,it_cyber,,it_cyber|pm|budget,True,,,,,,,,not_election_official,high,,,,,high
 1235,Data Manager,New York City Campaign Finance Board,NY,65000.0,75000.0,yearly,data|comms,,data|comms|ops,False,,,,,,,,election_official,high,,,,,high
 1236,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1237,,State of Montana,MT,,,,,,,False,,,,,,,,borderline,low,,,,,low
 1238,Certification Manager,Dominion Voting Systems,CO,,,,,,it_cyber|intergovt|pm,False,,,,,,,,not_election_official,high,,,,,high
 1239,Customer Relations Manager,Dominion Voting Systems,AZ,,,,,,pm|comms,False,,,,,,,,not_election_official,high,,,,,high
+1240,"Elections Program Manager, CIS",Center for Internet Security (CIS),,,,,,,it_cyber|comms|intergovt,True,,,,,,,,not_election_official,high,,,,,high
 1241,Elections Supervisor,"Pinal County, Arizona",AZ,49647.0,56473.0,yearly,,,,False,,,,,,,,election_official,high,,,,,high
 1242,Embedded System Software Engineer,Clear Ballot,,,,,it_cyber,,it_cyber,False,,,,,,,,not_election_official,high,,,,,high
 1243,Field Sales Director,Hart InterCivic,,,,,,,,False,,,,,,,,not_election_official,high,,,hybrid,,high
 1244,Full Stack Principal Software Engineer,Clear Ballot,,,,,,,it_cyber|data,True,,,,,,,,not_election_official,high,,,,,high
 1245,Full Stack Software Developer,Clear Ballot,,,,,,,it_cyber|data,False,,,,,,,,not_election_official,high,,,,,high
+1246,Full-Stack Software Engineer,Clear Ballot,,,,,it_cyber,,it_cyber|data,False,,,,,,,,not_election_official,high,,,,,high
 1247,Inside Sales Representative,Runbeck,,,,,,,data,False,,,,,,,,not_election_official,high,,,,,high
 1248,"Program Manager, Overseas Voting Initiative",Council of State Governments (CSG),,,,,,,pm|legal|intergovt,False,,,,,,,,not_election_official,high,False,,,,high
 1249,Project Manager,Hart InterCivic,TX,,,,,,pm|it_cyber,False,,,,,,PMP,,not_election_official,high,,True,,,high
@@ -1211,6 +1253,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1251,Python Developer,Clear Ballot,MA,,,,,,it_cyber|data,False,,,,,,,,not_election_official,high,,,,,high
 1252,Senior Level Software Developer,BPro,,,,,,,it_cyber|pm,False,bachelor,,,,,,,not_election_official,high,,,,,high
 1253,Senior Software Developer,Runbeck Election Services,,,,,it_cyber,,it_cyber,False,,,,,,,,not_election_official,high,False,True,,,high
+1254,Software Developer II,Dominion Voting Systems,,,,,,,it_cyber,False,,,,,,,,not_election_official,high,,,,,high
 1255,Software Product Specialist II,Dominion Voting Systems,CO,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1256,Software Product Specialist II,Dominion Voting Systems,AZ,,,,,,it_cyber,False,,,,,,,,not_election_official,high,,,,,high
 1257,Software Product Specialist II,Dominion Voting Systems,NV,,,,,,it_cyber,False,,,,,,,,not_election_official,high,,,,,high
@@ -1265,6 +1308,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1306,,Washington County,OR,,,,,,,False,,,,,,,,borderline,low,,,,,low
 1307,Policy Associate/Policy Specialist,National Conference of State Legislatures,,4028.0,4428.0,monthly,,,legal|data|pm|comms|intergovt|gis,False,,,,,,,,not_election_official,high,,,,,high
 1308,Assistant Registrar I,City of Richmond,VA,24108.0,39076.0,yearly,vr|ops|comms,,vr|ops|comms,False,,,,,,,,election_official,high,,,,,high
+1309,Clerk-Recorder Services Specialist,Contra Costa County Clerk-Recorder,CA,50264.0,61096.0,yearly,ops|personnel,,ops|personnel,False,,,,,,,,not_election_official,high,,,,,high
 1310,GIS (Mapping) Specialist,Lee County Supervisor of Elections,FL,45000.0,70000.0,yearly,gis|it_cyber|vr,,it_cyber|vr|gis,False,,,5.0,,,,,election_official,high,,True,,,high
 1311,Chief Deputy Registrar,"Sonoma County, California",CA,113560.0,138042.0,yearly,ops|vr|pm|personnel|budget|comms|intergovt,,ops|vr|legal|pm|personnel|budget|comms|intergovt,False,,,,,,,,top_election_official,high,,,,,high
 1312,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
@@ -1307,6 +1351,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1349,Deputy Registrar,City of Manassas,VA,44574.4,59072.0,yearly,ops|vr|personnel|data,,ops|vr|personnel|data|comms,False,,,,,,,,election_official,high,False,True,,,high
 1350,Director of Elections,"Montgomery County, Alabama",AL,62126.0,62126.0,yearly,ops|personnel|budget,,ops|personnel|budget|comms|intergovt|legal,False,master,public administration,4.0,True,,,juris_doctor,top_election_official,high,,True,,,high
 1351,Elections Assistant Administrator,Travis County,TX,77956.53,101343.63,yearly,,,ops|personnel|it_cyber|pm|budget,False,,,,,,,,election_official,high,,,,,high
+1352,,Democracy Fund,,,,,,,,False,,,,,,,,not_election_official,high,,True,,,high
 1353,Elections Technician,Wayne County,NC,40994.0,63937.0,yearly,ops|it_cyber|personnel,,ops|it_cyber|personnel|data,False,,,,,,,,election_official,high,,,,,high
 1354,Deputy Director of Elections & Deputy Registrar,"City of Norfolk, Office of Elections",VA,,,,ops|legal|personnel|budget,,ops|legal|personnel|budget,False,,,,,,,,election_official,high,,,,,high
 1355,Deputy Director of Elections & Deputy Registrar,"City of Norfolk, Office of Elections",VA,,,,ops|legal|personnel|budget,,ops|legal|personnel|budget|comms,False,,,,,,,,election_official,high,,True,,,high
@@ -1402,6 +1447,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1445,,,,,,,,,data,False,,,,,,,,not_election_official,high,,,,,high
 1446,"Senior Associate, Election Initiatives",Pew Charitable Trusts,DC,,,,,,intergovt|comms,False,,,,,,,,not_election_official,high,,,,,high
 1447,Senior Program Analyst,"Clark County, Nevada",NV,58760.0,91104.0,yearly,,,it_cyber|data|pm|personnel,False,,,,,,,,not_election_official,high,,,,,high
+1448,Electronic Voting Consultant,IFES,,,,,,,it_cyber|comms,False,,,,,,,,not_election_official,high,,,,,high
 1449,"Director, Elections",Pinal County,AZ,78159.0,82124.0,yearly,,,ops|pm|budget|intergovt,False,,,,,,,,top_election_official,high,False,,,,high
 1450,,King County Department of Human Resources,WA,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1451,General Counsel,United States Election Assistance Commission (EAC),MD,126245.0,148700.0,yearly,legal,,legal,False,,,,,,,,not_election_official,high,,,,,high
@@ -1409,6 +1455,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1453,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,low
 1454,"Associate, Elections Initiatives",The Pew Charitable Trusts,DC,,,,,,data|comms|intergovt|pm,False,,,,,,,,not_election_official,high,,,,,high
 1455,Elections Services Manager,Contra Costa County Clerk-Recorder's Office,CA,75260.28,91479.36,yearly,ops|legal|personnel|comms,,ops|legal|personnel|comms|intergovt,False,,,,,,,,election_official,high,,,,,high
+1456,,"Colorado Department of Personnel & Administration, Division of Human Resources (DHR)",CO,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1457,Assistant County Clerk-Recorder,San Luis Obispo County,CA,90750.4,110323.2,yearly,ops|legal|budget|personnel|pm|comms,ops|legal|budget|personnel|pm|comms,budget|legal|pm|comms|ops|personnel,False,bachelor,"business administration, public administration, accounting, or closely related field",4.0,True,,,,election_official,high,,True,,,high
 1458,Business Development Lead,Democracy Works,,,,,,,comms|pm|intergovt,False,,,,,,,,not_election_official,high,,,,,high
 1459,,Democracy Fund,,,,,,,,False,,,,,,,,not_election_official,high,,True,,,high
@@ -1462,10 +1509,12 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1507,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,low
 1508,,Brennan Center for Justice,NY,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1509,Senior Office Assistant,Forsyth County Board of Elections,NC,,,,ops|data,,ops|data|legal,False,,,,,,Notary Public,,election_official,high,False,,,,high
+1510,Registrar,"Prince William County, Virginia",VA,,,,ops|vr|legal|personnel|budget,,ops|vr|legal|personnel|budget|intergovt|comms,False,bachelor,Public/Business Administration,3.0,True,,,,top_election_official,high,False,True,,250000.0,high
 1511,"Director, Federal Voting Assistance Program",U.S. Department of Defense (DoD),VA,119554.0,179700.0,yearly,legal|intergovt,,legal|intergovt|comms,False,,,,,,,,not_election_official,high,,,,,high
 1512,Project/Election Coordinator,Burleigh County,ND,45760.0,51459.0,yearly,ops|data|pm|personnel,,ops|data|pm|personnel|it_cyber,False,,"computer science, business or public administration",5.0,True,,,,election_official,high,,,,,high
 1513,,Future of California Elections (FoCE) Network,CA,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1514,Supervisory Information Technology Specialist,District of Columbia Board of Elections,DC,,,,it_cyber|data,ops,ops|data|it_cyber,False,bachelor,"information technology, computer science, information science, information systems management or related field",,,,,,election_official,high,,,,,high
+1515,,,,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1516,Director of Elections,"Craven County, N.C.",NC,,,,ops|vr|legal|data|personnel|budget|comms,legal|data,budget|legal|vr|comms|data|ops|personnel,False,high_school,"management, business or a related field",3.0,True,State Board of Elections certification,,State Board of Elections certification (ability to obtain within three years),top_election_official,high,False,,,,high
 1517,Elections Administrator,Coconino County,AZ,54809.0,78282.0,yearly,ops|vr|legal|data|budget|comms|personnel|gis,it_cyber,budget|legal|vr|gis|data|comms|it_cyber|ops|personnel,False,bachelor,Political Science or related field,4.0,True,,,,top_election_official,high,,,,,high
 1518,"Senior Associate, Elections Initiatives",Pew Charitable Trusts,DC,,,,comms|intergovt,vr|ops,ops|comms|intergovt|vr,False,bachelor,public policy,5.0,,,,,not_election_official,high,,,,,high
@@ -1507,6 +1556,7 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1554,Senior Information Technology Specialist,"Montgomery County, Md. Board of Elections",MD,64960.0,108343.0,yearly,it_cyber|data|personnel,,it_cyber|data|personnel|gis|pm,False,bachelor,computer science or related field,5.0,True,SQL|Oracle Developer 2000,,,election_official,high,,,,,high
 1555,Project/Election Coordinator,Burleigh County,ND,45760.0,51459.0,yearly,ops|data|pm|personnel,,ops|data|pm|personnel,False,,"computer science, business or public administration",5.0,True,,,,election_official,high,,,,,high
 1556,Senior Director of Advocacy,Demos,NY,,,,comms|pm|personnel,,comms|pm|personnel|data,False,,,8.0,,,,,not_election_official,high,,,,,high
+1557,Communications Coordinator,Brennan Center,NY,,,,comms,,comms,False,bachelor,,,,,,,not_election_official,high,,,,,high
 1558,"Senior Associate, Election Initiatives",Pew Center on the States,,,,,data|comms|pm,legal,data|comms|pm|legal|intergovt,False,bachelor,,4.0,,,,,not_election_official,high,False,,,,high
 1559,"Researcher, CIRCLE",Tufts University,MA,,,,data,data,data|comms,False,bachelor,social science,3.0,,,,,not_election_official,high,,,,,high
 1560,Senior Researcher,"Tufts University, CIRCLE",MA,,,,data|comms,,data|comms,False,master,social science,5.0,,,,,not_election_official,high,,,,,high
@@ -1562,13 +1612,16 @@ row_index,job_title,employer,state,salary_low_end,salary_high_end,pay_basis,skil
 1610,Deputy General Registrar,City of Richmond,VA,43771.0,71898.0,yearly,ops|vr|budget|personnel,vr,ops|budget|vr|personnel,False,bachelor,"public administration, business management, organizational development, project management",2.0,True,,,,election_official,high,,,,,high
 1611,Election Training Coordinator,D.C. Board of Elections and Ethics,DC,62499.0,79959.0,yearly,ops|personnel|comms,,ops|personnel|comms,False,,,,,,,,election_official,high,,,,,high
 1612,General Registrar,City of Virginia Beach,VA,84476.0,84476.0,yearly,vr|personnel|budget|comms,data,budget|vr|data|comms|personnel,False,associate,"public administration, business administration, or similar disciplines",8.0,True,,,,top_election_official,high,False,,,,high
+1613,Technology Scout/IT Visionary,Overseas Vote Foundation,,,,hourly,,it_cyber|data,it_cyber|data,False,,,,,,,,not_election_official,high,False,False,remote,,high
 1614,Deputy Registrar of Voters,Solano County,CA,82482.0,100257.0,yearly,ops|personnel,,ops|personnel,False,bachelor,"Public Administration, Political Science, or closely related field",5.0,True,,,,top_election_official,high,,,,,high
 1615,Legal Counsel,Montgomery County Board of Elections,MD,,,,legal|comms,legal,legal|comms,False,,,,,,,,election_official,high,False,,on_site,,high
+1616,,Fulton County Government,GA,,,,,,,False,,,,,,,,not_election_official,high,,,,,high
 1617,Web Systems Developer (or similar technical role),Federal Voting Assistance Program (FVAP),,74872.0,97333.0,yearly,it_cyber|data,,it_cyber|data|comms,False,,,,,,,,not_election_official,high,,,,,high
 1618,Election Protection Coordinator,The Lawyer's Committee,DC,,,,,,,False,,,,,,,,not_election_official,high,,,,,medium
 1619,Deputy City Clerk,City of Ann Arbor,MI,48000.0,65000.0,yearly,ops|personnel,,ops|personnel|legal,False,bachelor,"public administration, political science, or related field",4.0,True,,,,election_official,high,,,,,high
 1620,General Registrar,City of Virginia Beach,VA,84476.0,84476.0,yearly,vr|ops|personnel|budget|comms|data,legal|intergovt,budget|ops|legal|intergovt|vr|data|comms|personnel,False,high_school,"public administration, business administration",8.0,True,,,,top_election_official,high,False,,,,high
 1621,Technology Scout/IT Visionary,Overseas Vote Foundation,,,,hourly,it_cyber,,it_cyber|comms,False,,,,,,,,not_election_official,high,,False,remote,,high
+1622,Voter Outreach and Communications Manager,Overseas Vote Foundation,,,,,comms|pm|budget,data,comms|pm|budget|data,False,,,,,,,,not_election_official,high,,False,remote,,high
 1623,Associate Counsel for Voting Rights Project,The Lawyers' Committee for Civil Rights Under Law,,,,,legal,bilingual,legal|bilingual,False,bachelor,,0.0,,,,,not_election_official,high,False,,,,high
 1624,Assistant City Clerk,City of Minneapolis,MN,73783.0,81550.0,yearly,ops|personnel|legal|comms,,ops|personnel|legal|comms|pm|intergovt,False,bachelor,"Public Administration, Political Science",4.0,,,,,election_official,high,False,True,,,high
 1625,Electronic Voting System Expert/Examiner,Pennsylvania Department of State,PA,,,,it_cyber,,it_cyber,True,,,,,,,,election_official,high,,,,,medium
