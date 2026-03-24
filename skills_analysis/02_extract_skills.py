@@ -67,7 +67,7 @@ import pandas as pd
 import anthropic
 from tqdm import tqdm
 from typing import List, Optional, Literal
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, field_validator
 
 # ---------------------------------------------------------------------------
 # Configuration
@@ -151,6 +151,27 @@ class ExtractionResult(BaseModel):
     # Extraction metadata
     text_confidence:  Literal["high", "medium", "low"]
 
+    # ------------------------------------------------------------------
+    # Validators
+    # ------------------------------------------------------------------
+
+    @field_validator(
+        "skill_categories_required", "skill_categories_preferred",
+        "skill_categories_mentioned", "certifications_required",
+        "certifications_preferred", "certifications_substitutable",
+        mode="before",
+    )
+    @classmethod
+    def coerce_null_to_empty_list(cls, v):
+        """
+        The model sometimes returns the JSON string "null" for empty list
+        fields instead of []. Coerce it (and Python None) to [] so Pydantic
+        validation doesn't fail on what is semantically an empty list.
+        """
+        if v is None or v == "null":
+            return []
+        return v
+
 # ---------------------------------------------------------------------------
 # Prompt
 # ---------------------------------------------------------------------------
@@ -201,7 +222,10 @@ return null. This applies especially to:
   - full_time (only if explicitly stated; do not assume)
   - remote_hybrid (only if explicitly stated)
   - registered_voters (only if a number is stated in the text)
-  - certifications (only list if mentioned by name)"""
+  - certifications (only list if mentioned by name)
+
+IMPORTANT: For all array fields (skill_categories_*, certifications_*), return an
+empty array [] when there are no items — never return null or the string "null"."""
 
 
 def build_user_message(text):
