@@ -16,7 +16,7 @@ The comparison covers:
 
 REPLICATION
 -----------
-Run from repo root after 02b_merge_outputs.py has completed:
+Run from repo root after 02_merge_outputs.py has completed:
   python3 skills_analysis/02c_compare_datasets.py
 
 Input:  dataset.csv                      (original, at repo root)

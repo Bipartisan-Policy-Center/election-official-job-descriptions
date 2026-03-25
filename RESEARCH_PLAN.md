@@ -2,7 +2,7 @@
 
 **Project:** Analysis of election official job descriptions (2011–2025)
 **Purpose:** Paper on professionalization of election administration — tracking skill demands, taxonomy of required competencies, and trends over time
-**Last updated:** 2026-03-23
+**Last updated:** 2026-03-24
 
 ---
 
@@ -10,130 +10,116 @@
 
 - **1,638 rows** in `dataset.csv`, spanning 2011–present
 - **Stub descriptions** (`description` column): available for all rows, avg ~1,350 chars — consistent signal across full time series
-- **Full text files** (`job-descriptions/` folder): 1,098 rows have associated files, but quality is highly variable:
-  - ~303 files are effectively junk (<500 chars, error pages, UI boilerplate, wrong-site scrapes)
-  - ~374 files are marginal (500–3,000 chars)
-  - ~381 files are rich (3,000+ chars) — concentrated in 2019–2026
+- **Full text files** (`job-descriptions/` folder): 1,084 rows have associated files, highly variable quality by era:
+  - 2011–2014: 25–59% coverage, median file 280–540 chars (many are just stubs re-scraped)
+  - 2015–2017: 58–70% coverage, median 600–1,140 chars
+  - 2018–2021: 48–82% coverage, median 3,500–5,200 chars (much richer)
+  - 2022–2026: 72–100% coverage, median 5,800–8,900 chars
+- **Text selection**: no heuristics — the extraction LLM itself decides whether to use the full text or stub for each row (see Phase 3)
 - **Year distribution**: small samples 2011–2014 (40–54/yr), growing 2015–2018, larger 2019–2026 (111–200/yr); 2026 is partial
 
 ---
 
-## Phase 1: Text Triage & Quality Classification
+## Phase 1: Text Triage
 
-**Goal:** Assign a `text_quality` label to each row and create a `best_text` column for downstream extraction.
+**Status: ✅ Complete (integrated into Phase 3)**
 
-**Quality categories:**
-- `rich_full_text` — full text ≥3,000 chars, no junk signals
-- `marginal_full_text` — full text 500–3,000 chars, potentially useful
-- `junk_full_text` — full text exists but is garbage (error pages, UI chrome, wrong domain)
-- `stub_only` — no full text file, or file is missing
+Rather than a separate heuristic classification pass, text selection is handled by the same Claude Haiku API call that performs skill extraction. For each row, the model receives both the electionline stub and the scraped full text (if available) and sets `text_used = "full_text"` only when the full text clearly describes the same job AND adds meaningful detail. Otherwise it falls back to `"stub"`. This eliminates fragile structural heuristics that couldn't reliably distinguish, e.g., HR portals from actual job postings.
 
-**Junk detection heuristics:**
-- Known error strings: "page not found", "this job has moved", "page not available", etc.
-- Domain mismatch signals (e.g., BPC careers page, Tufts EEO boilerplate)
-- Length threshold: <200 chars → always junk
-- Low word diversity / repeated sentences (UI boilerplate pattern)
-
-**Output:**
-- `text_quality` column added to working dataset
-- `best_text` column: use full text when `rich_full_text` or `marginal_full_text`, else stub
-- Sample of ~30 borderline cases for Will to review before locking in rules
-
-**Deliverable:** `dataset_with_quality.csv` + quality audit summary
+There is no separate `text_quality` column or `dataset_with_quality.csv`. The `text_used` column in `dataset_final.csv` is the output of this step.
 
 ---
 
 ## Phase 2: Skill Taxonomy Development
 
-**Goal:** Define the structured skill categories to use for LLM extraction. Must be grounded in actual posting content, not assumed a priori.
+**Status: ✅ Complete**
 
-**Process:**
-1. Sample ~40 postings stratified across years (5 per era: 2011–14, 2015–17, 2018–20, 2021–23, 2024–25) and job levels
-2. Read full texts carefully; note all skill/qualification types mentioned
-3. Draft taxonomy, resolve key design decisions (see below)
-4. Will reviews and approves taxonomy before extraction runs
+12-category taxonomy finalized and implemented. See `skills_analysis/skill_taxonomy.md` for full definitions.
 
-**Draft taxonomy (to be refined in Phase 2):**
-
-| Category | Description |
+| Code | Category |
 |---|---|
-| Election administration | Ballot processing, poll worker management, canvassing, certification |
-| Voter registration systems | Statewide VR database, NVRA compliance, list maintenance |
-| Legal / regulatory compliance | Election law, HAVA, state statutes, public records |
-| Data management / analysis | Database management, reporting, statistical analysis |
-| IT / cybersecurity / election technology | Voting systems, election tech, network security, EMS |
-| Project management | Planning, scheduling, multi-task coordination, deadline management |
-| Personnel management | Hiring, supervision, training, HR |
-| Public communication / outreach | Media relations, public speaking, community engagement |
-| Bilingual / language skills | Any non-English language requirement |
-| Budget / finance | Fiscal management, procurement, grants |
-| GIS / mapping / redistricting | Geographic systems, precinct management |
-| Formal qualifications | Degrees, certifications (CME, CERA), licensures |
+| `ops` | Election operations & administration |
+| `vr` | Voter registration systems |
+| `legal` | Legal / regulatory compliance |
+| `it_cyber` | IT / cybersecurity / election technology |
+| `data` | Data management / analysis |
+| `pm` | Project management |
+| `personnel` | Personnel management / supervision |
+| `budget` | Budget & financial management |
+| `comms` | Public communication / outreach |
+| `intergovt` | Intergovernmental & stakeholder coordination |
+| `gis` | GIS / mapping / redistricting |
+| `bilingual` | Bilingual / language skills |
 
-**Key design decisions to resolve:**
-- Track "required" vs. "preferred" separately, or merge?
-- Count presence (binary) or intensity (# of mentions)?
-- Should "formal qualifications" be a separate dimension from functional skills?
-- Handle multi-role postings (e.g., "Clerk/Treasurer") how?
-
-**Deliverable:** `skill_taxonomy.md` — approved taxonomy document with operational definitions
+Skills are extracted with three levels of intensity: `required`, `preferred`, and `mentioned` (superset). `election_security_explicit` is a separate boolean flag.
 
 ---
 
 ## Phase 3: LLM Skill Extraction Pipeline
 
-**Goal:** Use Claude Haiku to extract structured skill data from each posting at scale.
+**Status: ✅ Complete** — extraction finished, `dataset_final.csv` produced
 
-**Technical approach:**
-- Same pattern as existing `parse_and_classify_with_claude` in `process_listings.py`
-- Model: `claude-haiku-4-5-20251001` with structured JSON output
-- Input: `best_text` (or stub fallback)
-- Output per row:
-  ```json
-  {
-    "skill_categories": ["election_admin", "legal_compliance", ...],
-    "skill_count": 4,
-    "required_qualifications": ["bachelor's degree", "5 years experience"],
-    "preferred_qualifications": ["CME certification"],
-    "text_confidence": "high" | "medium" | "low"
-  }
-  ```
-- Also run on stubs for the ~1,084 rows with both sources → stub vs. full-text calibration
+**Technical approach:** Single Claude Haiku call per row (model: `claude-haiku-4-5-20251001`). The model receives:
+1. The electionline stub in `<electionline_stub>` tags (always reliable)
+2. The scraped full text in `<scraped_full_text>` tags (or a note that none is available)
 
-**Cost estimate:** ~1,638 rows × ~2,000 tokens avg = ~3.3M tokens input; at Haiku pricing, well under $5 total
+In one call, it (1) selects which text to use and (2) extracts all structured fields:
 
-**Output:** `skills_extracted.csv` keyed on row ID, stored alongside main dataset
+```
+text_used, job_title, employer, state,
+salary_low_end, salary_high_end, pay_basis,
+skill_categories_required, skill_categories_preferred, skill_categories_mentioned,
+election_security_explicit,
+degree_required, degree_field, min_years_experience, experience_can_substitute,
+certifications_required, certifications_preferred, certifications_substitutable,
+job_classification, classification_confidence,
+position_elected, full_time, remote_hybrid, registered_voters,
+text_confidence
+```
 
-**Deliverable:** Extraction script + `skills_extracted.csv`
+Results cached to `skills_analysis/api_cache_combined/<row_idx>.json`. Safe to interrupt and resume.
+
+**Pipeline scripts** (run from repo root):
+```bash
+python3 skills_analysis/01_extract_all.py       # ~90 min; resumable
+python3 skills_analysis/02_merge_outputs.py     # ~5 sec
+python3 skills_analysis/03_build_validation_sample.py  # ~5 sec
+# or: bash skills_analysis/run_pipeline.sh
+```
+
+**Cost:** ~$4–6 per full run at Haiku pricing.
 
 ---
 
 ## Phase 4: Human Validation
 
-**Goal:** Spot-check extraction quality before drawing conclusions.
+**Status: 🔄 Infrastructure complete — human review pending**
 
-**Sample design:**
-- 60 rows total: 50 stratified sample (by year era, job level, text quality tier) + 10 edge cases (very short texts, unusual job types)
-- For each: show original text alongside extracted skills
-- Reviewer marks: ✓ correct / ↑ undercounted / ↓ overcounted / ✗ wrong categories
+**Sample design (30 rows total, all three reviewers cover the same rows):**
+- 25 stratified rows: year era × job classification × text source (full_text vs. stub)
+- 5 edge cases: very short stubs, borderline classification, high skill count, full-text spot-check
 
-**Threshold:** If error rate >15%, revisit extraction prompt before full run
+**Review tool:** `skills_analysis/validation_review.html` — self-contained browser tool with all review data embedded. Open in any browser; no server required.
 
-**Also validate:** Whether stub-only extractions are reliable enough to extend trends to 2011–2014
+**Threshold:** If error rate >15%, revisit extraction prompt.
 
-**Deliverable:** `validation_sample.csv` / Google Sheet for review
+**Also validate:** Whether stub-only extractions are reliable for extending trends to 2011–2014.
+
+**Deliverable:** Completed `validation_sample.csv` with reviewer verdicts
 
 ---
 
 ## Phase 5: Trend Analysis
+
+**Status: ⏳ Pending**
 
 **Core question:** Have more skills been demanded of election officials over time?
 
 **Analyses:**
 1. **Skills over time** — mean/median skill category count per posting by year; bin 2011–2014 into 2-year periods due to small n
 2. **Category-level trends** — which skill types are growing fastest? (Expect IT/cybersecurity inflection ~2016–2018)
-3. **By job level** — use `classification_experimental` (top official vs. deputy/staff vs. non-election)
-4. **Stub vs. full-text calibration** — quantify undercount in stubs; determine if stub-only trend line is reliable for early years
+3. **By job level** — use `job_classification` (top_election_official / election_official / not_election_official)
+4. **Stub vs. full-text calibration** — quantify undercount in stubs; determine if stub-only trend is reliable for early years
 5. **Salary correlations** — regression of `salary_mean` on skill categories, controlling for state, year, job level (~28% missing salary data)
 6. **Has the job description itself changed?** — text similarity / vocabulary shift over time
 
@@ -149,20 +135,18 @@
 
 ## Phase 6: Control Group
 
-**Goal:** Contextualize election official skill trends relative to comparable public sector roles.
+**Status: ⏳ Pending — Will investigating**
 
-**Options (in order of effort):**
+**Goal:** Contextualize election official skill trends relative to comparable public sector roles.
 
 | Approach | Pros | Cons | Effort |
 |---|---|---|---|
-| Internal control: `not_election_official` rows in dataset | Free, same source | Only 263 rows; selection bias | Low |
+| Internal control: `not_election_official` rows in dataset | Free, same source | Only ~263 rows; selection bias | Low |
 | O*NET occupation profiles | Structured, authoritative | Not time-series | Low |
 | Cite existing lit (Moynihan, ICMA surveys) | Peer-reviewed baseline | Indirect comparison | Low |
 | USA Jobs / state job board scrape | True apples-to-apples | Requires new data collection | Medium-high |
 
 **Recommended approach:** Use internal `not_election_official` control for primary analysis; reference O*NET and existing public admin literature for external validity. USA Jobs scrape as fallback if reviewers push back.
-
-**Will is investigating control group options in parallel.**
 
 ---
 
@@ -170,10 +154,10 @@
 
 | Phase | Status | Notes |
 |---|---|---|
-| 1. Text triage | 🔄 In progress | |
-| 2. Taxonomy | ⏳ Pending | Requires Will's review |
-| 3. LLM extraction | ⏳ Pending | Depends on Phase 2 |
-| 4. Validation | ⏳ Pending | Requires Will's review |
+| 1. Text triage | ✅ Complete | Integrated into Phase 3 — no separate step |
+| 2. Taxonomy | ✅ Complete | 12 codes; see `skill_taxonomy.md` |
+| 3. LLM extraction | ✅ Complete | `dataset_final.csv` produced |
+| 4. Validation | 🔄 In progress | Tool built; human review pending |
 | 5. Trend analysis | ⏳ Pending | |
 | 6. Control group | ⏳ Pending | Will investigating |
 
@@ -187,12 +171,14 @@ All analysis scripts and outputs live in `skills_analysis/`. Scripts are numbere
 |---|---|
 | `dataset.csv` | Main dataset (1,638 rows, 16 columns) — input, do not modify |
 | `RESEARCH_PLAN.md` | This document |
-| `skills_analysis/01_classify_text_quality.py` | Classifies full-text files; outputs `dataset_with_quality.csv` |
-| `skills_analysis/skill_taxonomy.md` | Skill taxonomy with operational definitions (Phase 2) |
-| `skills_analysis/02_extract_skills.py` | LLM skill extraction pipeline; outputs `skills_extracted.csv` (Phase 3) |
-| `skills_analysis/03_build_validation_sample.py` | Builds spot-check sample for human review (Phase 4) |
-| `skills_analysis/04_analyze_trends.py` | Trend analysis and figures (Phase 5) |
-| `skills_analysis/dataset_with_quality.csv` | Output of 01 |
-| `skills_analysis/text_quality_review_sample.csv` | Output of 01 — 30 borderline cases for spot-checking |
-| `skills_analysis/skills_extracted.csv` | Output of 02 (once run) |
-| `skills_analysis/validation_sample.csv` | Output of 03 (once run) |
+| `skills_analysis/PIPELINE.md` | Technical pipeline documentation |
+| `skills_analysis/skill_taxonomy.md` | Skill taxonomy with operational definitions |
+| `skills_analysis/01_extract_all.py` | Combined text selection + extraction (single Haiku call per row) |
+| `skills_analysis/02_merge_outputs.py` | Joins dataset.csv + skills_extracted.csv → dataset_final.csv |
+| `skills_analysis/03_build_validation_sample.py` | Builds 60-row stratified sample for human review |
+| `skills_analysis/run_pipeline.sh` | Runs all 3 steps end-to-end; `--fresh` flag clears cache |
+| `skills_analysis/api_cache_combined/` | Per-row JSON cache (one file per row index) — do not delete unless re-running |
+| `skills_analysis/skills_extracted.csv` | Output of 01_extract_all.py |
+| `skills_analysis/dataset_final.csv` | Analysis-ready dataset (~35 columns); output of 02_merge_outputs.py |
+| `skills_analysis/validation_sample.csv` | 60-row review sample; output of 03_build_validation_sample.py |
+| `skills_analysis/validation_review.html` | Self-contained browser review tool |

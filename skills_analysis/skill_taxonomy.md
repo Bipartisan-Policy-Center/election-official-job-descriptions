@@ -1,7 +1,7 @@
 # Skill Taxonomy for Election Official Job Description Analysis
 
-**Status:** DRAFT — awaiting Will's review
-**Last updated:** 2026-03-23
+**Status:** APPROVED — reviewed and finalized 2026-03-24
+**Last updated:** 2026-03-24
 
 ---
 
@@ -296,12 +296,16 @@ Note: `election_security_explicit` is a boolean flag within Category 4 (IT/Cyber
 
 ---
 
-## Design Decisions (Resolved)
+## Design Decisions (All Resolved)
 
-**Q1 — Categories 9 & 10 (Intergovernmental vs. Public Comms):** Keep separate. Different competencies for our purposes.
+**Q1 — Categories 9 & 10 (Intergovernmental vs. Public Comms):** Keep separate. Different competencies for our purposes. ✓ *Resolved: implemented as separate categories (comms / intergovt)*
 
-**Q2 — Election security as sub-category:** Too granular given our N. Middle ground: add a boolean flag `election_security_explicit` within Category 4. The LLM returns this as a sub-field (true/false) inside the IT/Cybersecurity result. This captures the post-2016 time-series signal without fragmenting the category counts.
+**Q2 — Election security as sub-category:** Too granular given our N. Middle ground: add a boolean flag `election_security_explicit` within Category 4. The LLM returns this as a sub-field (true/false) inside the IT/Cybersecurity result. This captures the post-2016 time-series signal without fragmenting the category counts. ✓ *Resolved: implemented as `election_security_explicit` boolean field in extraction schema*
 
-**Q3 — CERA as substitute:** Track it. The JSON schema now includes `certifications_substitutable` as a sub-field alongside `certifications_required` and `certifications_preferred`.
+**Q3 — CERA as substitute:** Track it. The JSON schema now includes `certifications_substitutable` as a sub-field alongside `certifications_required` and `certifications_preferred`. ✓ *Resolved: implemented in extraction schema*
 
-**Q4 — EAC and classification reliability:** EAC postings are not election officials (they don't run elections) and should be excluded from the primary trend analysis. More broadly, the `classification_experimental` column is unreliable and should be rebuilt — see note in the JSON schema section and the reclassification plan in `RESEARCH_PLAN.md`.
+**Q4 — EAC and classification reliability:** EAC postings are not election officials (they don't run elections) and should be excluded from the primary trend analysis. The extraction pipeline produces a `job_classification` field (replacing the unreliable `classification_experimental` column) with values: `top_election_official`, `election_official`, `not_election_official`, `borderline`. Primary trend analysis uses `election_official` + `top_election_official` only. ✓ *Resolved: `job_classification` column in `dataset_final.csv` is the authoritative classification going forward*
+
+**Q5 — Required vs. Preferred:** Track separately where the posting makes the distinction explicit. For early postings/stubs that don't separate them, code as "required" by default. ✓ *Resolved: implemented as `skill_categories_required` / `skill_categories_preferred` / `skill_categories_mentioned` in extraction schema*
+
+**Q6 — Counting unit:** Binary presence per category (0/1) is the primary unit. Also track total count. Do NOT count individual bullet points — too noisy across formats. ✓ *Resolved: extraction returns pipe-delimited category lists; analysis derives binary flags*
