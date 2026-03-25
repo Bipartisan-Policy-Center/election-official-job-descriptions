@@ -117,11 +117,18 @@ body { display: flex; flex-direction: column; font-family: -apple-system, BlinkM
 <div class="header">
   <div>
     <div class="header-title">Election Officials Dataset — Skills Extraction Validation</div>
-    <div class="header-sub">30-row spot-check · Phase 4</div>
+    <div class="header-sub">30-row spot-check</div>
   </div>
   <div style="display:flex;gap:14px;align-items:center">
     <div class="prog-wrap"><div class="prog-bar" id="pBar" style="width:0"></div></div>
-    <div class="prog-lbl" id="pLbl">0 / 30 reviewed</div>
+    <div>
+      <div class="prog-lbl" id="pLbl">0 / 30 reviewed</div>
+      <div style="display:flex;gap:6px;margin-top:4px">
+        <span class="nstat nstat-c">✓ <span id="n-correct">0</span></span>
+        <span class="nstat nstat-s">~ <span id="n-slightly">0</span></span>
+        <span class="nstat nstat-w">✗ <span id="n-wayoff">0</span></span>
+      </div>
+    </div>
     <div class="header-save">
       <input class="reviewer-input" id="reviewerName" type="text" placeholder="Enter your name" maxlength="40" oninput="saveReviewerName(this.value)" />
       <button class="export-btn" id="saveBtn" onclick="saveToSheet()">Save results</button>
@@ -133,22 +140,9 @@ body { display: flex; flex-direction: column; font-family: -apple-system, BlinkM
   <button class="nav-btn" id="prevBtn" onclick="navigate(-1)">← Previous</button>
   <span class="nav-pos" id="navPos">1 / 30</span>
   <button class="nav-btn" id="nextBtn" onclick="navigate(1)">Next →</button>
-  <div class="nav-stats">
-    <span class="nstat nstat-c">✓ <span id="n-correct">0</span></span>
-    <span class="nstat nstat-s">~ <span id="n-slightly">0</span></span>
-    <span class="nstat nstat-w">✗ <span id="n-wayoff">0</span></span>
-  </div>
   <div class="nav-right">
     <label>Jump to:</label>
     <select id="jumpSel" onchange="jumpTo(this.value)"></select>
-    <label>Filter:</label>
-    <select id="filtSel" onchange="applyFilter()">
-      <option value="all">All rows</option>
-      <option value="todo">Not yet reviewed</option>
-      <option value="correct">Correct</option>
-      <option value="slightly_off">Slightly off</option>
-      <option value="way_off">Way off</option>
-    </select>
     <span class="kbd">← → navigate &nbsp;|&nbsp; 1 correct &nbsp; 2 slightly off &nbsp; 3 way off</span>
   </div>
 </div>
@@ -201,16 +195,6 @@ let filtered = DATA.map((_,i)=>i);
 let pos = 0;
 const row = () => DATA[filtered[pos]];
 
-function applyFilter() {
-  const f = document.getElementById('filtSel').value;
-  filtered = DATA.map((_,i)=>i).filter(i => {
-    const v = state[DATA[i].row_id].verdict;
-    if (f==='all')  return true;
-    if (f==='todo') return !v;
-    return v===f;
-  });
-  pos=0; render(false); populateJump();
-}
 function populateJump() {
   const icons = {correct:'✓', slightly_off:'~', way_off:'✗'};
   document.getElementById('jumpSel').innerHTML = filtered.map((i,p) => {
