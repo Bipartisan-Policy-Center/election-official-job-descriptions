@@ -1,0 +1,140 @@
+=== JOB DETAILS ===
+
+Title: IT/GIS Systems Specialist Journey
+Salary: $44.83 - $56.83 HOUR
+Location: WA 98057-2906, WA, WA, 98104
+Employer: King County
+Employment Type: OTHER
+Date Posted: 2026-04-24
+Job Type: Career Service (Exec)
+Job Number: 2026RL27092
+Department: KCE - King County Elections
+Division: Technical Services
+Opening Date: 04/24/2026
+Closing Date: 5/8/2026 11:59 PM Pacific
+FLSA: Non-Exempt
+Bargaining Unit: C19 : PROTEC17-Information Tech
+Full- or Part-Time: Full Time
+
+BENEFITS:
+  • Excellent medical, dental, and vision coverage options: King County provides eligible employees with options, so they can decide what’s best for themselves and their eligible dependents
+  • Life and disability insurance: employees are provided basic coverage and given the opportunity to purchase additional insurance for both the employee and eligible dependents
+  • Retirement: eligible King County employees may participate in a pension plan through the Washington State Department of Retirement Systems and a 457(b) deferred-compensation plan
+  • Transportation program and ORCA transit pass
+  • 12 paid holidays each year plus two personal holidays
+  • Generous vacation and paid sick leave
+  • Paid parental, family and medical, and volunteer leaves
+  • Flexible Spending Account
+  • Wellness programs
+  • Onsite activity centers
+  • Employee Giving Program
+  • Employee assistance programs
+  • Flexible schedules and telecommuting options, depending on position
+  • Training and career development programs
+
+For additional information about employee benefits, visit our
+Benefits, Payroll, and Retirement Page
+.
+This is a general description of the benefits offered to eligible King County employees, and every effort has been made to ensure its accuracy.  If any information on this document conflicts with the provisions of a collective bargaining agreement (CBA), the CBA prevails.
+NOTE:
+Benefits for Term Limited Temporary (TLT) or Short Term Temporary (STT) positions, including leave eligibility and/or participation in the pension plan through the Washington State Department of Retirement Systems, will vary based upon the terms and details of the position. Short Term Temporary positions are not eligible for an ORCA transit pass.
+For inquiries about the specifics of this position, please contact the recruiter identified on this job posting.
+
+=== JOB DESCRIPTION ===
+
+This is an amazing opportunity to be engaged in the election process!
+
+The Department of Elections is searching for an energetic and resourceful professional who likes to get stuff done. The IT/GIS Systems Specialist, Journey in the Elections Department combines an exciting environment with the opportunity to cultivate talents and apply a variety of skills. The ideal candidate will thrive in an innovative, fast-paced environment and will not hesitate to roll up both sleeves, work hard, have fun, and get the job done.
+
+This hybrid position blends hands on IT support with foundational GIS work to keep King County Elections running smoothly. As part of the TECHGIS Division, you will help ensure our staff—and the public we serve—have reliable technology and accurate spatial data.
+
+In this role, you will provide journey level support across key IT and GIS functions. Responsibilities include delivering day-to-day desktop support for Elections staff, assisting with equipment provisioning for new employees (including our large seasonal workforce), and contributing to GIS data maintenance, mapping tasks, and spatial workflow processes.
+
+Who We Are: King County Elections (KCE) manages voter registrations and elections for more than 1.4 million voters in King County, one of the largest vote-by-mail counties in the United States. KCE's mission is to conduct accessible, secure, and accurate elections. As a leader in providing inclusive elections, KCE is focused on core values of accuracy, equity, integrity, service, teamwork, and transparency. The team at KCE is committed to ensuring all King County voters can get registered, cast their ballot, and make their voices heard. Learn more at www.kingcounty.gov/elections.aspx.
+
+
+
+
+In this hybrid IT/GIS role, you will provide a broad range of journey-level technical and geospatial support, including:
+
+IT Responsibilities
+
+Provide Tier 1 and Tier 2 end-user support for Elections staff including Windows/iOS troubleshooting, peripherals, software, and connectivity issues.
+Support device lifecycle management: inventory tracking, equipment preparation, receiving, testing laptops/printers/scanners/docks, and coordinating replacement cycles. 
+Implement and maintain assigned IT systems; diagnose and resolve hardware, software, connectivity, and network support issues, escalating when appropriate. 
+Create, modify, and maintain user accounts (Active Directory, VoteWA), support onboarding/offboarding processes, and manage licensing workflows. 
+Support device imaging and configuration, including annual laptop imaging and maintaining standard desktop environments. 
+Maintain and support A/V and conference room technologies, livestreaming equipment, projectors, screens, and public meeting spaces used for canvassing boards. 
+Provide field technology support for Vote Centers, including equipment prep, deployment, onsite/remote troubleshooting, and coordination of supplies. 
+Monitor and maintain operational technologies including update cycles, peripheral management, and routine technical maintenance.
+Maintain accurate and easily-referenceable hardware, software and system inventories.
+Document system changes, updates, and procedures.
+Support continuous improvement and modernization efforts of IT applications.
+Other duties as assigned.
+
+
+
+
+GIS Responsibilities
+
+Support the maintenance of Elections’ spatial datasets, map production, and geographic workflows required for ballot production, precinct updates, and election planning. 
+Perform spatial analysis, data QA/QC, geoprocessing, and intermediate-level GIS analysis to support internal customers and Elections program areas. 
+Interpret and plot legal descriptions, addressing discrepancies between GIS data and the Election Management System, and maintaining precinct and district layers. 
+Produce maps and cartographic displays using ArcGIS Pro, ArcGIS Online, and King County GIS standards for Elections operations and public information needs. 
+Support integration of GIS with operational technologies (e.g., Drop Boxes, Vote Center siting, routing, jurisdictional boundaries, field operations) and modernization efforts for GIS-related applications. 
+Create and maintain metadata, documentation, runbooks, and training materials for GIS workflows and tools. 
+Other duties as assigned.
+
+The ideal candidate will have (required qualifications):
+
+Demonstrated skill and experience with end-user IT and/or GIS technical support in a production or operational environment.
+Foundational GIS skills including spatial data maintenance, map production, geoprocessing, and familiarity with ArcGIS Pro or comparable desktop GIS tools.
+Demonstrated experience supporting the planning and implementation of projects that add, modify, or enhance systems, processes, or applications.
+Strong analytical, troubleshooting, and problem-solving skills; attention to detail; and the ability to follow established procedures and documentation practices. 
+Demonstrated ability to work collaboratively with diverse teams, communicate clearly with technical and non-technical users, and manage workload under strict deadlines (especially during elections). 
+
+
+
+
+It would be great if you also have (preferred qualifications):
+
+Experience with advanced or enterprise-level GIS tools, ArcGIS Enterprise, ArcGIS Online administration, or deeper spatial data skills.
+Experience in production, operational, or field-based technical support environments (e.g., remote sites, equipment deployment).
+Experience with scripting, automation, or project management supporting IT or GIS workflows.
+Experience working in elections, election technology, government operations, or other high-volume, high-accuracy environments.
+
+Who May Apply: This position is open to all qualified applicants. 
+
+Application Process: A complete King County Application, Resume, and Cover Letter are required. The cover letter should summarize how you meet the experience, qualifications, knowledge, and skills for the position. Applications will be screened for clarity, completeness, and competitiveness. The most competitive candidates may be invited to participate in one or more interviews. 
+
+Union Membership: This position is represented by Protec17 – IT.
+
+Work Schedule: This position is subject to the provisions of the Fair Labor Standards Act and is overtime eligible. The workweek is typically 40 hours per week, 7:30 a.m. to 4:30 p.m., Monday through Friday. Candidates are required to be available to work additional hours, typically evenings, during the Election cycle and as needed to support the business or to respond to service issues or failures.
+
+Work Location and Requirements: The Elections team works in a hybrid model, with days in the office as well as telecommuting. The ratio of remote to onsite work will be dependent on business needs and is subject to change. The primary onsite location for this position is the Elections Building, 919 SW Grady Way, Renton. Travel to work locations throughout King County with limited or no public transportation services is required. A valid Washington State Driver's License is required to operate King County vehicles.
+
+Employees must reside in Washington state and within a reasonable distance to their King County worksite to respond to workplace reporting requirements.
+
+King County has a robust collection of tools and resources to support working remotely. The individual selected for this opportunity will join an innovative and progressive team that is redefining how we work as we transition to the department's hybrid environment. Employees will be provided with a County-issued laptop and must maintain a home workspace with an internet connection where they can reliably perform work and remain available and responsive during scheduled work hours.
+
+Physical Requirements: Must be able to frequently lift and move up to 40 pounds without assistance and be able to bend, twist, kneel, and work in confined spaces for several hours at a time multiple times per year.
+
+Classification: IT Systems Specialist - Journey
+
+
+Forbes recently named King County as one of Washington State's best employers.
+ 
+Together, with leadership and our employees, we're changing the way government delivers service and winning national recognition as a model of excellence. Are you ready to make a difference? Come join the team dedicated to serving one of the nation's best places to live, work and play.
+ 
+Guided by our "True North", we are making King County a welcoming community where every person can thrive. We value diversity, inclusion and belonging in our workplace and workforce. To reach this goal we are committed to workforce equity. Equitable recruiting, support, and retention is how we will obtain the highest quality workforce in our region; a workforce that shares and will help advance our guiding principles--we are one team; we solve problems; we focus on the customer; we drive for results; we are racially just; we respect all people; we lead the way; and we are responsible stewards. We encourage people of all backgrounds and identities to apply, including Native American and people of color, immigrants, refugees, women, LGBTQ+, people living with disabilities, and veterans.
+ 
+King County is an Equal Employment Opportunity (EEO) Employer
+No person is unlawfully excluded from employment opportunities based on race, color, religion, national origin, sex (including gender identity, sexual orientation and pregnancy), age, genetic information, disability, veteran status, or other protected class. Our EEO policy applies to all employment actions, including but not limited to recruitment, hiring, selection for training, promotion, transfer, demotion, layoff, termination, rates of pay or other forms of compensation.
+ 
+To Apply
+If you are interested in pursuing this position, please follow the application instructions carefully. If you need this announcement in an alternate language or format, would like to request accommodation or assistance in the application or assessment process or if you have questions please contact your recruiter listed on this job announcement.
+
+For more information regarding this recruitment, please contact: 
+      Reeshema Lewis
+      Sr. HR Business Partner
+      Email: Reeshema.Lewis@kingcounty.gov
