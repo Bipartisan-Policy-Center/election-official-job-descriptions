@@ -1,0 +1,70 @@
+Texas Remote
+Texas
+Full time
+Remote
+Managed Services
+About Apollo
+Apollo Information Systems is a cybersecurity services company delivering comprehensive security and compliance programs to organizations that need measurable protection without the burden of building it alone. Backed by a Series A investment led by Syn Ventures, Apollo is pioneering a cybersecurity-as-a-service model that replaces fragmented tools and episodic engagements with unified, outcome-driven security programs.
+Through Apollo Aegis - a subscription-based cybersecurity and compliance platform - and a full portfolio of managed security, advisory, assessment, incident response, and offensive security services, Apollo helps organizations reduce risk, simplify operations, and maintain continuous compliance. Apollo's primary markets include state and local government, K-12 and higher education, and mid-market enterprises, with deep specialization in election security.
+Our Culture
+We are growing rapidly and have significant expansion plans and growth capital. We foster a collaborative environment where deep cybersecurity expertise meets business acumen, enabling our professionals to solve complex security challenges while building lasting client partnerships. We pride ourselves on our integrity and ethics. You’ll find smart, professional, mission-driven, hardworking, genuinely kind and good colleagues here. We primarily work remotely but have a hub in Denver.
+Position Overview:
+The Technical Assessor conducts in-depth technical and program-level cybersecurity assessments of client environments, identifying risk, measuring control maturity, and producing clear, actionable guidance that advances each client’s security posture. This is an experienced assessor role: the individual independently leads assessments end to end, evaluates complex environments against multiple frameworks, and is a trusted voice in front of both technical teams and executives. The assessor also helps mature Apollo’s assessment methodology and mentors more junior assessors.
+Key Responsibilities:
+Independently plan and lead hands-on cybersecurity assessments across enterprise, cloud, and public-sector environments — including election infrastructure at the county, city, and state level.
+Evaluate the design and operating effectiveness of technical controls spanning identity and access management, endpoint protection, patch and vulnerability management, secure configuration, network segmentation, data protection, logging/monitoring, and incident response.
+Review and interpret technical configurations and artifacts — firewall rulesets, GPOs, hardening baselines, cloud security configurations, IAM policies, and logging setups — to validate control implementation.
+Conduct stakeholder interviews and documentation reviews to understand policy, process, and control maturity.
+Assess client environments against established frameworks and standards including NIST CSF 2.0, CIS Controls, ISO 27001, CMMC, CJIS, HIPAA, and PCI DSS.
+Produce detailed assessment reports with prioritized risk findings, maturity ratings, and pragmatic, business-aware recommendations.
+Map findings to client risk and business context, translating technical gaps into clear remediation roadmaps.
+Present findings and recommendations to client stakeholders ranging from technical practitioners to executive leadership.
+Drive continuous improvement of Apollo’s assessment methodologies, workbooks, tooling, and report templates.
+Mentor junior assessors and perform peer review of assessment deliverables.
+Collaborate with consultants, engineers, advisors, and project managers to deliver high-quality engagements.
+Stay current with emerging threats, technologies, and regulatory developments.
+Qualifications
+Required
+Experience in cybersecurity, with demonstrable experience leading or performing security assessments (confirm threshold).
+Direct, hands-on experience assessing environments against one or more recognized frameworks (NIST CSF, CIS Controls, ISO 27001, CMMC, CJIS, HIPAA, or PCI DSS).
+Strong working knowledge of security controls across operating systems, network infrastructure, cloud services, and identity systems.
+Ability to independently review and assess technical configurations and documentation (firewall rules, GPOs, hardening baselines, logging setups, cloud configs).
+Excellent written communication and the ability to produce client-ready reports, plus the ability to explain technical findings in plain language to non-technical audiences.
+Experience working with clients in a consulting capacity and managing multiple concurrent engagements.
+Preferred
+One or more relevant certifications — e.g., Security+, CySA+, CISA, GIAC (e.g., GSEC), or assessor-specific credentials such as CMMC CCP/CCA.
+Hands-on familiarity with Microsoft 365 and Azure (and exposure to AWS or GCP).
+Experience with security tooling — vulnerability scanners, SIEM/EDR platforms, and configuration analyzers.
+Experience supporting public sector clients, election infrastructure, or regulated industries.
+Expectations:
+At 30 days:
+Complete onboarding to Apollo's assessment methodology, workbooks, report templates, and quality standards
+Review at least two completed assessment reports to calibrate Apollo's voice, depth of technical analysis, and the standard for translating findings into executive-ready language
+Shadow a senior assessor through an active engagement
+Within 90 days:
+Lead at least one assessment end-to-end independently
+Demonstrate working command of the frameworks relevant to your assigned engagements (NIST CSF 2.0, CIS Controls, CMMC, CJIS, or others)
+Produce assessment reports that require minimal revision
+Build effective working relationships with Apollo's advisors, engineers, and project managers
+By 180 days:
+Carry a portfolio of concurrent assessments independently with consistent, high-quality delivery
+Present findings confidently to client stakeholders at all levels
+Complete peer review of at least one junior assessor's deliverable and provide substantive, constructive feedback that improves the final product
+Contribute at least one improvement to Apollo's assessment methodology, workbooks, or report templates that gets adopted
+Company Values
+We have created a fantastic corporate culture – our values drive our behaviors. Here are the expectations:
+Passion for cybersecurity and a commitment to maintaining the highest standards of security.
+Customer Outcomes: Their success is our success, we are business partners
+Entrepreneurial Approach: fast decision making, empowerment, focus on results, test and learn
+Win Together: Intense Collaboration, no silos
+Integrity is paramount
+Why You'll Love Working Here
+Comprehensive medical, dental, and vision coverage, the company covers 100% of employee premiums and 90% of dependent premiums on base plans
+Unlimited PTO, 7 paid sick days, and 11 paid holidays
+401(k) with 4% company match after 90 days, immediately vested
+Company‑paid life insurance at 1x annual salary
+Company‑paid Short‑Term Disability (STD) and Long‑Term Disability (LTD) coverage
+$125 monthly home‑office tech stipend for internet, equipment, and other technology needs
+Amazing colleagues, a collaborative environment, and a supportive, growth‑focused culture
+Apollo-IS is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, disability or veteran status, or any other applicable state or federal protected class. Apollo-IS provides affirmative action in employment for qualified Individuals with a Disability and Protected Veterans in compliance with Section 503 of the Rehabilitation Act and the Vietnam Era Veterans’ Readjustment Assistance Act.
+Apollo Information Systems is CJIS (Criminal Justice Information Services) compliant and requires all employees to complete a background check and obtain CJIS certification.
