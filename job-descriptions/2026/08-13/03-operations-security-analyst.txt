@@ -1,0 +1,445 @@
+=== JOB DETAILS ===
+
+Title: Departmental Analyst 12 - Operations Security Analyst
+Salary: $29.92 - $43.73 HOUR
+Location: Lansing, MI, MI, 48909
+Employer: State of Michigan
+Employment Type: OTHER
+Date Posted: 2026-08-10
+Job Type: Permanent Full Time
+Job Number: 2301-26-BOE084
+Department: Department of State
+Opening Date: 08/11/2026
+Closing Date: 8/20/2026 9:10 AM Eastern
+Bargaining Unit: NON-EXCLUSIVE REPRESENTED EMPLOYEE (NERE)
+
+=== JOB DESCRIPTION ===
+
+
+ 
+POSITION DUTIES - This position serves as the Operational Security Analyst supporting the Bureau of Election's (BOE) Operations Section. This position is the recognized resource for all security duties completed by the Bureau of Elections. This position is the system administrator within the Bureau for all information systems including the Qualified Voter File (QVF), Online Voter Registration (OVR) and associated functions, the Michigan Transparency Network, and others. The position serves as the security liaison with MDOS Information Security and Control Division to assist BOE in preparing information system security plans for the various BOE information systems following the Michigan Security Accreditation Process. The incumbent has the responsibility for serving as an organizational liaison for information security, information technology, internal control evaluations, and audit resolution. This position serves as the Program/Contract Manager for Bureau of Elections applications and supports the Elections Operations Manager with vendor relationship activities.
+ 
+Position Description - Departmental Analyst 12 (Download PDF reader)
+
+
+APPOINTMENT TYPE/BENEFITS - This position is Full-Time. Therefore, you would be eligible to participate in the benefits offered by the state.
+
+
+
+
+Education
+Possession of a bachelor's degree in any major.
+
+Experience
+Three years of professional experience, including one year of experience equivalent to the experienced (P11) level in state service.
+
+Departmental Analyst 9 - 12 
+Educational level typically acquired through completion of high school and the equivalent of at least two years of full-time active-duty experience at or above the E-6 level in the uniformed services may be substituted for the education requirement.
+
+
+Accommodations
+If you require a reasonable accommodation to participate in the application or selection processes, please contact the ADA coordinator (Download PDF reader) for the agency that posted this position vacancy.
+
+
+                            
+    
+        
+
+01
+
+    
+
+    
+        Are you related to anyone currently working at the Department of State (Secretary of State)?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+02
+
+    
+
+    
+        If you answered "yes" to question #1, please list the name of each relative. If you answered "no" to question #1, please enter "none".
+        
+        
+        
+    
+
+
+    
+        
+
+03
+
+    
+
+    
+        Please list all previous names, to include name at birth, and any alias name(s) used. If you do not have any previous/alias names to list, please enter "none".
+        
+        
+        
+    
+
+
+    
+        
+
+04
+
+    
+
+    
+        DEPTALT - From the following, please select all that apply to you:
+        
+        
+                I possess a bachelor's degree or higher in any major.  If so, please attach a copy of your official college transcripts.
+                I possess at least one year of professional level experience in State of Michigan classified service.
+                I possess an education level typically acquired through completion of high school and the equivalent of at least two years of full-time active-duty experience at or above the E-6 level in the uniformed services.
+                None of the above
+        
+    
+
+
+    
+        
+
+05
+
+    
+
+    
+        DEPTALTA- Do you possess at least three years of professional experience?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+06
+
+    
+
+    
+        How many years' experience do you have working with Microsoft Office applications to include, Excel, Word, Access, and PowerPoint?
+        
+        
+                None
+                Less than 1 year
+                1 year to 3 years
+                More than 3 years
+        
+    
+
+
+    
+        
+
+07
+
+    
+
+    
+        Briefly describe your experience in working with Microsoft Office applications to include, Excel, Word, Access, and PowerPoint? If you do not possess this experience, please enter "N/A".
+        
+        
+        
+    
+
+
+    
+        
+
+08
+
+    
+
+    
+        This position is responsible for developing and monitoring metrics, then making business adjustments based on those metrics. How many years of experience do you have developing and applying metrics to business activities?
+        
+        
+                None
+                Less than 1 year
+                1 to 2 years
+                3 to 5 years
+                More than 5 years
+        
+    
+
+
+    
+        
+
+09
+
+    
+
+    
+        Describe your experiences using metrics to monitor work and production performance. If you do not possess this experience please enter N/A.
+        
+        
+        
+    
+
+
+    
+        
+
+10
+
+    
+
+    
+        How many years of experience do you have advising and tracking audit correction action plans and ensuring appropriate internal controls are in place?
+        
+        
+                None
+                Less than 1 year
+                1 to 2 years
+                3 to 5 years
+                More than 5 years
+        
+    
+
+
+    
+        
+
+11
+
+    
+
+    
+        Describe your experience in advising and tracking audit corrective action plans and ensuring appropriate internal controls are in place. If you do not possess this experience, please enter N/A.
+        
+        
+        
+    
+
+
+    
+        
+
+12
+
+    
+
+    
+        Describe your experience tracking and managing projects or initiatives. If you do not possess this experience, please enter N/A. .
+        
+        
+        
+    
+
+
+    
+        
+
+13
+
+    
+
+    
+        How many years of experience do you have in systems analysis and requirements gathering?
+        
+        
+                None
+                Less than 1 year
+                1 to 2 years
+                3 to 5 years
+                More than 5 years
+        
+    
+
+
+    
+        
+
+14
+
+    
+
+    
+        Describe your experience completing systems analysis and requirements gathering. If you do not possess this experience, please enter N/A.
+        
+        
+        
+    
+
+
+    
+        
+
+15
+
+    
+
+    
+        How many years of experience do you have with System Security Plans, Risk Assessments, and/or IT Security Compliance?
+        
+        
+                None
+                Less than 1 year
+                1 to 2 years
+                3 to 5 years
+                More than 5 years
+        
+    
+
+
+    
+        
+
+16
+
+    
+
+    
+        Describe your experience with System Security Plans, Risk Assessments and/or IT Security Compliance. If you do not possess this experience, please enter N/A.
+        
+        
+        
+    
+
+
+    
+        
+
+17
+
+    
+
+    
+        Describe a time when you created an environment of honesty, inclusion and respect for others. Describe the situation, the actions you took, and the outcome.
+        
+        
+        
+    
+
+
+    
+        
+
+18
+
+    
+
+    
+        Are you a current BOE Employee or contractor?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+19
+
+    
+
+    
+        Did you remember to attach your resume, cover letter, and official transcripts (if applicable)?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+20
+
+    
+
+    
+        Due to the nature of this position, the Michigan Department of State conducts comprehensive background checks that will require the candidate to be subjected to, and not limited by, criminal history review, drug testing, and reference checks. Do you accept and comply with these background check requirements?
+        
+        
+                Yes
+                No
+        
+    
+
+
+    
+        
+
+21
+
+    
+
+    
+        All listed supervisors/employers may be contacted for reference checks. If your NEOGOV application indicates that they cannot be contacted, please document the reason in the work experience box of the NEOGOV application, under the "reasons for leaving" box(es). You will then need to provide the names, phone numbers and relationship (i.e.. Former Team Lead) of two to three professionals below.
+
+If you have indicated that all listed supervisors/employers may be contacted, please enter "none".
+        
+        
+        
+    
+
+
+    
+        
+
+22
+
+    
+
+    
+        Please select all that apply from the options below: (Note, actions that have been expunged, formal counseling, and layoff actions need not be reported.) Failure to answer this question honestly may result in being sanctioned from employment with MDOS.
+        
+        
+                I have been dismissed within the last two years
+                I have resigned in lieu of discipline or dismissal within the last two years
+                I have been suspended without pay within the last two years
+                I have received an unsatisfactory performance rating within the last two years
+                I have received a written reprimand within the last two years
+                I have signed a last chance agreement with MDOS within the last two years
+                I certify that none of the above circumstances apply to me
+        
+    
+
+
+    
+        
+
+23
+
+    
+
+    
+        From the following, please select your employment status. Check all that apply.
+        
+        
+                Current MDOS employee
+                Previous MDOS employee
+                Current State of Michigan employee
+                Previous State of Michigan employee
+                None of the above
+        
+    
+
+
+                                
+                                     Required Question
+                                
+                        
