@@ -1,0 +1,100 @@
+Elections Data and Analytics Manager
+                        Nashville, TN                    
+                                
+                    Full Time                
+                                
+                    Experienced                
+            
+                    Elections Data and Analytics Manager 
+Tennessee Department of State
+Division of Elections
+Mission: The mission of the Office of the Secretary of State is to exceed the expectations of our customers, the taxpayers, by operating at the highest levels of accuracy, cost-effectiveness, and accountability in a customer-centered environment.
+Supervisor: Coordinator of Elections
+Summary: Responsible for statewide election data governance, voter registration data integrity, business intelligence, reporting, analytics, data integration, and performance measurement. This position serves as the Division's subject matter expert on election data and ensures accuracy, security, compliance, and accessibility of election information.
+This position assists ballot review and approval, producing and analyzing election-related state and federal reports, maintaining and assisting in updating elections mobile app.
+Assist in planning and coordinating the computer functions and responsibilities for the Elections Division which includes, but is not limited to: data processing, integrating the statewide voter registration system with county voter registration systems, improve election reporting capabilities; analyzing and resolving technical software issues (25%) for the Division of Elections and 95 county election commission offices, which includes, but is not limited to cybersecurity practices, and performing other duties as assigned.
+Key Responsibilities:
+Data Governance
+Education
+Bachelor's Degree in:
+Must pass a background check for security requirements.
+                 
+                
+                Tennessee Department of State
+Division of Elections
+Mission: The mission of the Office of the Secretary of State is to exceed the expectations of our customers, the taxpayers, by operating at the highest levels of accuracy, cost-effectiveness, and accountability in a customer-centered environment.
+Supervisor: Coordinator of Elections
+Summary: Responsible for statewide election data governance, voter registration data integrity, business intelligence, reporting, analytics, data integration, and performance measurement. This position serves as the Division's subject matter expert on election data and ensures accuracy, security, compliance, and accessibility of election information.
+This position assists ballot review and approval, producing and analyzing election-related state and federal reports, maintaining and assisting in updating elections mobile app.
+Assist in planning and coordinating the computer functions and responsibilities for the Elections Division which includes, but is not limited to: data processing, integrating the statewide voter registration system with county voter registration systems, improve election reporting capabilities; analyzing and resolving technical software issues (25%) for the Division of Elections and 95 county election commission offices, which includes, but is not limited to cybersecurity practices, and performing other duties as assigned.
+Key Responsibilities:
+Data Governance
+- Manage statewide voter registration data quality.
+- Compile candidate and petition data.
+- Maintain election data standards.
+- Develop data validation procedures.
+- Ensure compliance with federal and state reporting requirements.
+- Produce state and federal election reports.
+- Develop executive dashboards and business intelligence tools.
+- Support legislative and public information requests.
+- Conduct training.
+- Generate list maintenance reports.
+- Does state compares.
+- Produce election certification documents.
+- Maintain data integration between state and county systems.
+- Monitor database performance and integrity.
+- Develop advanced election analytics.
+- Design automated reporting solutions.
+- Support county reporting initiatives.
+- Improve election transparency through data visualization.
+- Test and validate software.
+- Verify election reporting accuracy.
+- Ensure compliance with election law requirements.
+- Coordinate with CISA, DHS, Tennessee Cybersecurity Division, and other security partners.
+- Provide advanced support to 95 county election commissions.
+- Troubleshoot election software, hardware, and network issues.
+- Coordinate vendor support services.
+- Manage help desk operations.
+- Ensure computers are ordered, delivered, correctly installed, and maintained.
+- Support election-night reporting systems.
+- Assist with certification testing and acceptance reviews.
+- Coordinate technology implementation projects.
+- Conduct county technology training.
+- Develop technical documentation and user guides.
+- Support election preparedness exercises.
+- Monitor security alerts and events.
+- Conduct vulnerability assessments.
+- Manage endpoint protection systems.
+- Support incident response activities.
+- Manage system backups and disaster recovery procedures.
+- Conduct county technology training.
+- Develop technical documentation and user guides.
+- Support election preparedness exercises.
+Education
+Bachelor's Degree in:
+- Computer Science
+- Data Analytics
+- Information Systems
+- Statistics
+- Mathematics
+- Related technical field
+Must pass a background check for security requirements.
+- 5+ years in database administration, business intelligence, or data analytics.
+- Advanced SQL Server experience.
+- Experience with reporting and dashboard tools.
+- Experience managing large data environments.
+- SQL Server Administration
+- Power BI
+- Tableau
+- ETL development
+- Data warehousing
+- Geographic Information Systems (GIS)
+- MS Access
+- Microsoft Certified: Data Analyst Associate
+- Microsoft Azure Data Fundamentals
+- CompTIA Security+
+- Microsoft Azure Administrator
+- Certified Ethical Hacker (CEH)
+- SQL Database Administrator Certification
+Apply for this position
+Required*
